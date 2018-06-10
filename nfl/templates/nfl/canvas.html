@@ -1,0 +1,498 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+  	<title>Sport Clay</title> 
+  	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+      <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'></link>
+      <link rel="stylesheet" href="{% static 'css/canvas.css' %}" "type=text/css"></link>
+      <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> -->
+      <script src="{% static 'js/jquery-2.2.0.js' %}"></script>
+      <script src="{% static 'js/jquery-ui.js' %}"></script>
+      <script src="{% static 'js/jquery-ui.min.js' %}"></script>
+      <script src="{% static 'js/canvas.js' %}"></script>
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </head>
+
+
+
+  <body>
+
+
+    <button class="test">Test</button>
+
+
+
+
+    <!-- From banner to navigation bar. -->
+    <div class="flexBox">
+    	<div class="headerOutline">
+    		<div class="banner">
+    			<h1> Sport Clay</h1>
+    			<h3> The Sports Data Manipulation Website</h3>
+    		</div>	
+    	
+
+    	<ul class= "nav pageNavigationBar">
+    		<li><a href='../'>Home</a></li>
+    		<li><a href='../examples'>Examples</a></li>
+    		<li class="pageNavigationBarActiveItem"><a href="../canvas">Canvas</a></li>
+    		<li><a href="../contact">Contact Us</a></li>
+    	</ul>
+      </div>
+
+    	<!-- <div class="headerCutoff"></div> -->
+
+
+
+      <div class="restOfBody">
+        <div class="restOfBodyTop">
+          <div class="toolbar"> </div>
+          <div class="canvas"> 
+            <!-- <img src="{% static 'gif/sourceNode.gif' %}" class="canvasNode"/> -->
+            <!-- <img src="{% static 'gif/sourceNode.gif' %}" class="CanvasNFLSourceNode"/> -->
+            <!-- <img src="{% static 'png/NFLSourceV3.png' %}" class="CanvasNFLSourceNode"/> -->
+            <!-- <img src="{% static 'gif/sourceNode.gif' %}" class="nodeMenuSourceNode nodeMenuSourceNodeDroppable"/> -->
+          </div>
+          <div class="formOutline"></div>
+        </div>
+        <div class="restOfBodyBottom">
+          <div class="nodeMenu"> 
+            <!-- <div class="nodeTitles">
+              <ul class="nodeTitlesList">
+                <li class="active"> Source </li>
+                <li> Fields </li>
+                <li> Rows </li>
+                <li> Output </li>
+              </ul>
+            </div> -->
+            <div class="nodeBubbles">
+              <ul class="nodeList">
+                <!-- <li>
+                  <img src="{% static 'png/NFLSourceV3.png' %}" class="MenuNFLSourceNode" class="NFLSourceNode"/>
+                  <img src="{% static 'gif/sourceNode.gif' %}" class="nodeMenuSourceNode"/>
+                </li> -->
+                <li>
+                  <div class='imgMenuNodeContainer sourceNode'>
+                    <img src="{% static 'gif/sourceNode.gif' %}" class="nodeMenuDroppable sourceNode"/>
+                    <p class='nodeName'>Source</p>
+                  </div>
+                </li>
+                <li>
+                  <div class='imgMenuNodeContainer sortNode'>
+                    <img src="{% static 'gif/sortNode.gif' %}" class="nodeMenuDroppable sortNode"/>
+                    <p class='nodeName'>Sort</p>
+                  </div>
+                </li>
+                <li>
+                  <div class='imgMenuNodeContainer tableNode'>
+                    <img src="{% static 'gif/tableNode.gif' %}" class='nodeMenuDroppable tableNode'/>
+                    <p class='nodeName'>Table</p>
+                  </div>
+                </li>
+               <!--  <li>
+                  <img src="{% static 'gif/sourceNode.gif' %}" class="nodeMenuSourceNode nodeMenuSourceNodeDroppable droppable"/>
+                </li> -->
+              </ul>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Canvas and the adjacent node forms. -->
+  	<!--<div class="canvas">
+      <!--<textarea class='newtext'></textarea>
+      <button class="que">Que</button>- ->
+    </div> -->
+
+
+
+
+
+
+
+
+<!-- EDIT TEXT MENU START
+ -->
+    <!-- <div class='nodeForm selectForm'>
+      <textarea class='selectFormOutsideMenu'></textarea>
+      <button class='textEditButton'>Open</button>
+      <div class="textEditMenu" style='display:none'>
+        <textarea class='selectFormInsideMenu'></textarea>
+        <button class='editButton' value='>='>>=</button>
+        <button class='editButton' value='<='><=</button>
+        <button class='editButton' value='='>=</button>
+        <button class='editButton' value='>'>></button>
+        <button class='editButton' value='<'><</button>
+        <button class='editButton' value='()'>()</button>
+        <button class='editButton' value='+'>+</button>
+        <button class='editButton' value='-'>-</button>
+        <button class='editButton' value='/'>/</button>
+        <button class='editButton' value='*'>*</button>
+        <button class='editButton' value='^'>^</button>
+        <button class='editButton' value='and'>and</button>
+        <button class='editButton' value='or'>or</button>
+        <button class='editButton' value='not()'>not()</button>
+        <button class='okTemp'>OK</button>
+      </div>
+    </div> -->
+
+<!-- EDIT TEXT MENU END
+ -->
+
+
+<!--
+
+
+    <!-- Node Navigation Menus - -> HERE!!
+  	<ul class="nav nav-pills nodeNavigationBar">
+      <li class="active sourceNavigationPill"><a href="#">Source</a></li>
+      <li class="recordNavigationPill"><a href="#">Record</a></li>
+      <li class="fieldNavigationPill"><a href="#">Field</a></li>
+      <li class="viewNavigationPill"><a href="#">View</a></li>
+    </ul>
+  	
+
+  	<div class='sourceNavigationMenu nodeNavigationMenu'>
+      <button class='sourceNodeButton btn btn-primary' type="button">Source</button>
+  		<button class="NFLNodeButton btn btn-primary" type="button">NFL</button>
+  		<button class="NBANodeButton btn btn-primary" type="button">NBA</button>
+  		<button class="NCAFFNodeButton btn btn-primary" type="button">NCAAF</button>
+  	</div>
+
+  	<div class='recordNavigationMenu nodeNavigationMenu collapse'>
+  		<button class="sortNodeButton btn btn-primary" type="button">Sort</button>
+  		<button class="selectNodeButton btn btn-primary" type="button">Select</button>
+  		<button class="mergeNodeButton btn btn-primary" type="button">Merge</button>
+  	</div>
+
+  	<div class='fieldNavigationMenu nodeNavigationMenu collapse'>
+  		<button class="filterNodeButton btn btn-primary" type="button">Filter</button>
+  		<button class="deriveNodeButton btn btn-primary" type="button">Derive</button>
+  		<button class="typeNodeButton btn btn-primary" type="button">Type</button>
+  	</div>
+
+  	<div class='viewNavigationMenu nodeNavigationMenu collapse'>
+  		<button class="tableNodeButton btn btn-primary" type="button">Table</button>
+  		<button class="barChartNodeButton btn btn-primary" type="button">Bar Chart</button>
+  		<button class="matrixNodeButton btn btn-primary" type="button">Matrix</button>
+  	</div>
+
+
+
+
+    <!-- Run button and final form for submission - -> HERE!!-->
+  	<!-- <button class="run">Run</button>
+  	<form id="finalForm" method="GET" target='_blank' style="display:none" action="../table">
+  			{% csrf_token %}
+    			<textarea id ="columns" type="text" class="columns" name="columns"></textarea><br>
+    			<textarea id ="database" type="text" class="database" name="database"></textarea><br>
+    			<textarea id ="table" type="text" class="table" name="table"></textarea><br>
+          <textarea id ="selectors" type="text" class="selectors" name="selectors"></textarea><br>
+          <textarea id ="include" type="text" class="include" name="include"></textarea><br>
+          <textarea id ="sortInfo" type="text" class="sortInfo" name="sortInfo"></textarea><br>
+          <textarea id ="valid" type="text" class="valid" name="valid"></textarea><br>
+    			<input type="submit" value="Submit"></input>
+  		</form> -->
+
+
+    
+
+  </body>
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- Old sourceForm code -->
+
+<!-- <div class="nodeForm sourceForm" style="visibility: hidden">
+
+      <div class="dropdown">
+        <h5 id="databaseLabel">Database:</h5>
+          <button class="btn btn-primary dropdown-toggle sourceFormDatabaseButton" type="button" data-toggle="dropdown" id="menu1">Select one
+          <span class="caret"></span></button>
+          <ul class="dropdown-menu scrollable-menu databasebtn">
+            <li class="databaseactive" name="Select one"><a href="#">Select one</a></li>
+            <li name="NFL"><a href="#">NFL</a></li>
+
+          </ul>
+      </div>
+
+
+      <div class="dropdown">
+        <h5 id="tableLabel">Table:</h5>
+          <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="menu2">Select one
+          <span class="caret"></span></button>
+          <ul class="abc dropdown-menu scrollable-menu menu2" id="NFLtablemenu" role="menu" style="visibility: hidden">
+            <li class="tableactive" name="SelectOne"><a href="#">Select one</a></li>
+            <li name="BLOCK"><a href="#">BLOCK</a></li>
+            <li name="CHART"><a href="#">CHART</a></li>
+            <li name="CONV"><a href="#">CONV</a></li>
+            <li name="DEFENSE"><a href="#">DEFENSE</a></li>
+            <li name="DRIVE"><a href="#">DRIVE</a></li>
+            <li name="FGXP"><a href="#">FGXP</a></li>
+            <li name="FUMBLE"><a href="#">FUMBLE</a></li>
+            <li name="GAME"><a href="#">GAME</a></li>
+            <li name="INTERCEPT"><a href="#">INTERCEPT</a></li>
+            <li name="KICKER"><a href="#">KICKER</a></li>
+            <li name="KOFF"><a href="#">KOFF</a></li>
+            <li name="OFFENSE"><a href="#">OFFENSE</a></li>
+            <li name="OLINE"><a href="#">OLINE</a></li>
+            <li name="PASS"><a href="#">PASS</a></li>
+            <li name="PBP"><a href="#">PBP</a></li>
+            <li name="PENALTY"><a href="#">PENALTY</a></li>
+            <li name="PLAY"><a href="#">PLAY</a></li>
+            <li name="PLAYER"><a href="#">PLAYER</a></li>
+            <li name="PUNT"><a href="#">PUNT</a></li>
+            <li name="REDZONE"><a href="#">REDZONE</a></li>
+            <li name="RUSH"><a href="#">RUSH</a></li>
+            <li name="SACK"><a href="#">SACK</a></li>
+            <li name="SAFTEY"><a href="#">SAFTEY</a></li>
+            <li name="TACKLE"><a href="#">TACKLE</a></li>
+            <li name="TD"><a href="#">TD</a></li>
+            <li name="TEAM"><a href="#">TEAM</a></li>
+          </ul>
+
+      </div>
+
+
+      <div class="dropdown">
+        <h5 id="databaseLabel">Fields:</h5>
+          <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="menu3">Fields
+          <span class="caret"></span></button>
+           <table name="NFLSelectOne" class="dropdown-menu scrollable-menu NFLFieldsbtn activeFieldList" id="NFLFieldsbtn" role="menu" data-toggle="dropdown" style="visibility:hidden"></table>
+          <table name="NFLBLOCK" class="dropdown-menu scrollable-menu NFLFieldsbtn" id="NFLFieldsbtn" role="menu" data-toggle="dropdown" style="visibility:hidden"></table>
+          <table name="NFLCHART" class="dropdown-menu scrollable-menu NFLFieldsbtn" id="NFLFieldsbtn" role="menu" data-toggle="dropdown" style="visibility:hidden"></table>
+          <table name="NFLCONV" class="dropdown-menu scrollable-menu NFLFieldsbtn" id="NFLFieldsbtn" role="menu" data-toggle="dropdown" style="visibility:hidden"></table>
+          <table name="NFLDEFENSE" class="dropdown-menu scrollable-menu NFLFieldsbtn" id="NFLFieldsbtn" role="menu" data-toggle="dropdown" style="visibility:hidden"></table>
+          <table name="NFLDRIVE" class="dropdown-menu scrollable-menu NFLFieldsbtn" id="NFLFieldsbtn" role="menu" data-toggle="dropdown" style="visibility:hidden"></table>
+          <table name="NFLFGXP" class="dropdown-menu scrollable-menu NFLFieldsbtn" id="NFLFieldsbtn" role="menu" data-toggle="dropdown" style="visibility:hidden"></table>
+          <table name="NFLFUMBLE" class="dropdown-menu scrollable-menu NFLFieldsbtn" id="NFLFieldsbtn" role="menu" data-toggle="dropdown" style="visibility:hidden"></table>
+          <table name="NFLGAME" class="dropdown-menu scrollable-menu NFLFieldsbtn" id="NFLFieldsbtn" role="menu" data-toggle="dropdown" style="visibility:hidden"></table>
+          <table name="NFLINTERCPT" class="dropdown-menu scrollable-menu NFLFieldsbtn" id="NFLFieldsbtn" role="menu" data-toggle="dropdown" style="visibility:hidden"></table>
+          <table name="NFLKICKER" class="dropdown-menu scrollable-menu NFLFieldsbtn" id="NFLFieldsbtn" role="menu" data-toggle="dropdown" style="visibility:hidden"></table>
+          <table name="NFLKOFF" class="dropdown-menu scrollable-menu NFLFieldsbtn" id="NFLFieldsbtn" role="menu" data-toggle="dropdown" style="visibility:hidden"></table>
+          <table name="NFLOFFENSE" class="dropdown-menu scrollable-menu NFLFieldsbtn" id="NFLFieldsbtn" role="menu" data-toggle="dropdown" style="visibility:hidden"></table>
+          <table name="NFLOLINE" class="dropdown-menu scrollable-menu NFLFieldsbtn" id="NFLFieldsbtn" role="menu" data-toggle="dropdown" style="visibility:hidden"></table>
+          <table name="NFLPASS" class="dropdown-menu scrollable-menu NFLFieldsbtn" id="NFLFieldsbtn" role="menu" data-toggle="dropdown" style="visibility:hidden"></table>
+          <table name="NFLPBP" class="dropdown-menu scrollable-menu NFLFieldsbtn" id="NFLFieldsbtn" role="menu" data-toggle="dropdown" style="visibility:hidden"></table>
+          <table name="NFLPENALTY" class="dropdown-menu scrollable-menu NFLFieldsbtn" id="NFLFieldsbtn" role="menu" data-toggle="dropdown" style="visibility:hidden"></table>
+          <table name="NFLPLAY" class="dropdown-menu scrollable-menu NFLFieldsbtn" id="NFLFieldsbtn" role="menu" data-toggle="dropdown" style="visibility:hidden"></table>
+          <table name="NFLPLAYER" class="dropdown-menu scrollable-menu NFLFieldsbtn" id="NFLFieldsbtn" role="menu" data-toggle="dropdown" style="visibility:hidden"></table>
+          <table name="NFLPUNT" class="dropdown-menu scrollable-menu NFLFieldsbtn" id="NFLFieldsbtn" role="menu" data-toggle="dropdown" style="visibility:hidden"></table>
+          <table name="NFLREDZONE" class="dropdown-menu scrollable-menu NFLFieldsbtn" id="NFLFieldsbtn" role="menu" data-toggle="dropdown" style="visibility:hidden"></table>
+          <table name="NFLRUSH" class="dropdown-menu scrollable-menu NFLFieldsbtn" id="NFLFieldsbtn" role="menu" data-toggle="dropdown" style="visibility:hidden"></table>
+          <table name="NFLSACK" class="dropdown-menu scrollable-menu NFLFieldsbtn" id="NFLFieldsbtn" role="menu" data-toggle="dropdown" style="visibility:hidden"></table>
+          <table name="NFLSAFTEY" class="dropdown-menu scrollable-menu NFLFieldsbtn" id="NFLFieldsbtn" role="menu" data-toggle="dropdown" style="visibility:hidden"></table>
+          <table name="NFLTACKLE" class="dropdown-menu scrollable-menu NFLFieldsbtn" id="NFLFieldsbtn" role="menu" data-toggle="dropdown" style="visibility:hidden"></table>
+          <table name="NFLTD" class="dropdown-menu scrollable-menu NFLFieldsbtn" id="NFLFieldsbtn" role="menu" data-toggle="dropdown" style="visibility:hidden"></table>
+
+          <table name="NFLTEAM" class="dropdown-menu scrollable-menu NFLFieldsbtn" id="NFLFieldsbtn" role="menu" data-toggle="dropdown" style="visibility:hidden">
+            <tr name="includeAll"><td colspan="2">INCLUDE ALL</td></tr>
+            <tr name="excludeAll"><td colspan="2">EXCLUDE ALL</td></tr>
+            <tr name="space" colspan="2"></tr>
+
+            <tr name="tid" class="NFLFields"><td class="NFLColumn">tid</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="gid" class="NFLFields"><td class="NFLColumn">gid</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="tname" class="NFLFields"><td class="NFLColumn">tname</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="pts" class="NFLFields"><td class="NFLColumn">pts</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="q1p" class="NFLFields"><td class="NFLColumn">q1p</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="q2p" class="NFLFields"><td class="NFLColumn">q2p</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="q3p" class="NFLFields"><td class="NFLColumn">q3p</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="q4p" class="NFLFields"><td class="NFLColumn">q4p</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="rfd" class="NFLFields"><td class="NFLColumn">rfd</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="pfd" class="NFLFields"><td class="NFLColumn">pfd</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="ifd" class="NFLFields"><td class="NFLColumn">ifd</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="ry" class="NFLFields"><td class="NFLColumn">ry</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="ra" class="NFLFields"><td class="NFLColumn">ra</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="py" class="NFLFields"><td class="NFLColumn">py</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="pa" class="NFLFields"><td class="NFLColumn">pa</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="pc" class="NFLFields"><td class="NFLColumn">pc</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="sk" class="NFLFields"><td class="NFLColumn">sk</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="ints" class="NFLFields"><td class="NFLColumn">ints</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="fum" class="NFLFields"><td class="NFLColumn">fum</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="pu" class="NFLFields"><td class="NFLColumn">pu</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="gpy" class="NFLFields"><td class="NFLColumn">gpy</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="pr" class="NFLFields"><td class="NFLColumn">pr</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="pry" class="NFLFields"><td class="NFLColumn">pry</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="kr" class="NFLFields"><td class="NFLColumn">kr</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="kry" class="NFLFields"><td class="NFLColumn">kry</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="ir" class="NFLFields"><td class="NFLColumn">ir</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="iry" class="NFLFields"><td class="NFLColumn">iry</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="pen" class="NFLFields"><td class="NFLColumn">pen</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="top" class="NFLFields"><td class="NFLColumn">top</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="td" class="NFLFields"><td class="NFLColumn">td</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="tdr" class="NFLFields"><td class="NFLColumn">tdr</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="tdp" class="NFLFields"><td class="NFLColumn">tdp</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="tdt" class="NFLFields"><td class="NFLColumn">tdt</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="fgm" class="NFLFields"><td class="NFLColumn">fgm</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="fgat" class="NFLFields"><td class="NFLColumn">fgat</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="fgy" class="NFLFields"><td class="NFLColumn">fgy</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="rza" class="NFLFields"><td class="NFLColumn">rza</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="rzc" class="NFLFields"><td class="NFLColumn">rzc</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="bry" class="NFLFields"><td class="NFLColumn">bry</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="bpy" class="NFLFields"><td class="NFLColumn">bpy</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="srp" class="NFLFields"><td class="NFLColumn">srp</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="s1rp" class="NFLFields"><td class="NFLColumn">s1rp</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="s2rp" class="NFLFields"><td class="NFLColumn">s2rp</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="s3rp" class="NFLFields"><td class="NFLColumn">s3rp</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="spp" class="NFLFields"><td class="NFLColumn">spp</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="s1pp" class="NFLFields"><td class="NFLColumn">s1pp</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="s2pp" class="NFLFields"><td class="NFLColumn">s2pp</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="s3pp" class="NFLFields"><td class="NFLColumn">s3pp</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="lea" class="NFLFields"><td class="NFLColumn">lea</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="ley" class="NFLFields"><td class="NFLColumn">ley</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="lta" class="NFLFields"><td class="NFLColumn">lta</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="lty" class="NFLFields"><td class="NFLColumn">lty</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="lga" class="NFLFields"><td class="NFLColumn">lga</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="lgy" class="NFLFields"><td class="NFLColumn">lgy</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="mda" class="NFLFields"><td class="NFLColumn">mda</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="mdy" class="NFLFields"><td class="NFLColumn">mdy</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="rga" class="NFLFields"><td class="NFLColumn">rga</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="rgy" class="NFLFields"><td class="NFLColumn">rgy</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="rta" class="NFLFields"><td class="NFLColumn">rta</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="rty" class="NFLFields"><td class="NFLColumn">rty</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="rea" class="NFLFields"><td class="NFLColumn">rea</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="rey" class="NFLFields"><td class="NFLColumn">rey</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="r1a" class="NFLFields"><td class="NFLColumn">r1a</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="r1y" class="NFLFields"><td class="NFLColumn">r1y</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="r2a" class="NFLFields"><td class="NFLColumn">r2a</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="r2y" class="NFLFields"><td class="NFLColumn">r2y</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="r3a" class="NFLFields"><td class="NFLColumn">r3a</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="r3y" class="NFLFields"><td class="NFLColumn">r3y</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="qba" class="NFLFields"><td class="NFLColumn">qba</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="qby" class="NFLFields"><td class="NFLColumn">qby</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="sla" class="NFLFields"><td class="NFLColumn">sla</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="sly" class="NFLFields"><td class="NFLColumn">sly</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="sma" class="NFLFields"><td class="NFLColumn">sma</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="smy" class="NFLFields"><td class="NFLColumn">smy</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="sra" class="NFLFields"><td class="NFLColumn">sra</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="sry" class="NFLFields"><td class="NFLColumn">sry</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="dla" class="NFLFields"><td class="NFLColumn">dla</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="dly" class="NFLFields"><td class="NFLColumn">dly</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="dma" class="NFLFields"><td class="NFLColumn">dma</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="dmy" class="NFLFields"><td class="NFLColumn">dmy</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="dra" class="NFLFields"><td class="NFLColumn">dra</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="dry" class="NFLFields"><td class="NFLColumn">dry</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="wr1a" class="NFLFields"><td class="NFLColumn">wr1a</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="wr1y" class="NFLFields"><td class="NFLColumn">wr1y</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="wr3a" class="NFLFields"><td class="NFLColumn">wr3a</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="wr3y" class="NFLFields"><td class="NFLColumn">wr3y</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="tea" class="NFLFields"><td class="NFLColumn">tea</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="tey" class="NFLFields"><td class="NFLColumn">tey</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="rba" class="NFLFields"><td class="NFLColumn">rba</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="rby" class="NFLFields"><td class="NFLColumn">rby</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="sga" class="NFLFields"><td class="NFLColumn">sga</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="sgy" class="NFLFields"><td class="NFLColumn">sgy</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="p1a" class="NFLFields"><td class="NFLColumn">p1a</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="p1y" class="NFLFields"><td class="NFLColumn">p1y</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="p2a" class="NFLFields"><td class="NFLColumn">p2a</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="p2y" class="NFLFields"><td class="NFLColumn">p2y</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="p3a" class="NFLFields"><td class="NFLColumn">p3a</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="p3y" class="NFLFields"><td class="NFLColumn">p3y</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="spc" class="NFLFields"><td class="NFLColumn">spc</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="mpc" class="NFLFields"><td class="NFLColumn">mpc</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="lpc" class="NFLFields"><td class="NFLColumn">lpc</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="q1ra" class="NFLFields"><td class="NFLColumn">q1ra</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="q1ry" class="NFLFields"><td class="NFLColumn">q1ry</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="q1pa" class="NFLFields"><td class="NFLColumn">q1pa</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="q1py" class="NFLFields"><td class="NFLColumn">q1py</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="lcra" class="NFLFields"><td class="NFLColumn">lcra</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="lcry" class="NFLFields"><td class="NFLColumn">lcry</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="lcpa" class="NFLFields"><td class="NFLColumn">lcpa</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="lcpy" class="NFLFields"><td class="NFLColumn">lcpy</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="rzra" class="NFLFields"><td class="NFLColumn">rzra</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="rzry" class="NFLFields"><td class="NFLColumn">rzry</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="rzpa" class="NFLFields"><td class="NFLColumn">rzpa</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="rzpy" class="NFLFields"><td class="NFLColumn">rzpy</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="sky" class="NFLFields"><td class="NFLColumn">sky</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="lbs" class="NFLFields"><td class="NFLColumn">lbs</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="dbs" class="NFLFields"><td class="NFLColumn">dbs</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="sfpy" class="NFLFields"><td class="NFLColumn">sfpy</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="drv" class="NFLFields"><td class="NFLColumn">drv</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="npy" class="NFLFields"><td class="NFLColumn">npy</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="tb" class="NFLFields"><td class="NFLColumn">tb</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="i20" class="NFLFields"><td class="NFLColumn">i20</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="rtd" class="NFLFields"><td class="NFLColumn">rtd</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="lnr" class="NFLFields"><td class="NFLColumn">lnr</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="lnp" class="NFLFields"><td class="NFLColumn">lnp</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="lbr" class="NFLFields"><td class="NFLColumn">lbr</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="lbp" class="NFLFields"><td class="NFLColumn">lbp</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="dbr" class="NFLFields"><td class="NFLColumn">dbr</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="dbp" class="NFLFields"><td class="NFLColumn">dbp</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="nha" class="NFLFields"><td class="NFLColumn">nha</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="s3a" class="NFLFields"><td class="NFLColumn">s3a</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="s3c" class="NFLFields"><td class="NFLColumn">s3c</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="l3a" class="NFLFields"><td class="NFLColumn">l3a</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="l3c" class="NFLFields"><td class="NFLColumn">l3c</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="stf" class="NFLFields"><td class="NFLColumn">stf</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="dp" class="NFLFields"><td class="NFLColumn">dp</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="fsp" class="NFLFields"><td class="NFLColumn">fsp</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="ohp" class="NFLFields"><td class="NFLColumn">ohp</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="pbep" class="NFLFields"><td class="NFLColumn">pbep</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="dlp" class="NFLFields"><td class="NFLColumn">dlp</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="dsp" class="NFLFields"><td class="NFLColumn">dsp</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="dum" class="NFLFields"><td class="NFLColumn">dum</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="pfn" class="NFLFields"><td class="NFLColumn">pfn</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="snpo" class="NFLFields"><td class="NFLColumn">snpo</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+            <tr name="snpd" class="NFLFields"><td class="NFLColumn">snpd</td><td class="included">INCLUDED</td><td class="excluded noshow">EXCLUDED</td></tr>
+
+            
+
+          </table>
+
+          </ul>
+      </div>
+
+
+
+      <div class="sourceform">
+      <img class="grayinclude what" src="{% static 'jpg/grayselect.jpg' %}" style="margin-left:10px;width:15px;height:15px"></img>
+      <img class="blackinclude" src="{% static 'jpg/blackselect.jpg' %}" style="margin-left:10px;width:15px;height:15px"> Include</img>
+      <img class="grayexclude" src="{% static 'jpg/grayselect.jpg' %}" style="margin-left:20px;width:15px;height:15px"></img>
+      <img class="blackexclude what" src="{% static 'jpg/blackselect.jpg' %}" style="margin-left:20px;width:15px;height:15px"> Exclude</img>
+      <form class="filterform" id="filterform" method="GET">
+        {% csrf_token %}
+        <br>
+          Selection criteria:<br>
+          <textarea type="text" class="fieldnames" name="fieldnames" style="height:120px;width:260px" id="fieldnames"></textarea><br>
+      </form></div>
+      <button class="ok" type="button">OK</button>
+
+    </div> -->

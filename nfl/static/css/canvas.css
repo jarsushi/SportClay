@@ -1,0 +1,843 @@
+*{
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	border: 0 0 0 0;
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body{
+	position: absolute;
+	height:100%;
+	width:100%;
+}
+
+.flexBox{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	/*align-items: stretch;
+	align-content: strech;*/
+}
+
+.headerOutline{
+	/*position:relative;*/
+	width:100%;
+	height: 188px;
+	/*float:top;*/
+	/*margin-bottom: 30px;*/
+	/*float: top;*/
+
+}
+
+.restOfBody{
+	/*position: relative;*/
+	/*float: bottom;*/
+	
+	padding: 35px 35px 35px 35px;
+	/*flex:1;*/
+	/*width: flexBox(100%);*/
+	height: calc(100% - 188px)
+}
+
+.restOfBodyTop{
+	position: relative;
+	height: calc(100% - 130px);
+	margin-bottom: 22px;
+
+}
+
+
+
+.toolbar{
+	float: left;
+	height:100%;
+	width: 78px;
+	margin-right: 22px;
+	border-style: solid;
+	border-width: 2px, 2px, 2px, 2px;
+	border-radius: 25px;
+	border-color:#bfbfbf;
+}
+
+.canvas{
+	float: left;
+	height: 100%;
+	width: calc(100% - 386px);
+	margin-bottom: 22px;
+	border-style: solid;
+	border-width: 2px, 2px, 2px, 2px;
+	border-radius: 25px;
+	border-color:#bfbfbf;
+	overflow: auto;
+}
+
+.restOfBodyBottom{
+	height:108px;
+
+}
+
+.nodeMenu{
+	height: 100%;
+	width: 100%;
+	border-style: solid;
+	border-width: 2px, 2px, 2px, 2px;
+	border-radius: 25px;
+	border-color:#bfbfbf;
+
+}
+
+
+div.nodeForm{
+	height: 100%;
+}
+
+div.formOutline{
+	position: absolute;
+	width:264px;
+	right: 0px;
+	height: 100%;
+	border-width: 3px, 3px, 3px, 3px;
+	border-radius: 25px;
+	border-color:#bfbfbf;
+	margin-left: 22px;
+	border-style: solid;
+}
+
+img.nodeMenuDroppable{
+	height:50px;
+	width:50px;
+
+	/*margin-left: 28px;*/
+	text-align: center;
+}
+
+p.nodeName{
+	/*float:left;*/
+	text-align: center;
+}
+
+
+img.canvasNode{
+	height:50px;
+	width:50px;
+}
+
+
+/*img.canvasNode{
+	height:57px;
+	width:57px;
+}*/
+
+
+ul.nodeList li{
+	float: left;
+}
+
+
+.nodeTitles{
+	height: 25px;
+}
+
+.nodeBubbles{
+	height: calc(100% - 45px);
+}
+
+.nodeBubbles li{
+	list-style: none;
+}
+
+.nodeTitles li{
+	float: left;
+	display: block;
+	margin-left: 15px;
+	width:70px;
+	list-style: none;
+}
+
+.nodeTitles li:first-child{
+	margin-left: 30px;
+}
+
+.nodeTitles li.active{
+	font-weight: bold;
+}
+
+.nodeTitles li:hover{
+	border-bottom: 2px solid;
+	border-color: #e6e6e6;
+}
+
+/*
+
+div{
+	position: relative;
+	left: 2vh;
+	top: 10vh; 
+	height:65vh;
+	width:93vh;
+	outline: .5vh solid gray;
+	/*padding:50px 50px 50px 50px;
+}
+
+
+#something{
+	height:30px;
+	width:30px;
+	background-color: blue;
+}*/
+
+.source{
+	height:30px;
+	width:30px;
+	background-color: blue;
+	top:0px;
+	left:0px;
+	position: relative;
+	display: inline-block;
+	outline: 0px;
+	/*float:left;*/
+
+}
+
+.drag{
+	position: relative;
+}
+
+.canvasOLD{
+	clear:left;
+	position: relative;
+	left: 2vh;
+	top:20px;
+	height:45vh;
+	width:93vh;
+	outline: 12px solid gray;
+	overflow-x: auto;
+	overflow-y: auto;
+	padding: 0 0 0 0;
+	margin-right: 0px;
+}
+
+div.nodeNavigationMenu{
+	height:10vh;
+	width:93vh;
+	outline: .5vh solid gray;
+	position:relative;
+	left:15px;
+	top:50px;
+}
+
+
+
+#deck{
+	position: relative; 
+	left: 82vh;
+	top: 2vh;
+
+	height: 10vh;
+	width: 10vh;
+}
+
+.nav-pills{
+	position: relative;
+	top: 75px;
+	left: 30px;
+}
+
+.selected{
+	background-color:orange;
+}
+
+.hey{
+	/*display: inline-block;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	clear:left;*/
+	position: relative;
+	left:2px;
+
+}	
+
+.hero{
+	height:90px;
+	width:180px;
+	display: inline-block;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	clear:left;
+	background-color: orange;
+	outline: 0px;
+}
+
+
+.filterform{
+	position:relative;
+	left:5px;
+}
+
+
+textarea{
+	resize: none;
+}
+
+
+/* added content!!*/
+
+h1{
+	text-align:center;
+	font-family: "Arial Black";
+	color: white;
+}
+
+h3{
+	text-align:center;
+	font-family: "Arial Black";
+	color: white;
+}
+
+.banner{
+	position: fixed;
+	width: 100%;
+	background-color: orange;
+	float: left;
+}
+
+p{
+	clear:left;
+	position:relative;
+
+}
+
+ul.pageNavigationBar{
+    z-index:1;
+    top:147px;
+    width:100%;
+    position:fixed;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    background-color: white;
+}
+ul.pageNavigationBar li{
+    display:inline-block;
+}
+ul.pageNavigationBar a{
+    display:inline-block;
+    padding:10px 15px;
+    color: orange;
+}
+
+
+.banner{
+	z-index:1;
+	position: fixed;
+	width: 100%;
+	background-color: orange;
+}
+
+h1{
+	text-align:center;
+	font-family: "Lobster", cursive;
+	font-size: 65px;
+	color: white;
+}
+
+h3{
+	text-align:center;
+	font-family: "Arial Black";
+	color: white;
+}
+
+/*p{
+	position:relative;
+	top: 15px;
+
+}*/
+
+.pageNavigationBarActiveItem{
+	border-bottom: 1px solid orange;
+}
+
+.headerCutoff{
+	z-index:1;
+	position:fixed;
+	top:188px;
+	width:100%;
+	height:30px;
+	float:left;
+	background-color: white;
+}
+
+.toolbarOLD{
+	position:relative;
+	left:30px;
+	top:90px;
+	
+}
+
+.run{
+	position:relative;
+	left:0px;
+	float:right;
+}
+
+
+div.sourceFormSelectionArea{
+	position:relative;
+	top: 33px;
+}
+
+.sourceFormDatabaseButton{
+	position:absolute;
+	top: 7.5px;
+	width: 105px;
+	text-align: center;
+}
+
+h5{
+	position:relative;
+	top:16.5px;
+	padding-left:12px;
+	padding-right: 12px;
+	margin-top: 0;
+	margin-bottom: 0;
+	display:inline;
+	float: left;
+	font-size: 15px;
+}
+
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+
+.sourceFormTableButton{
+	position:relative;
+	top: 7.5px;
+	width: 105px;
+	left: 27px;
+	text-align: center;
+	margin:auto;
+}
+
+div.dropdown{
+	top:23px;
+	padding:0 0 0 0;
+	height:49px;
+}
+
+.sourceFormTableLabel{
+	text-align: right;
+}
+
+.sourceFormFieldsButton{
+	position:relative;
+	top: 7.5px;
+	width: 105px;
+	left: 24px;
+	text-align: center;
+	margin:auto;
+}
+
+
+table.sourceFormNFLFieldsMenu td{
+	padding-left: 5px;
+	padding-right: 15px;
+	border-bottom: .5px;
+	border-color: gray;
+}
+
+#fieldrow{
+	position: relative;
+	top:0px;
+	display: inline-block;
+	margin-bottom: 0;
+	padding-right: 20px;
+	margin-top: auto;
+}
+
+table.sourceFormNFLFieldsMenu tr td a{
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+
+td.included{
+	font-weight: bold;
+	color: green;
+	width:96px;
+}
+
+td.excluded{
+	font-weight: bold;
+	color: red;
+	width:96px;
+}
+
+.noshow{
+	display: none;
+}
+
+table.sourceFormNFLFieldsMenu tr:hover{
+	background-color: #f2f2f2;
+}
+
+td{
+	vertical-align:middle;
+	padding-bottom:3px;
+	padding-top: 3px;
+}
+
+td.NFLColumn{
+	font-weight: bold;
+	padding-right: 20px;
+	padding-left:5px;
+}
+
+table.sourceFormNFLFieldsMenu{
+	width:175px;
+}
+
+tr[name="includeAll"]{
+	font-weight: bold;
+	color:green;
+	text-align: center;
+}
+
+tr[name="excludeAll"]{
+	font-weight: bold;
+	color:red;
+	text-align: center;
+}
+
+tr[name="space"]{
+	height:26px;
+}
+
+img.sourceNode{
+	height:50px;
+	width:50px;
+}
+
+button.sourceOK{
+	position: absolute;
+	bottom:20px;
+	right:12px;
+}
+
+button.sortOK{
+	position: relative;
+	top:40px;
+	left:30px;
+}
+
+/*div.imgNodeContainer*/
+
+/*.sortInfo{
+	position: relative;
+	top:25px;
+	height:120px;
+	width:175px;
+}*/
+
+img.sortNode{
+	height:50px;
+	width:50px;
+}
+
+textarea.fieldnames{
+	position:relative;
+	top:-30px;
+	height:105px;
+	width:240px;
+	left: 3px;
+}
+
+p.selectionHeader{
+	position:relative;
+	top:-5px;
+	left: 4px;
+}
+
+
+h5.deriveFormFieldsLabel{
+	position:relative;
+}
+
+h5.deriveFormCalculationLabel{
+	position:relative;
+	top:34px;
+}
+
+textarea.calculatedValue{
+	position:relative;
+	top:51px;
+}
+
+textarea.newField{
+	position:relative;
+	top: 20px;
+	left:5px;
+}
+
+textarea.calculatedValue{
+	left:5px;
+}
+
+svg{
+	position:absolute;
+	z-index: -1;
+}
+
+tr.sortFormLabels td{
+	width:80px;
+	height:40px;
+	border: solid gray .5px;
+	text-align: center;
+}
+
+table.sortTable{
+	position: relative;
+	top:25px;
+	margin:auto;
+	/*border: gray solid .5px;*/
+	border-right: none;
+	border-top: none;
+
+}
+
+table.sortTable thead{
+	display:block;
+	width:220px;
+}
+
+table.sortTable tbody{
+	position: relative;
+	display:block;
+	height:230px;
+	overflow: auto;
+	width:220px;
+}
+
+table.sortTable tbody{
+	margin:auto;
+}
+
+table.sortTable:hover{
+	cursor: default;
+}
+
+table.sortTable thead tr.sortFormLabels th.fieldName{
+	height:30px;
+	width:63.6364px;
+	border: solid gray .5px;
+	text-align: center;
+	/*border-left:none;*/
+}
+
+table.sortTable thead tr.sortFormLabels th.orderBy{
+	height:30px;
+	width:80px;
+	border: solid gray .5px;
+	text-align: center;
+}
+
+table.sortTable thead tr.sortFormLabels th.position{
+	height:30px;
+	width:60px;
+	border: solid gray .5px;
+	text-align: center;	
+}
+
+table.sortTable tbody tr.sortFormField td.fieldName{
+	height:30px;
+	width:63.6364px;
+	border: solid gray .5px;
+	text-align: center;
+	/*border-left:none;*/
+}
+
+table.sortTable tbody tr.sortFormField td.orderBy{
+	height:30px;
+	width:80px;
+	border: solid gray .5px;
+	text-align: center;
+}
+
+table.sortTable tbody tr.sortFormField td.position{
+	height:30px;
+	width:60px;
+	border: solid gray .5px;
+	text-align: center;
+}
+
+td.orderBy:hover{
+	background-color: #e6e6e6;
+	cursor: pointer;
+}
+
+button.sortTopArrow{
+	position: relative;
+	top:50px;
+	left: 20px;
+}
+
+button.sortUpArrow{
+	position: relative;
+	top:50px;
+	left: 20px;
+}
+
+button.sortDownArrow{
+	position: relative;
+	top:50px;
+	left: 20px;
+}
+
+button.sortBottomArrow{
+	position: relative;
+	top:50px;
+	left: 20px;
+}
+
+.noSelect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* IE/Edge */
+  user-select: none;           /* non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+table.sortTable tbody tr:last-child td.fieldName{
+	/*border-bottom: none;*/
+}
+
+
+table.sortTable tbody tr:last-child td.orderBy{
+	/*border-bottom: none;*/
+}
+
+
+table.sortTable tbody tr:last-child td.position{
+	/*border-bottom: none;*/
+}
+
+
+table.sortTable tbody tr:first-child td.fieldName{
+	border-top: none;
+}
+
+
+table.sortTable tbody tr:first-child td.orderBy{
+	border-top: none;
+}
+
+
+table.sortTable tbody tr:first-child td.position{
+	border-top: none;
+}
+
+div.sortForm button{
+	top: 28px;
+}
+
+div.imgMenuNodeContainer{
+	display:inline-block;
+	width:50px;
+	height:70px;
+	margin: 0 0 0 0;
+	margin-left: 28px;
+	text-align: center;
+}
+
+div.imgCanvasNodeContainer{
+	display:inline-block;
+	width:50px;
+	height:70px;
+	margin: 0 0 0 0;
+	text-align: center;
+}
+
+
+p.imgNodeLabel{
+	position: relative;
+	top:0px;
+	text-align: center;
+	margin-bottom: 0px;
+	width:50px;
+	height: 19.0909px;
+}
+
+textarea.nodeName{
+	position: relative;
+	top:18px;
+	height: 22px;
+	width: 150px;
+}
+
+h5.nodeNameLabel{
+	top: 20px;
+}
+
+textarea.selectForm{
+	position:relative;
+	left:20px;
+	top:20px;
+}
+
+button.textEditButton{
+	position:relative;
+	top:50px;
+	height:30px;
+	width:30px;
+}
+
+div.textEditMenu{
+	position: relative;
+	border: gray solid 1.5;
+	top: 80px;
+	left: 20px;
+}
+
+.hide{
+	visibility: hidden;
+}
+
+ul.nodeNavigationBar{
+	top: 40px;
+	left: 15px;
+}
+
+div.sortForm button{
+	top:35px;
+}
+
+div.sortForm button.sortOK{
+	left:100px;
+	top:55px;
+}
+
+div.sortTableBorder{
+	position:absolute;
+	border-bottom: solid .5px gray;
+	width: 203.636px;
+	height: 270px;
+	margin: auto;
+	left: 17.5px;
+	top: 51.9886px;
+	/*top: 53.9886px;*/
+	
+}

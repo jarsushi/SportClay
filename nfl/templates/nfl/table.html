@@ -1,0 +1,29 @@
+{% load staticfiles %}
+
+<html>
+	<head>
+		<link rel="stylesheet" href="{% static 'css/table.css' %}"></link>
+		<title>SportClay Table</title>
+	</head>
+
+	<body>
+		<table>
+			<tr>
+			{%for column in finalFields %}
+				<th>{{column}}</th>
+			{% endfor %}
+			</tr>
+
+			{%for h in rows %}
+				<tr>
+				{%for j in h %}
+					<td>{{j}}</td>
+				{% endfor %}
+				</tr>
+			{% endfor %}
+
+		</table>
+	</body>
+</html>
+
+

@@ -1,0 +1,819 @@
+uid,pid,ptm,pen,desc,cat,pey,act
+66925,741574,KC,TM-2850,Defensive Pass Interference,5,12,A
+66926,741575,NE,NS-0500,Offensive Holding,2,0,O
+66927,741575,KC,AB-0100,Defensive Holding,5,0,O
+66928,741586,KC,DF-1350,Defensive Offside,4,5,A
+66929,741607,KC,DS-3162,12 On-field,3,5,A
+66930,741612,NE,BK-0950,Unnecessary Roughness,6,15,A
+66931,741627,KC,TM-2850,Defensive Holding,5,3,A
+66932,741636,KC,DT-0850,Interference with Opportunity to Catch,6,15,A
+66933,741640,KC,FZ-0100,Offensive Holding,2,9,A
+66934,741641,KC,EF-0050,Offensive Holding,2,4,A
+66935,741652,NE,MB-5250,Defensive Pass Interference,5,20,A
+66936,741660,KC,BW-2750,Offensive Holding,2,10,A
+66937,741670,KC,DS-3162,Unnecessary Roughness,6,15,A
+66938,741685,KC,TM-2850,Defensive Holding,5,5,A
+66939,741687,KC,TM-2850,Defensive Pass Interference,5,26,A
+66940,741692,KC,TK-0150,Taunting,6,10,A
+66941,741694,KC,LD-1000,Offensive Holding,2,0,D
+66942,741695,NE,BB-2250,Running Into the Kicker,6,5,A
+66943,741696,NE,CM-0250,Running Into the Kicker,6,5,A
+66944,741698,KC,PG-0050,Defensive Holding,5,0,D
+66945,741703,NE,TB-2300,Illegal Forward Pass,3,5,A
+66946,741706,KC,BW-2750,False Start,1,5,A
+66947,741720,KC,AS-1600,Delay of Game,3,5,A
+66948,741740,KC,FZ-0100,Illegal Block Above the Waist,7,10,A
+66949,741751,NE,,12 On-field,3,5,A
+66950,741761,ARI,DJ-1325,Offensive Pass Interference,2,0,D
+66951,741774,DET,DW-1550,Unnecessary Roughness,6,14,A
+66952,741777,DET,MS-4100,Intentional Grounding,3,9,A
+66953,741782,DET,AZ-0200,Leaping,8,6,A
+66954,741793,DET,KG-0650,False Start,1,5,A
+66955,741794,ARI,PP-0400,Defensive Holding,5,0,D
+66956,741803,ARI,MI-0200,Low Block,7,15,A
+66957,741805,DET,TL-0300,Offensive Holding,2,10,A
+66958,741831,DET,NL-0250,Defensive Pass Interference,5,3,A
+66959,741858,DET,TW-3250,Unnecessary Roughness,6,15,A
+66960,741858,DET,DH-2150,Defensive Pass Interference,5,0,D
+66961,741865,ARI,JG-3700,Offensive Holding,2,10,A
+66962,741875,DET,SL-0937,Unsportsmanlike Conduct,6,0,O
+66963,741875,ARI,KM-0425,Unsportsmanlike Conduct,6,0,O
+66964,741884,ARI,JV-0300,False Start,1,5,A
+66965,741889,DET,TL-0300,Illegal Block Above the Waist,7,10,A
+66966,741893,ARI,HR-0050,Illegal Use of Hands,5,0,D
+66967,741896,ARI,CP-1300,Defensive Holding,5,5,A
+66968,741899,DET,MJ-2250,Offensive Pass Interference,2,0,D
+66969,741904,ARI,JB-6950,Offensive Pass Interference,2,10,A
+66970,741905,ARI,AS-0920,Offensive Holding,2,0,D
+66971,741917,DET,JD-0650,Unnecessary Roughness,6,15,A
+66972,741921,ARI,MI-0200,Offensive Holding,2,10,A
+66973,741927,DET,JD-0650,Defensive Pass Interference,5,13,A
+66974,741934,ATL,KI-0150,Illegal Block Above the Waist,7,8,A
+66975,741948,CHI,CW-1875,Illegal Use of Hands,2,10,A
+66976,741970,ATL,CG-1450,Unsportsmanlike Conduct,6,15,A
+66977,741983,ATL,JM-1450,Offensive Holding,2,10,A
+66978,741993,ATL,VB-0075,Defensive Holding,5,5,A
+66979,742023,CHI,AH-3050,Roughing the Passer,6,15,A
+66980,742026,ATL,AL-0700,Offensive Holding,2,10,A
+66981,742033,ATL,DJ-2450,Unnecessary Roughness,6,15,A
+66982,742036,CHI,CW-1875,Offensive Holding,2,10,A
+66983,742040,ATL,RA-0650,Offensive Holding,2,5,A
+66984,742051,ATL,RA-0650,Defensive Holding,5,5,A
+66985,742063,CHI,MC-2570,Defensive Holding,5,5,A
+66986,742087,CIN,BL-0100,False Start,1,5,A
+66987,742092,CIN,CO-0350,Offensive Holding,2,0,D
+66988,742095,CIN,PS-0300,Encroachment,4,5,A
+66989,742097,CIN,DK-0750,Defensive Holding,5,5,A
+66990,742102,BAL,RJ-0850,Offensive Holding,2,10,A
+66991,742115,BAL,CM-3250,Face Mask,6,15,A
+66992,742118,BAL,RS-2650,False Start,1,5,A
+66993,742122,CIN,GB-0350,Face Mask,6,4,A
+66994,742138,CIN,JF-1750,Offensive Holding,2,10,A
+66995,742146,BAL,NB-0450,Offensive Holding,2,10,A
+66996,742163,BAL,RJ-0850,Offensive Holding,2,10,A
+66997,742167,BAL,JH-6500,False Start,1,5,A
+66998,742178,CIN,AB-1650,Unnecessary Roughness,6,15,A
+66999,742187,CIN,WJ-0150,Defensive Pass Interference,5,7,A
+67000,742190,CIN,NV-0200,Defensive Holding,5,5,A
+67001,742199,BAL,CM-2675,Offensive Holding,2,10,A
+67002,742203,BAL,JF-1900,Delay of Game,3,5,A
+67003,742214,BAL,JF-1900,Delay of Game,3,5,A
+67004,742219,BAL,BC-0500,Illegal Use of Hands,5,5,A
+67005,742220,CIN,JF-1750,Offensive Holding,2,10,A
+67006,742227,BAL,RJ-0850,Offensive Holding,2,0,D
+67007,742230,BAL,BU-0150,Illegal Use of Hands,5,5,A
+67008,742241,JAC,ML-1500,False Start,1,5,A
+67009,742274,JAC,AC-0250,Offensive Holding,2,10,A
+67010,742276,HOU,BC-3100,Defensive Pass Interference,5,9,A
+67011,742282,JAC,TG-0950,Defensive Holding,5,5,A
+67012,742287,HOU,JC-3350,Defensive Offside,4,5,A
+67013,742305,HOU,DR-0625,Roughing the Passer,6,15,A
+67014,742307,HOU,DR-0625,Defensive Holding,5,5,A
+67015,742317,JAC,AB-2250,Defensive Pass Interference,5,9,A
+67016,742318,JAC,AB-2250,Defensive Pass Interference,5,13,A
+67017,742336,HOU,DH-3950,Offensive Pass Interference,2,10,A
+67018,742338,JAC,YN-0100,Roughing the Passer,6,15,A
+67019,742341,JAC,DF-1481,Illegal Use of Hands,5,4,A
+67020,742347,HOU,KJ-0650,Defensive Pass Interference,5,20,A
+67021,742363,JAC,AB-2250,Defensive Pass Interference,5,8,A
+67022,742390,JAC,MJ-0030,Neutral Zone,4,5,A
+67023,742393,JAC,YN-0100,Roughing the Passer,6,15,A
+67024,742394,HOU,BG-0500,Offensive Holding,2,10,A
+67025,742397,HOU,XS-0100,Offensive Holding,2,10,A
+67026,742404,HOU,EP-0550,Offensive Holding,2,10,A
+67027,742415,BUF,RI-0100,Offensive Holding,2,10,A
+67028,742423,NYJ,MP-0875,Defensive Holding,5,3,A
+67029,742426,NYJ,DL-0550,Unnecessary Roughness,6,15,A
+67030,742432,BUF,CC-2100,False Start,1,5,A
+67031,742438,NYJ,ET-0375,Offensive Holding,2,10,A
+67032,742441,BUF,TE-0325,Illegal Block Above the Waist,7,0,D
+67033,742441,BUF,MM-3168,Illegal Block Above the Waist,7,10,A
+67034,742469,BUF,JM-4950,Offensive Holding,2,10,A
+67035,742476,BUF,AW-0550,Defensive Holding,5,5,A
+67036,742484,NYJ,MC-1350,Defensive Pass Interference,5,24,A
+67037,742525,NYJ,AS-3550,Offensive Pass Interference,2,0,D
+67038,742543,NYJ,KB-0750,Offensive Holding,2,0,D
+67039,742557,NYJ,BW-2670,Illegal Use of Hands,2,10,A
+67040,742565,BUF,RI-0100,Offensive Holding,2,10,A
+67041,742598,OAK,MC-2900,Offensive Pass Interference,2,10,A
+67042,742600,TEN,AJ-0050,Defensive Pass Interference,5,24,A
+67043,742654,OAK,XW-0300,Illegal Block Above the Waist,7,9,A
+67044,742658,TEN,EW-0500,Illegal Block Above the Waist,7,10,A
+67045,742669,OAK,RH-3200,Illegal Use of Hands,2,10,A
+67046,742671,TEN,BT-0950,Running Into the Kicker,6,5,A
+67047,742683,TEN,DB-0975,Offside on Free Kick,3,5,A
+67048,742708,OAK,BI-0150,Defensive Offside,4,5,A
+67049,742709,OAK,BI-0150,Unnecessary Roughness,6,15,A
+67050,742727,TEN,JC-4050,False Start,1,5,A
+67051,742752,PHI,JP-2400,Illegal Block Above the Waist,7,10,A
+67052,742758,WAS,JR-1150,Offensive Holding,2,10,A
+67053,742774,WAS,DS-5150,Defensive Offside,4,0,D
+67054,742790,PHI,BC-0700,False Start,1,5,A
+67055,742793,PHI,WS-0650,Chop Block,7,15,A
+67056,742823,WAS,RA-1175,Defensive Offside,4,5,A
+67057,742824,PHI,CW-1425,Delay of Game,3,5,A
+67058,742832,PHI,NB-0500,Defensive Holding,5,5,A
+67059,742837,PHI,FC-0400,Encroachment,4,5,A
+67060,742851,PHI,CW-1425,Intentional Grounding,3,16,A
+67061,742854,PHI,JW-0525,Unnecessary Roughness,6,15,A
+67062,742874,WAS,JR-1150,Offensive Pass Interference,2,0,D
+67063,742897,CLE,JT-1600,False Start,1,5,A
+67064,742903,CLE,DN-1225,Offensive Holding,2,10,A
+67065,742910,PIT,JS-4750,Offensive Holding,2,10,A
+67066,742912,PIT,VM-0250,Offensive Holding,2,10,A
+67067,742926,PIT,SD-0250,Defensive Pass Interference,5,21,A
+67068,742934,PIT,BR-1100,Delay of Game,3,5,A
+67069,742939,PIT,RS-0962,Unnecessary Roughness,6,15,A
+67070,742945,CLE,JM-3950,Defensive Holding,5,5,A
+67071,742963,PIT,DH-2800,Offensive Holding,2,9,A
+67072,742964,PIT,LB-0250,Illegal Peelback,8,4,A
+67073,742992,CLE,JT-0850,Defensive Pass Interference,5,41,A
+67074,743001,PIT,WG-0500,Unnecessary Roughness,6,15,A
+67075,743002,PIT,AB-3875,Defensive Holding,5,5,A
+67076,743008,PIT,TW-1137,Unnecessary Roughness,6,15,A
+67077,743025,PIT,JS-4750,Offensive Holding,2,10,A
+67078,743037,PIT,JW-3050,Unnecessary Roughness,6,15,A
+67079,743041,PIT,MP-1900,Offensive Holding,2,10,A
+67080,743061,LA,MB-0650,Defensive Holding,5,5,A
+67081,743066,IND,DG-1450,False Start,1,5,A
+67082,743078,LA,RH-1250,Offensive Holding,2,10,A
+67083,743079,LA,TH-1550,False Start,1,5,A
+67084,743081,IND,CM-2425,Illegal Block Above the Waist,7,6,A
+67085,743085,LA,AW-1100,False Start,1,5,A
+67086,743087,LA,JS-7200,False Start,1,5,A
+67087,743089,LA,JB-6725,Offensive Holding,2,0,D
+67088,743132,LA,,Offensive Holding,2,0,D
+67089,743140,IND,HR-0100,Defensive Holding,5,5,A
+67090,743151,IND,JV-0600,Offensive Holding,2,0,D
+67091,743155,LA,CK-1300,Face Mask,6,0,D
+67092,743159,IND,DM-2775,Face Mask,6,0,D
+67093,743160,LA,CL-0987,Offensive Holding,2,10,A
+67094,743175,LA,TH-1550,Offensive Holding,2,10,A
+67095,743189,IND,MH-3750,Encroachment,4,4,A
+67096,743211,SF,,Illegal Formation,3,5,A
+67097,743214,SF,BF-1500,False Start,1,5,A
+67098,743235,SF,TB-3250,False Start,1,5,A
+67099,743237,CAR,JC-1750,Illegal Block Above the Waist,7,10,A
+67100,743243,SF,,Illegal Formation,3,0,D
+67101,743243,SF,DK-0600,Offensive Holding,2,10,A
+67102,743246,CAR,BJ-0500,Offensive Holding,2,10,A
+67103,743248,SF,JT-0650,Unnecessary Roughness,6,15,A
+67104,743250,SF,ST-0525,Defensive Offside,4,5,A
+67105,743277,CAR,RS-0975,False Start,1,5,A
+67106,743290,SF,RA-1350,Defensive Pass Interference,5,4,A
+67107,743315,CAR,DW-4750,Defensive Holding,5,0,D
+67108,743319,SF,BH-1900,Delay of Game,3,5,A
+67109,743322,CAR,MK-0150,Offensive Holding,2,10,A
+67110,743324,SF,RA-1350,Face Mask,6,15,A
+67111,743331,SF,GK-0075,False Start,1,5,A
+67112,743332,CAR,CJ-1300,Defensive Holding,5,5,A
+67113,743356,SEA,JL-0230,Defensive Pass Interference,5,5,A
+67114,743359,GB,RC-1500,Taunting,6,15,A
+67115,743360,GB,AR-1300,Delay of Game,3,5,A
+67116,743364,SEA,JL-0230,Disqualification,6,0,D
+67117,743364,SEA,CA-1300,Illegal Block Above the Waist,7,10,A
+67118,743388,SEA,SG-1600,Defensive Holding,5,5,A
+67119,743392,GB,ME-0550,False Start,1,5,A
+67120,743396,GB,DH-4000,Defensive Holding,5,0,D
+67121,743404,SEA,TM-0150,Illegal Block Above the Waist,7,10,A
+67122,743418,GB,JV-0550,Delay of Game,3,0,D
+67123,743427,GB,DH-4000,Running Into the Kicker,6,0,D
+67124,743431,GB,JE-1000,Offensive Holding,2,10,A
+67125,743434,SEA,DB-0950,Defensive Offside,4,5,A
+67126,743444,SEA,LW-1450,False Start,1,5,A
+67127,743446,GB,NP-0130,Defensive Offside,4,5,A
+67128,743457,GB,JE-1000,Offensive Holding,2,10,A
+67129,743466,SEA,TG-0350,12 On-field,3,0,D
+67130,743468,GB,JJ-4582,Offside on Free Kick,3,5,A
+67131,743497,GB,MB-1800,Offensive Pass Interference,2,0,O
+67132,743497,SEA,RS-1000,Defensive Holding,5,0,O
+67133,743501,SEA,MB-1900,Defensive Offside,4,5,A
+67134,743504,GB,MB-1800,Unnecessary Roughness,6,15,A
+67135,743505,SEA,MB-1900,Defensive Offside,4,5,A
+67136,743505,SEA,SG-1600,Defensive Holding,5,0,D
+67137,743537,NYG,JJ-2100,Offensive Holding,2,0,D
+67138,743550,DAL,LC-0825,Offensive Holding,2,10,A
+67139,743554,NYG,CM-3450,Offensive Holding,2,10,A
+67140,743569,NYG,WR-0450,Ineligible Downfield Pass,3,5,A
+67141,743573,DAL,BJ-2350,Offensive Holding,2,10,A
+67142,743578,NYG,JJ-1550,Defensive Pass Interference,5,21,A
+67143,743623,NYG,,12 On-field,3,5,A
+67144,743626,DAL,MC-2150,Roughing the Passer,6,15,A
+67145,743637,DAL,TS-2700,Offensive Holding,2,10,A
+67146,743646,DAL,TS-2700,False Start,1,5,A
+67147,743661,NYG,EF-0075,Offensive Holding,2,9,A
+67148,743667,NYG,JA-0245,False Start,1,5,A
+67149,743671,NO,LW-0350,False Start,1,5,A
+67150,743673,MIN,LJ-1700,Face Mask,6,15,A
+67151,743680,NO,AP-0450,Offensive Holding,2,10,A
+67152,743690,NO,MW-2275,Unnecessary Roughness,6,15,A
+67153,743692,NO,AA-0552,Unnecessary Roughness,6,15,A
+67154,743707,MIN,MR-0645,Offensive Holding,2,10,A
+67155,743712,MIN,TJ-1900,Roughing the Passer,6,15,A
+67156,743731,MIN,EG-0900,Defensive Offside,4,5,A
+67157,743741,NO,KV-0050,Unnecessary Roughness,6,2,A
+67158,743742,MIN,NE-0225,False Start,1,5,A
+67159,743750,NO,DH-1425,Defensive Pass Interference,5,0,D
+67160,743760,NO,SK-0150,Offensive Holding,2,0,D
+67161,743772,MIN,TW-1187,Defensive Pass Interference,5,0,D
+67162,743781,NO,AO-0370,Illegal Use of Hands,5,5,A
+67163,743812,MIN,XR-0100,Defensive Holding,5,0,D
+67164,743834,LAC,MS-2300,False Start,1,5,A
+67165,743839,LAC,TW-2856,Player Out of Bounds on Punt,3,5,A
+67166,743852,LAC,JB-4450,Defensive Offside,4,0,D
+67167,743860,DEN,BR-1050,Defensive Pass Interference,5,40,A
+67168,743900,DEN,GB-0650,Offensive Holding,2,0,D
+67169,743910,DEN,,Illegal Shift,3,5,A
+67170,743948,LAC,KA-0650,Taunting,6,15,A
+67171,743956,LAC,MI-0150,Roughing the Passer,6,15,A
+67172,743974,DEN,BR-1050,Defensive Pass Interference,5,17,A
+67173,743986,CIN,TJ-1150,Illegal Block Above the Waist,7,10,A
+67174,743988,CIN,JF-1750,Illegal Use of Hands,2,0,D
+67175,743989,CIN,JS-2050,False Start,1,5,A
+67176,743991,HOU,,Illegal Formation,3,0,D
+67177,743995,HOU,JC-3350,Defensive Offside,4,5,A
+67178,744006,CIN,,Illegal Formation,3,5,A
+67179,744010,HOU,EB-0550,False Start,1,5,A
+67180,744043,HOU,JT-3000,Offensive Holding,2,6,A
+67181,744074,HOU,ZC-0300,Neutral Zone,4,5,A
+67182,744078,CIN,TE-0300,Illegal Touch Pass,3,0,A
+67183,744086,CIN,DD-0950,Defensive Pass Interference,5,6,A
+67184,744107,HOU,BP-0575,Offensive Holding,2,7,A
+67185,744110,HOU,BM-2350,Unnecessary Roughness,6,8,A
+67186,744118,HOU,CC-1900,Offensive Holding,2,10,A
+67187,744119,CIN,AJ-1200,Defensive Pass Interference,5,14,A
+67188,744127,HOU,DH-3950,Offensive Pass Interference,2,10,A
+67189,744137,CIN,JF-1750,False Start,1,5,A
+67190,744139,HOU,JD-0350,False Start,1,5,A
+67191,744162,ARI,RG-2375,Leverage,8,6,A
+67192,744184,ARI,AE-0750,Illegal Motion,3,0,D
+67193,744190,IND,JG-1050,Defensive Holding,5,0,O
+67194,744190,ARI,BW-2040,Offensive Holding,2,0,O
+67195,744193,ARI,TN-0550,Offensive Holding,2,10,A
+67196,744204,ARI,EB-1275,False Start,1,5,A
+67197,744210,ARI,RN-1275,Encroachment,4,5,A
+67198,744213,ARI,JB-8700,Neutral Zone,4,5,A
+67199,744226,IND,AC-1200,Offensive Holding,2,10,A
+67200,744253,IND,CM-2425,Offensive Holding,2,10,A
+67201,744261,IND,JV-0600,False Start,1,5,A
+67202,744267,IND,JM-4150,False Start,1,5,A
+67203,744272,ARI,RF-0725,Offensive Holding,2,10,A
+67204,744278,IND,JS-2100,Roughing the Passer,6,15,A
+67205,744282,IND,JH-0106,False Start,1,5,A
+67206,744286,IND,KM-2650,Unnecessary Roughness,6,15,A
+67207,744288,IND,JS-2100,Defensive Offside,4,0,D
+67208,744306,IND,AC-1200,Offensive Holding,2,0,D
+67209,744310,IND,QW-0300,12 On-field,3,5,A
+67210,744363,BUF,,Unsportsmanlike Conduct,6,11,A
+67211,744369,CAR,CN-0500,Delay of Game,3,5,A
+67212,744370,CAR,DW-3450,Offensive Holding,2,10,A
+67213,744379,BUF,JM-4550,Illegal Use of Hands,2,8,A
+67214,744386,CAR,DW-3450,Offensive Holding,2,10,A
+67215,744393,CAR,CJ-1300,Defensive Offside,4,5,A
+67216,744399,CAR,JS-6700,Delay of Game,3,5,A
+67217,744409,CAR,CN-0500,Delay of Game,3,5,A
+67218,744411,BUF,TE-0325,Offensive Holding,2,10,A
+67219,744423,CAR,CM-1225,Chop Block,7,0,D
+67220,744447,BUF,EG-0050,Defensive Pass Interference,5,5,A
+67221,744460,BUF,AH-3600,Offensive Pass Interference,2,10,A
+67222,744469,CHI,DT-1950,Defensive Holding,5,5,A
+67223,744497,CHI,QD-0100,Defensive Holding,5,0,D
+67224,744499,CHI,TG-0450,Unnecessary Roughness,6,12,A
+67225,744503,CHI,BM-0360,Offensive Holding,2,10,A
+67226,744511,CHI,DT-1950,Defensive Holding,5,5,A
+67227,744517,CHI,WY-0300,Defensive Holding,5,2,A
+67228,744543,TB,,Illegal Shift,3,5,A
+67229,744561,CHI,CL-0862,Offensive Holding,2,10,A
+67230,744566,CHI,JB-7450,Defensive Offside,4,5,A
+67231,744580,TB,JS-7450,Offensive Holding,2,10,A
+67232,744584,CHI,DB-4387,Offensive Holding,2,10,A
+67233,744591,TB,CC-4000,Unnecessary Roughness,6,14,A
+67234,744615,TB,CM-1600,Neutral Zone,4,5,A
+67235,744627,CLE,DK-0875,Delay of Game,3,5,A
+67236,744642,CLE,SC-0775,False Start,1,5,A
+67237,744649,CLE,CK-0850,Unnecessary Roughness,6,4,A
+67238,744653,CLE,KB-1900,Offensive Pass Interference,2,10,A
+67239,744654,CLE,SD-0534,Illegal Formation,3,0,D
+67240,744667,BAL,JS-4300,Defensive Holding,5,5,A
+67241,744682,BAL,,12 On-field,3,5,A
+67242,744692,CLE,DN-1225,Unnecessary Roughness,6,7,A
+67243,744693,CLE,SC-0950,Offensive Holding,2,0,D
+67244,744696,CLE,BB-1650,False Start,1,4,A
+67245,744697,BAL,PO-0175,Offensive Holding,2,10,A
+67246,744706,CLE,SC-0950,False Start,1,5,A
+67247,744719,CLE,IC-0050,Defensive Offside,4,5,A
+67248,744723,BAL,MJ-2700,Defensive Offside,4,5,A
+67249,744737,CLE,DK-0875,Delay of Game,3,5,A
+67250,744756,BAL,JS-4300,Illegal Use of Hands,5,5,A
+67251,744770,BAL,TS-3500,Neutral Zone,4,5,A
+67252,744774,CLE,CN-0250,Encroachment,4,5,A
+67253,744779,BAL,TB-1150,Offensive Holding,2,10,A
+67254,744787,CLE,SC-0950,Offensive Holding,2,10,A
+67255,744799,PIT,AB-3500,Illegal Formation,3,5,A
+67256,744805,MIN,NE-0225,Offensive Holding,2,10,A
+67257,744813,MIN,BR-1000,Encroachment,4,5,A
+67258,744815,MIN,XR-0100,Defensive Pass Interference,5,22,A
+67259,744820,PIT,JJ-0725,Offensive Holding,2,10,A
+67260,744822,PIT,BR-1100,Delay of Game,3,5,A
+67261,744830,PIT,AV-0350,False Start,1,5,A
+67262,744832,MIN,TW-1187,Defensive Pass Interference,5,49,A
+67263,744878,PIT,,12 On-field,3,5,A
+67264,744880,PIT,RN-1250,Defensive Offside,4,5,A
+67265,744888,MIN,NE-0225,Illegal Formation,3,5,A
+67266,744891,PIT,AB-3875,Defensive Pass Interference,5,17,A
+67267,744905,MIN,TJ-1900,Defensive Offside,4,0,D
+67268,744914,MIN,SD-0537,Offensive Pass Interference,2,10,A
+67269,744919,MIN,NE-0225,Offensive Holding,2,10,A
+67270,744927,MIN,TN-0400,Defensive Holding,5,5,A
+67271,744930,PIT,JS-4750,False Start,1,5,A
+67272,744933,PIT,KC-0212,False Start,1,5,A
+67273,744934,MIN,AB-0650,Running Into the Kicker,6,0,D
+67274,744935,MIN,JB-3200,False Start,1,0,A
+67275,744937,PIT,AB-3875,Defensive Pass Interference,5,0,D
+67276,744938,MIN,RR-0250,Offensive Holding,2,0,D
+67277,744941,PIT,AC-1350,Offensive Holding,2,10,A
+67278,744954,MIN,MR-0645,Offensive Holding,2,10,A
+67279,744960,MIN,,Illegal Formation,3,5,A
+67280,744985,NE,HL-0100,Face Mask,6,15,A
+67281,745001,NO,RR-0122,Offensive Holding,2,10,A
+67282,745003,NO,LW-0350,Offensive Holding,2,0,D
+67283,745020,NE,TF-0750,Defensive Offside,4,5,A
+67284,745039,NE,JJ-4565,Defensive Offside,4,5,A
+67285,745040,NO,DB-3800,Delay of Game,3,5,A
+67286,745059,NE,DA-1425,Offensive Holding,2,10,A
+67287,745079,NO,MT-0350,12 On-field,3,5,A
+67288,745082,NO,KV-0050,Defensive Holding,5,5,A
+67289,745086,NE,DA-0850,12 On-field,3,5,A
+67290,745105,NO,AP-0450,Illegal Use of Hands,2,10,A
+67291,745114,NE,,Illegal Shift,3,6,A
+67292,745115,NE,MC-0400,Offensive Holding,2,10,A
+67293,745139,NE,BC-2325,False Start,1,5,A
+67294,745141,NE,,Delay of Game,3,5,A
+67295,745149,KC,KP-0650,Offensive Holding,2,10,A
+67296,745166,PHI,JK-0500,Offensive Holding,2,10,A
+67297,745167,KC,EM-2100,Defensive Holding,5,5,A
+67298,745186,KC,PG-0050,Defensive Holding,5,5,A
+67299,745190,PHI,KG-1200,Tripping,7,10,A
+67300,745191,PHI,BG-1200,Defensive Offside,4,5,A
+67301,745195,KC,BW-2750,False Start,1,5,A
+67302,745196,PHI,RD-1550,Illegal Use of Hands,5,0,O
+67303,745196,KC,BW-2750,Offensive Holding,2,0,O
+67304,745205,PHI,,Illegal Formation,3,0,D
+67305,745241,KC,PG-0050,Defensive Holding,5,0,D
+67306,745248,KC,TK-0150,Taunting,6,15,A
+67307,745258,PHI,IS-0125,False Start,1,5,A
+67308,745310,JAC,JW-4925,Illegal Block Above the Waist,7,10,A
+67309,745340,TEN,JC-4050,False Start,1,5,A
+67310,745356,JAC,ML-1500,Illegal Use of Hands,2,10,A
+67311,745363,TEN,LR-0600,Unnecessary Roughness,6,15,A
+67312,745370,JAC,CI-0300,Face Mask,6,15,A
+67313,745370,JAC,JP-0900,Offensive Holding,2,0,D
+67314,745380,TEN,JC-4050,Offensive Holding,2,10,A
+67315,745381,TEN,TL-0775,Illegal Use of Hands,2,10,A
+67316,745383,JAC,DF-1481,Defensive Offside,4,5,A
+67317,745395,TEN,JC-4050,Illegal Block Above the Waist,7,10,A
+67318,745401,JAC,JO-0150,Offensive Holding,2,10,A
+67319,745409,JAC,PP-0800,Offensive Holding,2,9,A
+67320,745412,JAC,AH-3900,Offensive Pass Interference,2,10,A
+67321,745418,JAC,JR-0150,Unnecessary Roughness,6,15,A
+67322,745426,JAC,CR-1162,Illegal Use of Hands,2,10,A
+67323,745429,TEN,DB-0975,Offensive Holding,2,10,A
+67324,745434,JAC,DS-3125,Defensive Offside,4,5,A
+67325,745438,TEN,BJ-1950,Offensive Holding,2,10,A
+67326,745477,MIA,LT-0950,False Start,1,5,A
+67327,745483,LAC,MI-0150,Defensive Offside,4,0,D
+67328,745485,LAC,JB-4450,Unnecessary Roughness,6,15,A
+67329,745494,LAC,TW-2875,False Start,1,5,A
+67330,745496,LAC,PR-0300,Delay of Game,3,5,A
+67331,745523,MIA,RJ-2000,Defensive Pass Interference,5,3,A
+67332,745525,MIA,JP-2850,Defensive Offside,4,0,A
+67333,745535,MIA,DG-1275,Defensive Offside,4,0,D
+67334,745551,LAC,TB-1850,Unnecessary Roughness,6,15,A
+67335,745588,LAC,CH-0200,Offensive Holding,2,10,A
+67336,745596,LAC,AP-1050,Defensive Holding,5,0,D
+67337,745601,MIA,JB-8200,Offensive Holding,2,10,A
+67338,745605,LAC,DP-1275,Offensive Holding,2,6,A
+67339,745622,MIA,BM-0775,Illegal Use of Hands,5,5,A
+67340,745628,OAK,LS-1550,Unnecessary Roughness,6,7,A
+67341,745631,OAK,JH-5125,Player Out of Bounds on Punt,3,5,A
+67342,745642,NYJ,MW-1800,Neutral Zone,4,5,A
+67343,745655,OAK,DP-1100,Clipping,7,7,A
+67344,745669,OAK,BI-0150,Unnecessary Roughness,6,15,A
+67345,745674,OAK,JF-0950,Unnecessary Roughness,6,15,A
+67346,745685,OAK,ML-0662,Taunting,6,15,A
+67347,745702,OAK,NM-0675,Offside on Free Kick,3,5,A
+67348,745709,NYJ,BI-0100,Illegal Motion,3,5,A
+67349,745715,NYJ,JM-2900,Delay of Game,3,5,A
+67350,745721,NYJ,BS-2300,Unnecessary Roughness,6,15,A
+67351,745728,OAK,KM-0050,Defensive Offside,4,5,A
+67352,745742,NYJ,MC-1350,Defensive Pass Interference,5,17,A
+67353,745769,OAK,DC-0725,False Start,1,5,A
+67354,745791,DAL,CG-2175,False Start,1,5,A
+67355,745829,DAL,DL-0450,Leverage,8,15,A
+67356,745837,DAL,DB-5300,Offensive Pass Interference,2,10,A
+67357,745870,DEN,RL-0350,Offensive Holding,2,10,A
+67358,745874,DAL,AB-3450,Defensive Pass Interference,5,10,A
+67359,745881,DEN,VM-0300,Defensive Offside,4,5,A
+67360,745882,DEN,BM-0330,Defensive Holding,5,0,D
+67361,745882,DEN,VM-0300,Roughing the Passer,6,15,A
+67362,745883,DAL,JW-6000,False Start,1,5,A
+67363,745905,DAL,LC-0825,False Start,1,5,A
+67364,745917,DEN,BR-1050,Illegal Block Above the Waist,7,0,D
+67365,745917,DEN,KP-0325,Offensive Holding,2,6,A
+67366,745921,DAL,AB-3450,Defensive Pass Interference,5,14,A
+67367,745922,DEN,AD-1175,Illegal Block Above the Waist,7,10,A
+67368,745924,DEN,TS-1450,False Start,1,5,A
+67369,745929,DEN,VM-0300,Defensive Offside,4,5,A
+67370,745931,DEN,VM-0300,Defensive Offside,4,0,D
+67371,745943,DEN,CH-1500,Defensive Holding,5,5,A
+67372,745948,DAL,TS-2700,False Start,1,5,A
+67373,745954,DEN,SB-0225,Defensive Offside,4,0,D
+67374,745962,SF,ED-1000,Neutral Zone,4,5,A
+67375,745969,SF,AA-0562,Defensive Holding,5,0,D
+67376,745977,SEA,FC-0150,Neutral Zone,4,5,A
+67377,745996,SEA,JR-1025,Illegal Use of Hands,5,5,A
+67378,746004,SEA,LW-1450,Offensive Holding,2,10,A
+67379,746011,SF,BH-1900,Intentional Grounding,3,11,A
+67380,746035,SEA,CA-1300,Face Mask,6,15,A
+67381,746045,SEA,CA-1300,Neutral Zone,4,5,A
+67382,746049,SF,CH-5000,Offensive Pass Interference,2,0,D
+67383,746050,SEA,JC-3518,Offensive Holding,2,6,A
+67384,746057,SF,RA-1350,Unnecessary Roughness,6,15,A
+67385,746058,SEA,GI-0100,Offensive Holding,2,10,A
+67386,746061,SF,AL-1200,Defensive Offside,4,5,A
+67387,746074,SF,DK-0600,Offensive Holding,2,10,A
+67388,746099,SEA,JB-5750,False Start,1,5,A
+67389,746101,SF,DJ-1750,Defensive Pass Interference,5,20,A
+67390,746110,SEA,SG-1600,Illegal Block Above the Waist,7,10,A
+67391,746131,LA,TJ-2250,Illegal Use of Hands,5,0,D
+67392,746140,LA,MB-3650,Illegal Formation,3,0,D
+67393,746141,LA,CL-0987,Offensive Holding,2,0,O
+67394,746141,WAS,QD-0400,Face Mask,6,0,O
+67395,746150,LA,AO-0250,Defensive Offside,4,5,A
+67396,746167,WAS,ZB-0400,Neutral Zone,4,0,A
+67397,746175,WAS,BS-0950,Ineligible Downfield Pass,3,0,D
+67398,746178,WAS,JN-1750,Defensive Holding,5,5,A
+67399,746196,LA,RH-1250,Illegal Use of Hands,2,0,D
+67400,746209,WAS,MS-3450,Offensive Holding,2,10,A
+67401,746220,LA,NR-0350,Defensive Pass Interference,5,25,A
+67402,746238,LA,JJ-3450,Offensive Holding,2,10,A
+67403,746243,LA,RW-4050,Unnecessary Roughness,6,15,A
+67404,746247,LA,RS-0100,False Start,1,5,A
+67405,746251,LA,RW-4050,Offensive Pass Interference,2,10,A
+67406,746253,LA,RH-1250,Offensive Holding,2,0,D
+67407,746255,LA,SE-0025,Offside on Free Kick,3,5,A
+67408,746257,WAS,TW-2800,Offensive Holding,2,10,A
+67409,746293,ATL,KN-0125,Defensive Pass Interference,5,8,A
+67410,746296,ATL,AC-1500,Defensive Offside,4,1,A
+67411,746305,GB,CL-0975,Offensive Holding,2,10,A
+67412,746308,ATL,KI-0150,Offensive Holding,2,10,A
+67413,746308,ATL,DO-0050,Offensive Holding,2,0,D
+67414,746326,GB,JM-2950,False Start,1,5,A
+67415,746339,ATL,RA-0650,Defensive Holding,5,5,A
+67416,746347,GB,JJ-0775,Illegal Block Above the Waist,7,5,A
+67417,746349,GB,MB-1800,Offensive Pass Interference,2,6,A
+67418,746350,GB,RC-1500,False Start,1,4,A
+67419,746356,GB,,Unsportsmanlike Conduct,6,15,A
+67420,746358,GB,LK-0200,False Start,1,5,A
+67421,746372,GB,GA-0250,Offensive Pass Interference,2,10,A
+67422,746393,GB,AR-1300,Illegal Shift,3,5,A
+67423,746399,GB,KM-3400,False Start,1,5,A
+67424,746411,GB,JR-3650,Running Into the Kicker,6,0,D
+67425,746423,ATL,AH-3650,False Start,1,5,A
+67426,746426,ATL,AL-0700,False Start,1,5,A
+67427,746436,GB,TD-0737,Illegal Shift,3,0,D
+67428,746456,DET,GR-0450,Offensive Holding,2,10,A
+67429,746462,NYG,EA-0575,Defensive Offside,4,5,A
+67430,746471,NYG,EE-0400,Unsportsmanlike Conduct,6,15,A
+67431,746491,DET,AR-1115,Encroachment,4,5,A
+67432,746494,DET,GR-0450,False Start,1,5,A
+67433,746496,DET,GR-0450,Offensive Holding,2,0,D
+67434,746505,DET,TL-0300,Offensive Holding,2,10,A
+67435,746527,NYG,BJ-2250,Offensive Holding,2,10,A
+67436,746531,NYG,EM-0200,Delay of Game,3,5,A
+67437,746539,DET,GG-0342,Offensive Holding,2,10,A
+67438,746540,DET,RW-0150,Offensive Holding,2,10,A
+67439,746543,NYG,,12 On-field,3,5,A
+67440,746544,NYG,OV-0200,Defensive Offside,4,5,A
+67441,746551,NYG,DR-2800,Defensive Offside,4,5,A
+67442,746595,SF,DK-0600,Offensive Holding,2,0,D
+67443,746597,LA,BC-2575,Defensive Offside,4,5,A
+67444,746611,SF,DJ-1750,Defensive Holding,5,5,A
+67445,746635,LA,RQ-0200,Defensive Offside,4,5,A
+67446,746641,SF,JS-5700,False Start,1,5,A
+67447,746643,SF,KJ-1400,Offensive Holding,2,10,A
+67448,746654,SF,LT-0650,False Start,1,5,A
+67449,746657,LA,,12 On-field,3,5,A
+67450,746665,LA,GE-0400,Illegal Shift,3,0,O
+67451,746665,SF,RR-0925,Defensive Pass Interference,5,0,O
+67452,746671,SF,JW-0750,Unnecessary Roughness,6,2,A
+67453,746685,SF,RR-0925,Defensive Pass Interference,5,8,A
+67454,746686,LA,AB-1987,False Start,1,5,A
+67455,746692,LA,AD-1475,Roughing the Passer,6,15,A
+67456,746709,SF,RR-0925,Illegal Use of Hands,5,5,A
+67457,746710,SF,DB-5475,Defensive Offside,4,5,A
+67458,746712,SF,RA-1350,Horse Collar,7,0,A
+67459,746728,LA,,False Start,1,5,A
+67460,746736,LA,TJ-2250,Defensive Pass Interference,5,12,A
+67461,746763,SF,TT-0450,Offensive Pass Interference,2,10,A
+67462,746777,JAC,JP-0900,Offensive Holding,2,10,A
+67463,746789,BAL,VM-0225,Illegal Touch Kick,3,0,A
+67464,746809,JAC,JP-0900,Offensive Holding,2,10,A
+67465,746811,JAC,PO-0150,False Start,1,5,A
+67466,746818,BAL,AH-3700,Offensive Holding,2,0,D
+67467,746836,JAC,TS-2050,Defensive Offside,4,5,A
+67468,746844,BAL,LW-0700,Illegal Contact,5,5,A
+67469,746848,BAL,MH-3742,Defensive Pass Interference,5,29,A
+67470,746860,JAC,AC-0250,Offensive Holding,2,10,A
+67471,746862,BAL,WH-0625,Encroachment,4,5,A
+67472,746865,JAC,ML-0650,Illegal Shift,3,5,A
+67473,746876,JAC,YN-0100,Unnecessary Roughness,6,15,A
+67474,746877,JAC,SD-0531,Neutral Zone,4,5,A
+67475,746883,BAL,MP-1225,Unsportsmanlike Conduct,6,15,A
+67476,746887,BAL,RS-2650,Illegal Use of Hands,2,10,A
+67477,746888,BAL,NB-0450,Offensive Pass Interference,2,10,A
+67478,746897,JAC,,Illegal Formation,3,0,D
+67479,746898,BAL,AC-2150,Unnecessary Roughness,6,4,A
+67480,746902,BAL,NB-0450,Illegal Motion,3,5,A
+67481,746923,JAC,TS-2050,12 On-field,3,5,A
+67482,746933,BAL,CD-0650,Neutral Zone,4,5,A
+67483,746941,DET,HN-0300,Encroachment,4,5,A
+67484,746959,DET,TL-0300,Unnecessary Roughness,6,15,A
+67485,746963,ATL,WS-0275,False Start,1,5,A
+67486,746965,DET,NL-0250,Defensive Pass Interference,5,22,A
+67487,746970,ATL,AH-3650,False Start,1,5,A
+67488,746977,ATL,DJ-2450,Unnecessary Roughness,6,15,A
+67489,746986,DET,AR-1115,Illegal Use of Hands,5,0,O
+67490,746986,ATL,JH-1350,Offensive Holding,2,0,O
+67491,747009,DET,DH-2150,Defensive Holding,5,6,A
+67492,747011,ATL,WS-0275,Offensive Holding,2,10,A
+67493,747037,DET,RW-0150,Offensive Holding,2,10,A
+67494,747047,ATL,TS-0150,False Start,1,5,A
+67495,747052,DET,GR-0450,Offensive Holding,2,0,D
+67496,747055,DET,JL-2250,Delay of Game,3,5,A
+67497,747093,DET,DC-0400,Fair Catch Interference,6,15,A
+67498,747095,ATL,DF-1875,False Start,1,5,A
+67499,747100,ATL,DP-1450,Illegal Use of Hands,5,0,D
+67500,747103,DET,ZK-0200,Offensive Holding,2,10,A
+67501,747104,DET,MJ-2250,Offensive Pass Interference,2,10,A
+67502,747106,ATL,DT-1970,Defensive Holding,5,5,A
+67503,747110,ATL,DT-1970,Defensive Pass Interference,5,18,A
+67504,747120,IND,DB-2937,False Start,1,5,A
+67505,747123,IND,JV-0600,False Start,1,5,A
+67506,747130,CLE,SD-0534,Offensive Pass Interference,2,10,A
+67507,747163,CLE,NO-0300,Roughing the Passer,6,15,A
+67508,747186,CLE,BB-1650,False Start,1,5,A
+67509,747187,CLE,JB-7650,Unnecessary Roughness,6,15,A
+67510,747189,CLE,JP-1975,Defensive Pass Interference,5,34,A
+67511,747196,IND,DB-6100,Defensive Pass Interference,5,15,A
+67512,747204,IND,MH-3250,Roughing the Passer,6,1,A
+67513,747211,IND,AC-1200,False Start,1,5,A
+67514,747214,IND,KM-2650,Unsportsmanlike Conduct,6,15,A
+67515,747216,IND,RM-3850,Defensive Holding,5,5,A
+67516,747232,CLE,RH-1950,Offensive Pass Interference,2,10,A
+67517,747241,CLE,RH-1950,Offensive Pass Interference,2,10,A
+67518,747246,CLE,DK-0625,Neutral Zone,4,5,A
+67519,747266,CLE,SD-0534,False Start,1,5,A
+67520,747267,IND,DB-6100,Unnecessary Roughness,6,12,A
+67521,747268,IND,RM-3850,Defensive Pass Interference,5,0,D
+67522,747273,IND,JM-4150,Offensive Holding,2,10,A
+67523,747275,IND,JG-1050,Offensive Holding,2,10,A
+67524,747283,IND,RM-3850,Defensive Pass Interference,5,16,A
+67525,747294,CLE,RL-1325,Offensive Pass Interference,2,4,A
+67526,747299,DEN,AJ-0375,False Start,1,5,A
+67527,747313,DEN,AB-0500,False Start,1,5,A
+67528,747322,BUF,EG-0050,Defensive Pass Interference,5,0,D
+67529,747327,BUF,TW-1725,Defensive Pass Interference,5,1,A
+67530,747333,DEN,WP-0125,Unnecessary Roughness,6,15,A
+67531,747347,BUF,MH-4000,Unnecessary Roughness,6,15,A
+67532,747348,BUF,JH-5900,Roughing the Passer,6,13,A
+67533,747360,BUF,TT-0500,Delay of Game,3,5,A
+67534,747361,DEN,DP-0900,Illegal Use of Hands,5,4,A
+67535,747365,DEN,JC-1175,Illegal Formation,3,5,A
+67536,747367,BUF,NO-0150,Illegal Block Above the Waist,7,10,A
+67537,747392,BUF,JM-4550,Offensive Holding,2,10,A
+67538,747398,DEN,JC-2300,False Start,1,5,A
+67539,747404,DEN,MW-0950,False Start,1,5,A
+67540,747414,DEN,RL-0350,Offensive Holding,2,10,A
+67541,747417,BUF,RI-0100,Offensive Holding,2,10,A
+67542,747437,DEN,DT-0900,Offensive Pass Interference,2,10,A
+67543,747438,BUF,AW-0550,Illegal Use of Hands,5,5,A
+67544,747447,DEN,VM-0300,Unsportsmanlike Conduct,6,15,A
+67545,747478,HOU,JB-1250,Defensive Holding,5,5,A
+67546,747485,NE,SG-0650,Defensive Pass Interference,5,34,A
+67547,747513,HOU,JC-3350,Neutral Zone,4,5,A
+67548,747519,HOU,BM-1450,Defensive Holding,5,5,A
+67549,747525,HOU,BE-0350,False Start,1,5,A
+67550,747526,HOU,XS-0100,Offensive Holding,2,10,A
+67551,747529,NE,SG-0650,Unnecessary Roughness,6,15,A
+67552,747543,HOU,EP-0550,Defensive Holding,5,0,D
+67553,747548,HOU,,Illegal Formation,3,5,A
+67554,747555,HOU,KJ-0100,Defensive Holding,5,5,A
+67555,747566,NE,BB-2250,Offside on Free Kick,3,5,A
+67556,747571,HOU,DW-1725,Delay of Game,3,5,A
+67557,747576,NE,KV-0075,Illegal Contact,5,5,A
+67558,747586,HOU,,12 On-field,3,5,A
+67559,747621,HOU,RG-1870,Offensive Pass Interference,2,10,A
+67560,747622,NE,JJ-4565,Defensive Holding,5,0,D
+67561,747631,NE,DA-1425,Offensive Holding,2,10,A
+67562,747655,MIA,DG-1275,Encroachment,4,5,A
+67563,747656,MIA,DG-1275,Neutral Zone,4,5,A
+67564,747657,NYJ,JM-2900,False Start,1,5,A
+67565,747668,MIA,JJ-0650,False Start,1,5,A
+67566,747669,MIA,LT-0950,False Start,1,5,A
+67567,747679,NYJ,MC-1350,Defensive Holding,5,5,A
+67568,747681,MIA,KS-2350,Illegal Block Above the Waist,7,10,A
+67569,747687,NYJ,JK-0250,Offensive Pass Interference,2,10,A
+67570,747691,NYJ,BQ-0200,Offensive Holding,2,10,A
+67571,747691,NYJ,JC-1000,Offensive Holding,2,0,D
+67572,747692,NYJ,JC-1000,Offensive Holding,2,10,A
+67573,747709,NYJ,JS-6050,Offensive Holding,2,10,A
+67574,747709,NYJ,MC-1350,Illegal Block Above the Waist,7,0,D
+67575,747711,NYJ,WJ-0275,Offensive Holding,2,10,A
+67576,747746,MIA,WH-0300,Illegal Formation,3,5,A
+67577,747767,MIA,XH-0100,Defensive Pass Interference,5,11,A
+67578,747772,NYJ,DL-0550,Roughing the Passer,6,15,A
+67579,747779,MIA,MH-3735,Illegal Forward Pass,3,5,A
+67580,747782,NYJ,JA-0150,Taunting,6,15,A
+67581,747798,NYJ,,Illegal Substitution,3,4,A
+67582,747799,NYJ,JB-7950,Defensive Holding,5,0,D
+67583,747830,CAR,DW-4750,Defensive Pass Interference,5,0,D
+67584,747837,CAR,CN-0500,Delay of Game,3,5,A
+67585,747908,NO,CF-0650,Offensive Pass Interference,2,10,A
+67586,747948,PHI,JK-0500,False Start,1,5,A
+67587,747955,PHI,NB-0500,Face Mask,6,15,A
+67588,747959,PHI,PR-0400,Offensive Holding,2,10,A
+67589,747988,PHI,LB-0500,Taunting,6,15,A
+67590,747994,NYG,EE-0400,Illegal Shift,3,0,D
+67591,747997,NYG,JP-2900,Neutral Zone,4,5,A
+67592,748011,PHI,DB-0875,Neutral Zone,4,5,A
+67593,748013,NYG,EE-0400,False Start,1,5,A
+67594,748037,PHI,LJ-0850,False Start,1,5,A
+67595,748040,NYG,EA-0575,Defensive Pass Interference,5,41,A
+67596,748054,PHI,EQ-0100,Defensive Offside,4,5,A
+67597,748066,PHI,RD-1550,Illegal Use of Hands,5,0,D
+67598,748066,NYG,OB-0075,Unsportsmanlike Conduct,6,15,A
+67599,748081,PHI,AJ-0430,Offensive Pass Interference,2,0,D
+67600,748082,NYG,DH-1800,Invalid Fair Catch Signal,8,5,A
+67601,748090,NYG,EA-0575,Defensive Pass Interference,5,36,A
+67602,748095,NYG,OB-0075,Offensive Pass Interference,2,10,A
+67603,748098,PHI,MJ-0600,Defensive Pass Interference,5,28,A
+67604,748101,NYG,JJ-2100,Delay of Game,3,5,A
+67605,748109,PHI,AJ-0430,Face Mask,6,15,A
+67606,748116,NYG,EF-0075,Illegal Shift,3,5,A
+67607,748117,NYG,EF-0075,Offensive Holding,2,10,A
+67608,748140,CHI,,Low Block,7,15,A
+67609,748141,CHI,KF-0500,Defensive Pass Interference,5,10,A
+67610,748144,CHI,BC-0150,Illegal Contact,5,0,D
+67611,748154,PIT,,Illegal Shift,3,5,A
+67612,748161,PIT,CH-3100,Roughing the Passer,6,15,A
+67613,748162,CHI,AS-0775,Illegal Block Above the Waist,7,10,A
+67614,748173,PIT,,Illegal Formation,3,5,A
+67615,748188,CHI,KW-2550,Illegal Motion,3,5,A
+67616,748198,PIT,AB-3500,False Start,1,5,A
+67617,748201,PIT,JB-3275,Illegal Bat,8,0,A
+67618,748202,CHI,CL-0862,False Start,1,4,A
+67619,748215,PIT,DD-0750,Offensive Holding,2,0,D
+67620,748224,CHI,MC-2570,Defensive Holding,5,0,A
+67621,748237,CHI,CL-0862,Offensive Holding,2,10,A
+67622,748239,CHI,JT-2850,False Start,1,0,D
+67623,748258,CHI,BS-3050,False Start,1,5,A
+67624,748260,CHI,BS-3050,False Start,1,5,A
+67625,748263,PIT,CH-4550,Offensive Holding,2,10,A
+67626,748267,CHI,RR-0850,Offensive Holding,2,9,A
+67627,748306,MIN,RR-0250,Illegal Use of Hands,2,10,A
+67628,748316,TB,JE-1300,Player Out of Bounds on Punt,3,5,A
+67629,748318,TB,GM-0500,Encroachment,4,5,A
+67630,748331,TB,TW-0600,Defensive Holding,5,2,A
+67631,748331,TB,RR-1450,Defensive Offside,4,0,D
+67632,748342,MIN,NE-0225,Offensive Holding,2,10,A
+67633,748349,MIN,XR-0100,Defensive Holding,5,0,D
+67634,748350,MIN,XR-0100,Taunting,6,8,A
+67635,748366,TB,CL-1850,Offensive Holding,2,10,A
+67636,748373,TB,,12 On-field,3,0,D
+67637,748378,TB,DD-2300,Offensive Holding,2,0,O
+67638,748378,MIN,AB-0650,Horse Collar,7,0,O
+67639,748379,MIN,MA-0350,Illegal Contact,5,0,D
+67640,748388,TB,WG-0550,Defensive Holding,5,5,A
+67641,748390,MIN,AT-0350,Offensive Holding,2,10,A
+67642,748400,TB,DD-2300,False Start,1,5,A
+67643,748405,MIN,TB-2700,Defensive Pass Interference,5,15,A
+67644,748425,TB,AM-0750,False Start,1,5,A
+67645,748450,SEA,LJ-0750,Offensive Holding,2,0,D
+67646,748450,SEA,GI-0100,Unnecessary Roughness,6,0,D
+67647,748450,SEA,GI-0100,Offensive Holding,2,0,D
+67648,748459,TEN,TS-2650,Offensive Holding,2,10,A
+67649,748459,TEN,LS-0950,Offensive Holding,2,0,D
+67650,748474,SEA,DH-3112,Illegal Block Above the Waist,7,10,A
+67651,748478,SEA,MW-1750,Offensive Holding,2,10,A
+67652,748480,SEA,CA-1300,Defensive Offside,4,5,A
+67653,748483,SEA,RS-1000,Defensive Pass Interference,5,16,A
+67654,748483,SEA,RS-1000,Offensive Holding,2,0,D
+67655,748483,SEA,RS-1000,Unsportsmanlike Conduct,6,15,A
+67656,748485,TEN,,Illegal Shift,3,0,D
+67657,748488,TEN,ED-0200,Offensive Holding,2,10,A
+67658,748489,TEN,ED-0200,Offensive Pass Interference,2,10,A
+67659,748503,SEA,SR-0670,Defensive Offside,4,5,A
+67660,748504,SEA,RS-1000,Unnecessary Roughness,6,0,O
+67661,748504,TEN,JC-4050,Unnecessary Roughness,6,0,O
+67662,748504,TEN,QS-0075,Unnecessary Roughness,6,0,O
+67663,748514,SEA,GI-0100,False Start,1,5,A
+67664,748516,TEN,DF-1225,Illegal Block Above the Waist,7,10,A
+67665,748548,SEA,MB-1900,Defensive Offside,4,5,A
+67666,748552,SEA,FC-0150,Defensive Offside,4,0,D
+67667,748563,SEA,JL-0230,Defensive Holding,5,5,A
+67668,748601,SEA,RW-3850,Intentional Grounding,3,17,A
+67669,748606,TEN,JK-1650,False Start,1,5,A
+67670,748626,SEA,,12 On-field,3,5,A
+67671,748635,GB,ME-0550,Face Mask,6,12,A
+67672,748642,CIN,AJ-1200,Defensive Pass Interference,5,33,A
+67673,748672,CIN,DK-0750,Defensive Holding,5,0,D
+67674,748683,GB,AR-1300,Delay of Game,3,5,A
+67675,748685,CIN,JS-2050,Offensive Holding,2,6,A
+67676,748691,GB,KF-0050,Illegal Block Above the Waist,7,10,A
+67677,748711,CIN,DK-0750,Defensive Pass Interference,5,1,A
+67678,748736,CIN,WJ-0150,12 On-field,3,5,A
+67679,748745,CIN,AD-0100,Intentional Grounding,3,12,A
+67680,748749,CIN,AJ-1200,Defensive Pass Interference,5,7,A
+67681,748756,GB,KK-0750,Defensive Pass Interference,5,6,A
+67682,748778,CIN,CL-0375,Defensive Offside,4,4,A
+67683,748790,CIN,MJ-1800,Defensive Offside,4,0,D
+67684,748793,LAC,RJ-0650,Illegal Block Above the Waist,7,6,A
+67685,748816,LAC,TW-2856,Offensive Holding,2,10,A
+67686,748824,KC,DF-1350,Roughing the Passer,6,12,A
+67687,748829,KC,BW-2750,Offensive Holding,2,10,A
+67688,748836,LAC,RO-0400,Illegal Formation,3,0,D
+67689,748842,LAC,RJ-0650,Roughing the Kicker,6,15,A
+67690,748845,KC,CW-1450,False Start,1,5,A
+67691,748853,KC,PG-0050,Illegal Use of Hands,5,0,D
+67692,748857,KC,MP-0950,Defensive Holding,5,5,A
+67693,748858,KC,MP-0950,Unsportsmanlike Conduct,6,13,A
+67694,748860,LAC,MS-2300,Illegal Use of Hands,2,10,A
+67695,748868,KC,TK-0150,Offensive Holding,2,10,A
+67696,748872,LAC,KA-0650,False Start,1,5,A
+67697,748881,LAC,PR-0300,Delay of Game,3,5,A
+67698,748884,KC,EF-0050,Offensive Holding,2,10,A
+67699,748888,LAC,KW-0930,False Start,1,5,A
+67700,748892,KC,KP-0650,Offensive Holding,2,10,A
+67701,748903,LAC,DK-0350,Delay of Game,3,5,A
+67702,748908,KC,AS-1600,Delay of Game,3,5,A
+67703,748910,KC,TS-2075,Ineligible Downfield Kick,3,5,A
+67704,748928,KC,FZ-0100,Defensive Pass Interference,5,21,A
+67705,748931,KC,EM-2100,Defensive Holding,5,5,A
+67706,748931,KC,TM-2850,Illegal Use of Hands,5,0,D
+67707,748948,KC,PG-0050,Defensive Pass Interference,5,11,A
+67708,748950,LAC,KA-0650,Illegal Formation,3,0,D
+67709,748970,WAS,MM-5450,False Start,1,5,A
+67710,748971,WAS,RG-1650,Offensive Pass Interference,2,0,D
+67711,748978,WAS,TW-2800,False Start,1,5,A
+67712,748986,OAK,SR-0750,Offensive Holding,2,10,A
+67713,748989,WAS,TP-2400,Offensive Holding,2,10,A
+67714,748995,WAS,RK-0500,Neutral Zone,4,5,A
+67715,749022,WAS,KC-2350,Delay of Game,3,5,A
+67716,749029,WAS,NP-0100,Offensive Holding,2,10,A
+67717,749049,WAS,BB-2725,Defensive Holding,5,0,D
+67718,749054,WAS,TW-2800,Offensive Holding,2,10,A
+67719,749062,OAK,KO-0750,Offensive Holding,2,10,A
+67720,749065,WAS,SM-1150,Offensive Holding,2,9,A
+67721,749068,WAS,BB-2725,Defensive Pass Interference,5,8,A
+67722,749089,OAK,MN-0400,Offensive Holding,2,10,A
+67723,749092,OAK,DP-1100,False Start,1,5,A
+67724,749096,WAS,NP-0100,Illegal Formation,3,0,D
+67725,749097,WAS,VD-0100,Offensive Holding,2,10,A
+67726,749108,DAL,DL-0450,Defensive Offside,4,6,A
+67727,749128,DAL,BM-0750,Defensive Offside,4,6,A
+67728,749134,ARI,JV-0300,Offensive Holding,2,10,A
+67729,749151,DAL,JH-0860,False Start,1,5,A
+67730,749153,ARI,RN-1275,Defensive Offside,4,5,A
+67731,749154,ARI,FR-0200,Unnecessary Roughness,6,15,A
+67732,749163,ARI,MG-0925,Defensive Offside,4,5,A
+67733,749165,ARI,PP-0400,Defensive Holding,5,5,A
+67734,749170,DAL,SL-0500,Illegal Contact,5,5,A
+67735,749183,DAL,KW-0960,Defensive Offside,4,5,A
+67736,749205,DAL,KW-0960,Neutral Zone,4,5,A
+67737,749225,DAL,BJ-2350,Defensive Holding,5,0,D
+67738,749227,ARI,JG-3700,Offensive Holding,2,10,A
+67739,749255,DAL,DL-0450,Defensive Offside,4,5,A
+67740,749258,DAL,OS-0200,Defensive Pass Interference,5,34,A
+67741,749259,DAL,BJ-2350,Defensive Holding,5,0,D
+67742,749262,DAL,AB-3450,Defensive Holding,5,5,A

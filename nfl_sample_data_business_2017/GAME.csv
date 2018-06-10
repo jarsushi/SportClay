@@ -1,0 +1,48 @@
+gid,seas,wk,day,v,h,stad,temp,humd,wspd,wdir,cond,surf,ou,sprv,ptsv,ptsh
+4524,2017,1,THU,KC,NE,Gillette Stadium,63,77,8,SW,Clear,FieldTurf,48.5,9,42,27
+4525,2017,1,SUN,ARI,DET,Ford Field,,,,,Dome,FieldTurf,48,-2,23,35
+4526,2017,1,SUN,ATL,CHI,Soldier Field,64,57,10,SE,Sunny,Grass,48.5,-6,23,17
+4527,2017,1,SUN,BAL,CIN,Paul Brown Stadium,68,43,9,SE,Sunny,UBU Speed Series S5M,42.5,3,20,0
+4528,2017,1,SUN,JAC,HOU,NRG Stadium,,,,,Closed Roof,UBU Speed Series S5M,39.5,5,29,7
+4529,2017,1,SUN,NYJ,BUF,New Era Field,65,53,6,NNE,Partly Cloudy,A Turf Titan,40,8,12,21
+4530,2017,1,SUN,OAK,TEN,Nissan Stadium,72,50,7,NE,Sunny,Grass,50.5,3,26,16
+4531,2017,1,SUN,PHI,WAS,FedEx Field,67,54,5,N,Sunny,Grass,48,-1,30,17
+4532,2017,1,SUN,PIT,CLE,FirstEnergy Stadium,63,53,11,E,Sunny,Grass,47,-9,21,18
+4533,2017,1,SUN,IND,LA,Los Angeles Memorial Coliseum,90,38,2,SW,Sunny,Grass,41.5,4.5,9,46
+4534,2017,1,SUN,CAR,SF,Levi's Stadium,87,43,8,NW,Clear,Grass,47.5,-4.5,23,3
+4535,2017,1,SUN,SEA,GB,Lambeau Field,71,49,11,S,Mostly Sunny,DD GrassMaster,51,3,9,17
+4536,2017,1,SN,NYG,DAL,AT&T Stadium,,,,,Closed Roof,AstroTurf,47.5,4.5,3,19
+4537,2017,1,MN,NO,MIN,U.S. Bank Stadium,,,,,Closed Roof,UBU Speed Series S5M,48,3,19,29
+4538,2017,1,MN,LAC,DEN,Sports Authority Field at Mile High,73,39,12,SW,Mostly Cloudy,Grass,43,3,21,24
+4539,2017,2,THU,HOU,CIN,Paul Brown Stadium,69,78,2,ENE,Mostly Cloudy,UBU Speed Series S5M,37.5,6,13,9
+4540,2017,2,SUN,ARI,IND,Lucas Oil Stadium,,,,,Closed Roof,FieldTurf,44,-7,16,13
+4541,2017,2,SUN,BUF,CAR,Bank of America Stadium,83,60,5,N,Sunny,Grass,43,7,3,9
+4542,2017,2,SUN,CHI,TB,Raymond James Stadium,88,62,7,NE,Clear,Grass,43.5,7,7,29
+4543,2017,2,SUN,CLE,BAL,M&T Bank Stadium,80,69,2,ESE,Mostly Cloudy,Grass,39,8,10,24
+4544,2017,2,SUN,MIN,PIT,Heinz Field,78,64,1,S,Sunny,Grass,44.5,6,9,26
+4545,2017,2,SUN,NE,NO,Mercedes-Benz Superdome,,,,,Dome,UBU Speed Series S5M,56,-6,36,20
+4546,2017,2,SUN,PHI,KC,Arrowhead Stadium,68,95,7,NE,Cloudy,Grass,47.5,5.5,20,27
+4547,2017,2,SUN,TEN,JAC,EverBank Field,84,59,10,NW,Partly Cloudy,Grass,42,-1.5,37,16
+4548,2017,2,SUN,MIA,LAC,StubHub Center,71,68,7,W,Cloudy,Grass,45.5,3.5,19,17
+4549,2017,2,SUN,NYJ,OAK,Oakland-Alameda County Coliseum,70,57,6,S,Sunny,Grass,43.5,13.5,20,45
+4550,2017,2,SUN,DAL,DEN,Sports Authority Field at Mile High,72,41,5,SW,Partly Cloudy,Grass,42,-2.5,17,42
+4551,2017,2,SUN,SF,SEA,CenturyLink Field,65,60,12,S,Mostly Cloudy,FieldTurf,42,14,9,12
+4552,2017,2,SUN,WAS,LA,Los Angeles Memorial Coliseum,76,59,3,SW,Cloudy,Grass,46,2.5,27,20
+4553,2017,2,SN,GB,ATL,Mercedes-Benz Stadium,,,,,Dome,FieldTurf,55.5,3,23,34
+4554,2017,2,MN,DET,NYG,MetLife Stadium,72,80,5,ENE,Cloudy,UBU Speed Series S5M,41.5,3,24,10
+4555,2017,3,THU,LA,SF,Levi's Stadium,68,42,13,WSW,Mostly Sunny,Grass,40,-3,41,39
+4556,2017,3,SUN,BAL,JAC,Wembley Stadium,70,51,10,SE,Clear,Grass,39.5,-3.5,7,44
+4557,2017,3,SUN,ATL,DET,Ford Field,,,,,Dome,FieldTurf,50.5,-3,30,26
+4558,2017,3,SUN,CLE,IND,Lucas Oil Stadium,,,,,Closed Roof,FieldTurf,42,-1.5,28,31
+4559,2017,3,SUN,DEN,BUF,New Era Field,83,56,5,W,Sunny,A Turf Titan,40,-3,16,26
+4560,2017,3,SUN,HOU,NE,Gillette Stadium,84,53,4,NE,Sunny,FieldTurf,44,14,33,36
+4561,2017,3,SUN,MIA,NYJ,MetLife Stadium,88,41,5,NE,Sunny,UBU Speed Series S5M,43,-6,6,20
+4562,2017,3,SUN,NO,CAR,Bank of America Stadium,82,59,6,NNE,Sunny,Grass,46.5,5.5,34,13
+4563,2017,3,SUN,NYG,PHI,Lincoln Financial Field,89,48,6,NNE,Sunny,DD GrassMaster,42.5,6,24,27
+4564,2017,3,SUN,PIT,CHI,Soldier Field,85,48,5,S,Sunny,Grass,44,-7,17,23
+4565,2017,3,SUN,TB,MIN,U.S. Bank Stadium,,,,,Closed Roof,UBU Speed Series S5M,41,-2.5,17,34
+4566,2017,3,SUN,SEA,TEN,Nissan Stadium,88,97,4,e,Sunny,Grass,42,2.5,27,33
+4567,2017,3,SUN,CIN,GB,Lambeau Field,89,44,8,S,Sunny,DD GrassMaster,46.5,8,24,27
+4568,2017,3,SUN,KC,LAC,StubHub Center,84,25,5,W,Sunny,Grass,47.5,-3,24,10
+4569,2017,3,SN,OAK,WAS,FedEx Field,76,75,0,CALM,Clear,Grass,54.5,-3,10,27
+4570,2017,3,MN,DAL,ARI,University of Phoenix Stadium,,,,,Closed Roof,Grass,46.5,-3,28,17

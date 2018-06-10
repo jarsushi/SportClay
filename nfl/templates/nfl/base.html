@@ -1,0 +1,29 @@
+{% load staticfiles %}
+
+<html>
+	<head>
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+		<link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="{% static 'css/base.css' %}">
+		<script src="{% static 'js/jquery-2.2.0.js' %}"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<title>Sport Clay</title>
+	</head>
+
+	<body>
+		<div class="outline">
+			<div class="header">
+				<h1> Sport Clay</h1>
+				<h3> The Sports Data Manipulation Website</h3>
+			</div>	
+		</div>
+		<div class="cutoff"></div>
+
+		{% block content %}
+		{% endblock %}
+
+	</body>
+
+
+</html>

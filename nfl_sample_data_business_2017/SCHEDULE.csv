@@ -1,0 +1,257 @@
+gid,seas,wk,day,date,v,h,stad,surf
+4524,2017,1,THU,9/7/2017 20:30,KC,NE,Gillette Stadium,FieldTurf
+4525,2017,1,SUN,9/10/2017 13:00,ARI,DET,Ford Field,FieldTurf
+4526,2017,1,SUN,9/10/2017 13:00,ATL,CHI,Soldier Field,Grass
+4527,2017,1,SUN,9/10/2017 13:00,BAL,CIN,Paul Brown Stadium,UBU Speed Series S5M
+4528,2017,1,SUN,9/10/2017 13:00,JAC,HOU,NRG Stadium,UBU Speed Series S5M
+4529,2017,1,SUN,9/10/2017 13:00,NYJ,BUF,New Era Field,A Turf Titan
+4530,2017,1,SUN,9/10/2017 13:00,OAK,TEN,Nissan Stadium,Grass
+4531,2017,1,SUN,9/10/2017 13:00,PHI,WAS,FedEx Field,Grass
+4532,2017,1,SUN,9/10/2017 13:00,PIT,CLE,FirstEnergy Stadium,Grass
+4533,2017,1,SUN,9/10/2017 16:05,IND,LA,Los Angeles Memorial Coliseum,Grass
+4534,2017,1,SUN,9/10/2017 16:25,CAR,SF,Levi's Stadium,Grass
+4535,2017,1,SUN,9/10/2017 16:25,SEA,GB,Lambeau Field,DD GrassMaster
+4536,2017,1,SN,9/10/2017 20:30,NYG,DAL,AT&T Stadium,AstroTurf
+4537,2017,1,MN,9/11/2017 19:10,NO,MIN,U.S. Bank Stadium,UBU Speed Series S5M
+4538,2017,1,MN,9/11/2017 22:20,LAC,DEN,Sports Authority Field at Mile High,Grass
+4539,2017,2,THU,9/14/2017 20:25,HOU,CIN,Paul Brown Stadium,UBU Speed Series S5M
+4540,2017,2,SUN,9/17/2017 13:00,ARI,IND,Lucas Oil Stadium,FieldTurf
+4541,2017,2,SUN,9/17/2017 13:00,BUF,CAR,Bank of America Stadium,Grass
+4542,2017,2,SUN,9/17/2017 13:00,CHI,TB,Raymond James Stadium,Grass
+4543,2017,2,SUN,9/17/2017 13:00,CLE,BAL,M&T Bank Stadium,Grass
+4544,2017,2,SUN,9/17/2017 13:00,MIN,PIT,Heinz Field,Grass
+4545,2017,2,SUN,9/17/2017 13:00,NE,NO,Mercedes-Benz Superdome,UBU Speed Series S5M
+4546,2017,2,SUN,9/17/2017 13:00,PHI,KC,Arrowhead Stadium,Grass
+4547,2017,2,SUN,9/17/2017 13:00,TEN,JAC,EverBank Field,Grass
+4548,2017,2,SUN,9/17/2017 16:05,MIA,LAC,StubHub Center,Grass
+4549,2017,2,SUN,9/17/2017 16:05,NYJ,OAK,Oakland-Alameda County Coliseum,Grass
+4550,2017,2,SUN,9/17/2017 16:25,DAL,DEN,Sports Authority Field at Mile High,Grass
+4551,2017,2,SUN,9/17/2017 16:25,SF,SEA,CenturyLink Field,FieldTurf
+4552,2017,2,SUN,9/17/2017 16:25,WAS,LA,Los Angeles Memorial Coliseum,Grass
+4553,2017,2,SN,9/17/2017 20:30,GB,ATL,Mercedes-Benz Stadium,FieldTurf
+4554,2017,2,MN,9/18/2017 20:30,DET,NYG,MetLife Stadium,UBU Speed Series S5M
+4555,2017,3,THU,9/21/2017 20:25,LA,SF,Levi's Stadium,Grass
+4556,2017,3,SUN,9/24/2017 9:30,BAL,JAC,EverBank Field,Grass
+4557,2017,3,SUN,9/24/2017 13:00,ATL,DET,Ford Field,FieldTurf
+4558,2017,3,SUN,9/24/2017 13:00,CLE,IND,Lucas Oil Stadium,FieldTurf
+4559,2017,3,SUN,9/24/2017 13:00,DEN,BUF,New Era Field,A Turf Titan
+4560,2017,3,SUN,9/24/2017 13:00,HOU,NE,Gillette Stadium,FieldTurf
+4561,2017,3,SUN,9/24/2017 13:00,MIA,NYJ,MetLife Stadium,UBU Speed Series S5M
+4562,2017,3,SUN,9/24/2017 13:00,NO,CAR,Bank of America Stadium,Grass
+4563,2017,3,SUN,9/24/2017 13:00,NYG,PHI,Lincoln Financial Field,DD GrassMaster
+4564,2017,3,SUN,9/24/2017 13:00,PIT,CHI,Soldier Field,Grass
+4565,2017,3,SUN,9/24/2017 13:00,TB,MIN,U.S. Bank Stadium,UBU Speed Series S5M
+4566,2017,3,SUN,9/24/2017 16:05,SEA,TEN,Nissan Stadium,Grass
+4567,2017,3,SUN,9/24/2017 16:25,CIN,GB,Lambeau Field,DD GrassMaster
+4568,2017,3,SUN,9/24/2017 16:25,KC,LAC,StubHub Center,Grass
+4569,2017,3,SN,9/24/2017 20:30,OAK,WAS,FedEx Field,Grass
+4570,2017,3,MN,9/25/2017 20:30,DAL,ARI,University of Phoenix Stadium,Grass
+4571,2017,4,THU,9/28/2017 20:25,CHI,GB,Lambeau Field,DD GrassMaster
+4572,2017,4,SUN,10/1/2017 9:30,NO,MIA,Hard Rock Stadium,Grass
+4573,2017,4,SUN,10/1/2017 13:00,BUF,ATL,Mercedes-Benz Stadium,FieldTurf
+4574,2017,4,SUN,10/1/2017 13:00,CAR,NE,Gillette Stadium,FieldTurf
+4575,2017,4,SUN,10/1/2017 13:00,CIN,CLE,FirstEnergy Stadium,Grass
+4576,2017,4,SUN,10/1/2017 13:00,DET,MIN,U.S. Bank Stadium,UBU Speed Series S5M
+4577,2017,4,SUN,10/1/2017 13:00,JAC,NYJ,MetLife Stadium,UBU Speed Series S5M
+4578,2017,4,SUN,10/1/2017 13:00,LA,DAL,AT&T Stadium,AstroTurf
+4579,2017,4,SUN,10/1/2017 13:00,PIT,BAL,M&T Bank Stadium,Grass
+4580,2017,4,SUN,10/1/2017 13:00,TEN,HOU,NRG Stadium,UBU Speed Series S5M
+4581,2017,4,SUN,10/1/2017 16:05,NYG,TB,Raymond James Stadium,Grass
+4582,2017,4,SUN,10/1/2017 16:05,PHI,LAC,StubHub Center,Grass
+4583,2017,4,SUN,10/1/2017 16:05,SF,ARI,University of Phoenix Stadium,Grass
+4584,2017,4,SUN,10/1/2017 16:25,OAK,DEN,Sports Authority Field at Mile High,Grass
+4585,2017,4,SN,10/1/2017 20:30,IND,SEA,CenturyLink Field,FieldTurf
+4586,2017,4,MN,10/2/2017 20:30,WAS,KC,Arrowhead Stadium,Grass
+4587,2017,5,THU,10/5/2017 20:25,NE,TB,Raymond James Stadium,Grass
+4588,2017,5,SUN,10/8/2017 13:00,ARI,PHI,Lincoln Financial Field,DD GrassMaster
+4589,2017,5,SUN,10/8/2017 13:00,BUF,CIN,Paul Brown Stadium,UBU Speed Series S5M
+4590,2017,5,SUN,10/8/2017 13:00,CAR,DET,Ford Field,FieldTurf
+4591,2017,5,SUN,10/8/2017 13:00,JAC,PIT,Heinz Field,Grass
+4592,2017,5,SUN,10/8/2017 13:00,LAC,NYG,MetLife Stadium,UBU Speed Series S5M
+4593,2017,5,SUN,10/8/2017 13:00,NYJ,CLE,FirstEnergy Stadium,Grass
+4594,2017,5,SUN,10/8/2017 13:00,SF,IND,Lucas Oil Stadium,FieldTurf
+4595,2017,5,SUN,10/8/2017 13:00,TEN,MIA,Hard Rock Stadium,Grass
+4596,2017,5,SUN,10/8/2017 16:05,BAL,OAK,Oakland-Alameda County Coliseum,Grass
+4597,2017,5,SUN,10/8/2017 16:05,SEA,LA,Los Angeles Memorial Coliseum,Grass
+4598,2017,5,SUN,10/8/2017 16:25,GB,DAL,AT&T Stadium,AstroTurf
+4599,2017,5,SN,10/8/2017 20:30,KC,HOU,NRG Stadium,UBU Speed Series S5M
+4600,2017,5,MN,10/9/2017 20:30,MIN,CHI,Soldier Field,Grass
+4601,2017,6,THU,10/12/2017 20:25,PHI,CAR,Bank of America Stadium,Grass
+4602,2017,6,SUN,10/15/2017 13:00,CHI,BAL,M&T Bank Stadium,Grass
+4603,2017,6,SUN,10/15/2017 13:00,CLE,HOU,NRG Stadium,UBU Speed Series S5M
+4604,2017,6,SUN,10/15/2017 13:00,DET,NO,Mercedes-Benz Superdome,UBU Speed Series S5M
+4605,2017,6,SUN,10/15/2017 13:00,GB,MIN,U.S. Bank Stadium,UBU Speed Series S5M
+4606,2017,6,SUN,10/15/2017 13:00,MIA,ATL,Mercedes-Benz Stadium,FieldTurf
+4607,2017,6,SUN,10/15/2017 13:00,NE,NYJ,MetLife Stadium,UBU Speed Series S5M
+4608,2017,6,SUN,10/15/2017 13:00,SF,WAS,FedEx Field,Grass
+4609,2017,6,SUN,10/15/2017 16:05,LA,JAC,EverBank Field,Grass
+4610,2017,6,SUN,10/15/2017 16:05,TB,ARI,University of Phoenix Stadium,Grass
+4611,2017,6,SUN,10/15/2017 16:25,LAC,OAK,Oakland-Alameda County Coliseum,Grass
+4612,2017,6,SUN,10/15/2017 16:25,PIT,KC,Arrowhead Stadium,Grass
+4613,2017,6,SN,10/15/2017 20:30,NYG,DEN,Sports Authority Field at Mile High,Grass
+4614,2017,6,MN,10/16/2017 20:30,IND,TEN,Nissan Stadium,Grass
+4615,2017,7,THU,10/19/2017 20:25,KC,OAK,Oakland-Alameda County Coliseum,Grass
+4616,2017,7,SUN,10/22/2017 13:00,ARI,LA,Los Angeles Memorial Coliseum,Grass
+4617,2017,7,SUN,10/22/2017 13:00,BAL,MIN,U.S. Bank Stadium,UBU Speed Series S5M
+4618,2017,7,SUN,10/22/2017 13:00,CAR,CHI,Soldier Field,Grass
+4619,2017,7,SUN,10/22/2017 13:00,CIN,PIT,Heinz Field,Grass
+4620,2017,7,SUN,10/22/2017 13:00,JAC,IND,Lucas Oil Stadium,FieldTurf
+4621,2017,7,SUN,10/22/2017 13:00,NO,GB,Lambeau Field,DD GrassMaster
+4622,2017,7,SUN,10/22/2017 13:00,NYJ,MIA,Hard Rock Stadium,Grass
+4623,2017,7,SUN,10/22/2017 13:00,TB,BUF,New Era Field,A Turf Titan
+4624,2017,7,SUN,10/22/2017 13:00,TEN,CLE,FirstEnergy Stadium,Grass
+4625,2017,7,SUN,10/22/2017 16:05,DAL,SF,Levi's Stadium,Grass
+4626,2017,7,SUN,10/22/2017 16:25,DEN,LAC,StubHub Center,Grass
+4627,2017,7,SUN,10/22/2017 16:25,SEA,NYG,MetLife Stadium,UBU Speed Series S5M
+4628,2017,7,SN,10/22/2017 20:30,ATL,NE,Gillette Stadium,FieldTurf
+4629,2017,7,MN,10/23/2017 20:30,WAS,PHI,Lincoln Financial Field,DD GrassMaster
+4630,2017,8,THU,10/26/2017 20:25,MIA,BAL,M&T Bank Stadium,Grass
+4631,2017,8,SUN,10/29/2017 9:30,MIN,CLE,FirstEnergy Stadium,Grass
+4632,2017,8,SUN,10/29/2017 13:00,ATL,NYJ,MetLife Stadium,UBU Speed Series S5M
+4633,2017,8,SUN,10/29/2017 13:00,CAR,TB,Raymond James Stadium,Grass
+4634,2017,8,SUN,10/29/2017 13:00,CHI,NO,Mercedes-Benz Superdome,UBU Speed Series S5M
+4635,2017,8,SUN,10/29/2017 13:00,IND,CIN,Paul Brown Stadium,UBU Speed Series S5M
+4636,2017,8,SUN,10/29/2017 13:00,LAC,NE,Gillette Stadium,FieldTurf
+4637,2017,8,SUN,10/29/2017 13:00,OAK,BUF,New Era Field,A Turf Titan
+4638,2017,8,SUN,10/29/2017 13:00,SF,PHI,Lincoln Financial Field,DD GrassMaster
+4639,2017,8,SUN,10/29/2017 16:05,HOU,SEA,CenturyLink Field,FieldTurf
+4640,2017,8,SUN,10/29/2017 16:25,DAL,WAS,FedEx Field,Grass
+4641,2017,8,SN,10/29/2017 20:30,PIT,DET,Ford Field,FieldTurf
+4642,2017,8,MN,10/30/2017 20:30,DEN,KC,Arrowhead Stadium,Grass
+4643,2017,9,THU,11/2/2017 20:25,BUF,NYJ,MetLife Stadium,UBU Speed Series S5M
+4644,2017,9,SUN,11/5/2017 13:00,ATL,CAR,Bank of America Stadium,Grass
+4645,2017,9,SUN,11/5/2017 13:00,BAL,TEN,Nissan Stadium,Grass
+4646,2017,9,SUN,11/5/2017 13:00,CIN,JAC,EverBank Field,Grass
+4647,2017,9,SUN,11/5/2017 13:00,DEN,PHI,Lincoln Financial Field,DD GrassMaster
+4648,2017,9,SUN,11/5/2017 13:00,IND,HOU,NRG Stadium,UBU Speed Series S5M
+4649,2017,9,SUN,11/5/2017 13:00,LA,NYG,MetLife Stadium,UBU Speed Series S5M
+4650,2017,9,SUN,11/5/2017 13:00,TB,NO,Mercedes-Benz Superdome,UBU Speed Series S5M
+4651,2017,9,SUN,11/5/2017 16:05,ARI,SF,Levi's Stadium,Grass
+4652,2017,9,SUN,11/5/2017 16:05,WAS,SEA,CenturyLink Field,FieldTurf
+4653,2017,9,SUN,11/5/2017 16:25,KC,DAL,AT&T Stadium,AstroTurf
+4654,2017,9,SN,11/5/2017 20:30,OAK,MIA,Hard Rock Stadium,Grass
+4655,2017,9,MN,11/6/2017 20:30,DET,GB,Lambeau Field,DD GrassMaster
+4656,2017,10,THU,11/9/2017 20:25,SEA,ARI,University of Phoenix Stadium,Grass
+4657,2017,10,SUN,11/12/2017 13:00,CIN,TEN,Nissan Stadium,Grass
+4658,2017,10,SUN,11/12/2017 13:00,CLE,DET,Ford Field,FieldTurf
+4659,2017,10,SUN,11/12/2017 13:00,GB,CHI,Soldier Field,Grass
+4660,2017,10,SUN,11/12/2017 13:00,LAC,JAC,EverBank Field,Grass
+4661,2017,10,SUN,11/12/2017 13:00,MIN,WAS,FedEx Field,Grass
+4662,2017,10,SUN,11/12/2017 13:00,NO,BUF,New Era Field,A Turf Titan
+4663,2017,10,SUN,11/12/2017 13:00,NYJ,TB,Raymond James Stadium,Grass
+4664,2017,10,SUN,11/12/2017 13:00,PIT,IND,Lucas Oil Stadium,FieldTurf
+4665,2017,10,SUN,11/12/2017 16:05,HOU,LA,Los Angeles Memorial Coliseum,Grass
+4666,2017,10,SUN,11/12/2017 16:25,DAL,ATL,Mercedes-Benz Stadium,FieldTurf
+4667,2017,10,SUN,11/12/2017 16:25,NYG,SF,Levi's Stadium,Grass
+4668,2017,10,SN,11/12/2017 20:30,NE,DEN,Sports Authority Field at Mile High,Grass
+4669,2017,10,MN,11/13/2017 20:30,MIA,CAR,Bank of America Stadium,Grass
+4670,2017,11,THU,11/16/2017 20:25,TEN,PIT,Heinz Field,Grass
+4671,2017,11,SUN,11/19/2017 13:00,ARI,HOU,NRG Stadium,UBU Speed Series S5M
+4672,2017,11,SUN,11/19/2017 13:00,BAL,GB,Lambeau Field,DD GrassMaster
+4673,2017,11,SUN,11/19/2017 13:00,DET,CHI,Soldier Field,Grass
+4674,2017,11,SUN,11/19/2017 13:00,JAC,CLE,FirstEnergy Stadium,Grass
+4675,2017,11,SUN,11/19/2017 13:00,KC,NYG,MetLife Stadium,UBU Speed Series S5M
+4676,2017,11,SUN,11/19/2017 13:00,LA,MIN,U.S. Bank Stadium,UBU Speed Series S5M
+4677,2017,11,SUN,11/19/2017 13:00,WAS,NO,Mercedes-Benz Superdome,UBU Speed Series S5M
+4678,2017,11,SUN,11/19/2017 13:00,TB,MIA,Hard Rock Stadium,Grass
+4679,2017,11,SUN,11/19/2017 16:05,BUF,LAC,StubHub Center,Grass
+4680,2017,11,SUN,11/19/2017 16:25,CIN,DEN,Sports Authority Field at Mile High,Grass
+4681,2017,11,SUN,11/19/2017 16:25,NE,OAK,Oakland-Alameda County Coliseum,Grass
+4682,2017,11,SN,11/19/2017 20:30,PHI,DAL,AT&T Stadium,AstroTurf
+4683,2017,11,MN,11/20/2017 20:30,ATL,SEA,CenturyLink Field,FieldTurf
+4684,2017,12,THU,11/23/2017 12:30,MIN,DET,Ford Field,FieldTurf
+4685,2017,12,THU,11/23/2017 16:30,LAC,DAL,AT&T Stadium,AstroTurf
+4686,2017,12,THU,11/23/2017 20:30,NYG,WAS,FedEx Field,Grass
+4687,2017,12,SUN,11/26/2017 13:00,BUF,KC,Arrowhead Stadium,Grass
+4688,2017,12,SUN,11/26/2017 13:00,CAR,NYJ,MetLife Stadium,UBU Speed Series S5M
+4689,2017,12,SUN,11/26/2017 13:00,CHI,PHI,Lincoln Financial Field,DD GrassMaster
+4690,2017,12,SUN,11/26/2017 13:00,CLE,CIN,Paul Brown Stadium,UBU Speed Series S5M
+4691,2017,12,SUN,11/26/2017 13:00,MIA,NE,Gillette Stadium,FieldTurf
+4692,2017,12,SUN,11/26/2017 13:00,TB,ATL,Mercedes-Benz Stadium,FieldTurf
+4693,2017,12,SUN,11/26/2017 13:00,TEN,IND,Lucas Oil Stadium,FieldTurf
+4694,2017,12,SUN,11/26/2017 16:05,NO,LA,Los Angeles Memorial Coliseum,Grass
+4695,2017,12,SUN,11/26/2017 16:05,SEA,SF,Levi's Stadium,Grass
+4696,2017,12,SUN,11/26/2017 16:25,DEN,OAK,Oakland-Alameda County Coliseum,Grass
+4697,2017,12,SUN,11/26/2017 16:25,JAC,ARI,University of Phoenix Stadium,Grass
+4698,2017,12,SN,11/26/2017 20:30,GB,PIT,Heinz Field,Grass
+4699,2017,12,MN,11/27/2017 20:30,HOU,BAL,M&T Bank Stadium,Grass
+4700,2017,13,THU,11/30/2017 20:25,WAS,DAL,AT&T Stadium,AstroTurf
+4701,2017,13,SUN,12/3/2017 13:00,CAR,NO,Mercedes-Benz Superdome,UBU Speed Series S5M
+4702,2017,13,SUN,12/3/2017 13:00,DEN,MIA,Hard Rock Stadium,Grass
+4703,2017,13,SUN,12/3/2017 13:00,DET,BAL,M&T Bank Stadium,Grass
+4704,2017,13,SUN,12/3/2017 13:00,HOU,TEN,Nissan Stadium,Grass
+4705,2017,13,SUN,12/3/2017 13:00,IND,JAC,EverBank Field,Grass
+4706,2017,13,SUN,12/3/2017 13:00,KC,NYJ,MetLife Stadium,UBU Speed Series S5M
+4707,2017,13,SUN,12/3/2017 13:00,MIN,ATL,Mercedes-Benz Stadium,FieldTurf
+4708,2017,13,SUN,12/3/2017 13:00,NE,BUF,New Era Field,A Turf Titan
+4709,2017,13,SUN,12/3/2017 13:00,SF,CHI,Soldier Field,Grass
+4710,2017,13,SUN,12/3/2017 13:00,TB,GB,Lambeau Field,DD GrassMaster
+4711,2017,13,SUN,12/3/2017 16:05,CLE,LAC,StubHub Center,Grass
+4712,2017,13,SUN,12/3/2017 16:25,LA,ARI,University of Phoenix Stadium,Grass
+4713,2017,13,SUN,12/3/2017 16:25,NYG,OAK,Oakland-Alameda County Coliseum,Grass
+4714,2017,13,SN,12/3/2017 20:30,PHI,SEA,CenturyLink Field,FieldTurf
+4715,2017,13,MN,12/4/2017 20:30,PIT,CIN,Paul Brown Stadium,UBU Speed Series S5M
+4716,2017,14,THU,12/7/2017 20:25,NO,ATL,Mercedes-Benz Stadium,FieldTurf
+4717,2017,14,SUN,12/10/2017 13:00,CHI,CIN,Paul Brown Stadium,UBU Speed Series S5M
+4718,2017,14,SUN,12/10/2017 13:00,DET,TB,Raymond James Stadium,Grass
+4719,2017,14,SUN,12/10/2017 13:00,GB,CLE,FirstEnergy Stadium,Grass
+4720,2017,14,SUN,12/10/2017 13:00,IND,BUF,New Era Field,A Turf Titan
+4721,2017,14,SUN,12/10/2017 13:00,MIN,CAR,Bank of America Stadium,Grass
+4722,2017,14,SUN,12/10/2017 13:00,OAK,KC,Arrowhead Stadium,Grass
+4723,2017,14,SUN,12/10/2017 13:00,SF,HOU,NRG Stadium,UBU Speed Series S5M
+4724,2017,14,SUN,12/10/2017 13:00,SEA,JAC,EverBank Field,Grass
+4725,2017,14,SUN,12/10/2017 16:05,NYJ,DEN,Sports Authority Field at Mile High,Grass
+4726,2017,14,SUN,12/10/2017 16:05,TEN,ARI,University of Phoenix Stadium,Grass
+4727,2017,14,SUN,12/10/2017 16:05,WAS,LAC,StubHub Center,Grass
+4728,2017,14,SUN,12/10/2017 16:25,DAL,NYG,MetLife Stadium,UBU Speed Series S5M
+4729,2017,14,SUN,12/10/2017 16:25,PHI,LA,Los Angeles Memorial Coliseum,Grass
+4730,2017,14,SN,12/10/2017 20:30,BAL,PIT,Heinz Field,Grass
+4731,2017,14,MN,12/11/2017 20:30,NE,MIA,Hard Rock Stadium,Grass
+4732,2017,15,THU,12/14/2017 20:25,DEN,IND,Lucas Oil Stadium,FieldTurf
+4733,2017,15,SAT,12/16/2017 16:30,CHI,DET,Ford Field,FieldTurf
+4734,2017,15,SAT,12/16/2017 20:25,LAC,KC,Arrowhead Stadium,Grass
+4735,2017,15,SUN,12/17/2017 13:00,ARI,WAS,FedEx Field,Grass
+4736,2017,15,SUN,12/17/2017 13:00,BAL,CLE,FirstEnergy Stadium,Grass
+4737,2017,15,SUN,12/17/2017 13:00,CIN,MIN,U.S. Bank Stadium,UBU Speed Series S5M
+4738,2017,15,SUN,12/17/2017 13:00,GB,CAR,Bank of America Stadium,Grass
+4739,2017,15,SUN,12/17/2017 13:00,HOU,JAC,EverBank Field,Grass
+4740,2017,15,SUN,12/17/2017 13:00,MIA,BUF,New Era Field,A Turf Titan
+4741,2017,15,SUN,12/17/2017 13:00,NYJ,NO,Mercedes-Benz Superdome,UBU Speed Series S5M
+4742,2017,15,SUN,12/17/2017 13:00,PHI,NYG,MetLife Stadium,UBU Speed Series S5M
+4743,2017,15,SUN,12/17/2017 16:05,LA,SEA,CenturyLink Field,FieldTurf
+4744,2017,15,SUN,12/17/2017 16:25,NE,PIT,Heinz Field,Grass
+4745,2017,15,SUN,12/17/2017 16:25,TEN,SF,Levi's Stadium,Grass
+4746,2017,15,SN,12/17/2017 20:30,DAL,OAK,Oakland-Alameda County Coliseum,Grass
+4747,2017,15,MN,12/18/2017 20:30,ATL,TB,Raymond James Stadium,Grass
+4748,2017,16,SAT,12/23/2017 16:30,IND,BAL,M&T Bank Stadium,Grass
+4749,2017,16,SAT,12/23/2017 20:30,MIN,GB,Lambeau Field,DD GrassMaster
+4750,2017,16,SUN,12/24/2017 13:00,ATL,NO,Mercedes-Benz Superdome,UBU Speed Series S5M
+4751,2017,16,SUN,12/24/2017 13:00,BUF,NE,Gillette Stadium,FieldTurf
+4752,2017,16,SUN,12/24/2017 13:00,CLE,CHI,Soldier Field,Grass
+4753,2017,16,SUN,12/24/2017 13:00,DEN,WAS,FedEx Field,Grass
+4754,2017,16,SUN,12/24/2017 13:00,DET,CIN,Paul Brown Stadium,UBU Speed Series S5M
+4755,2017,16,SUN,12/24/2017 13:00,LAC,NYJ,MetLife Stadium,UBU Speed Series S5M
+4756,2017,16,SUN,12/24/2017 13:00,LA,TEN,Nissan Stadium,Grass
+4757,2017,16,SUN,12/24/2017 13:00,MIA,KC,Arrowhead Stadium,Grass
+4758,2017,16,SUN,12/24/2017 13:00,TB,CAR,Bank of America Stadium,Grass
+4759,2017,16,SUN,12/24/2017 16:05,JAC,SF,Levi's Stadium,Grass
+4760,2017,16,SUN,12/24/2017 16:25,NYG,ARI,University of Phoenix Stadium,Grass
+4761,2017,16,SUN,12/24/2017 16:25,SEA,DAL,AT&T Stadium,AstroTurf
+4762,2017,16,MN,12/25/2017 16:30,PIT,HOU,NRG Stadium,UBU Speed Series S5M
+4763,2017,16,MN,12/25/2017 20:30,OAK,PHI,Lincoln Financial Field,DD GrassMaster
+4764,2017,17,SUN,12/31/2017 13:00,BUF,MIA,Hard Rock Stadium,Grass
+4765,2017,17,SUN,12/31/2017 13:00,CAR,ATL,Mercedes-Benz Stadium,FieldTurf
+4766,2017,17,SUN,12/31/2017 13:00,CHI,MIN,U.S. Bank Stadium,UBU Speed Series S5M
+4767,2017,17,SUN,12/31/2017 13:00,CIN,BAL,M&T Bank Stadium,Grass
+4768,2017,17,SUN,12/31/2017 13:00,CLE,PIT,Heinz Field,Grass
+4769,2017,17,SUN,12/31/2017 13:00,DAL,PHI,Lincoln Financial Field,DD GrassMaster
+4770,2017,17,SUN,12/31/2017 13:00,GB,DET,Ford Field,FieldTurf
+4771,2017,17,SUN,12/31/2017 13:00,HOU,IND,Lucas Oil Stadium,FieldTurf
+4772,2017,17,SUN,12/31/2017 13:00,JAC,TEN,Nissan Stadium,Grass
+4773,2017,17,SUN,12/31/2017 13:00,NO,TB,Raymond James Stadium,Grass
+4774,2017,17,SUN,12/31/2017 13:00,NYJ,NE,Gillette Stadium,FieldTurf
+4775,2017,17,SUN,12/31/2017 13:00,WAS,NYG,MetLife Stadium,UBU Speed Series S5M
+4776,2017,17,SUN,12/31/2017 16:25,ARI,SEA,CenturyLink Field,FieldTurf
+4777,2017,17,SUN,12/31/2017 16:25,KC,DEN,Sports Authority Field at Mile High,Grass
+4778,2017,17,SUN,12/31/2017 16:25,OAK,LAC,StubHub Center,Grass
+4779,2017,17,SUN,12/31/2017 16:25,SF,LA,Los Angeles Memorial Coliseum,Grass
