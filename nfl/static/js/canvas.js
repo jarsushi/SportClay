@@ -2,7 +2,7 @@ var main =function(){
 
 	//Here
 
-	jQuery.ajaxSetup({async:false});
+	// jQuery.ajaxSetup({async:false});
 
 	//Add hide class back into sourceFormHTML!!
 
@@ -25,7 +25,7 @@ var main =function(){
 	
 
 	nodeIDNumbers=[];
-	treeTop = new Node(null, 'top', null, null);
+	treeTop = new treeTop();
 	// allNodeObjects = [];
 	allNodeForms = [];
 	var idToNodeObjectMap = new Object();
@@ -113,9 +113,11 @@ var main =function(){
 		// console.log(node.name)
 		// console.log(node.fields)
 
-		if(node.name=='sort' && node.fields){
-			console.log(1)
+		//Clean this up. Make a map of each Change form fields function for different nodes and call it based on node.name
 
+		if(node.name=='sort' && node.fields){
+			// console.log(1)
+ 
 			$('div#f' + node.id.substring(1,node.id.length) + ' table.sortTable tbody tr').remove('.sortFormField');
 
 			for (i=1; i<=node.fields.length; i++){
@@ -144,12 +146,12 @@ var main =function(){
 
 
 
-	// Create the Node object and its function.
-	function Node(parentNode, nodeID, fields, type){
-		this.id =  nodeID;
-		this.fields = fields;
-	    this.parent = parentNode;
-	    this.type = type;
+	// Create the treeTop node object and its function.
+	function treeTop(){
+		this.id =  'top';
+		this.fields = null;
+	    this.parent = null;
+	    this.type = null;
 	    this.firstChild = null;
 	    this.lastChild = null;
 	    this.previousSibling = null;
@@ -259,7 +261,7 @@ var main =function(){
 		function(nodeID){
 			function sortNode() {}
 			sortNode.prototype = Object.create(new processNode(nodeID, 'sort'));
-			sortNode.prototype.order = '';
+			sortNode.prototype.order = [];
 
 			return new sortNode(nodeID, 'sort')
 		}
@@ -310,22 +312,41 @@ var main =function(){
 	//Sort the position of the rows in the field menu
 	var sortPosition = function(id){
 
+		var objectID = 'o' + id.substring(1,id.length);
+		var objectNode = idToNodeObjectMap[objectID];
 		var topRow = $('div#' + id + ' table tbody tr:first');
+		objectNode.order = []
 
 		for (var i=1; i<=topRow.siblings('.sortFormField').length+1; i++){
-			var row = $('div#' + id + ' table tbody tr:nth-child(' + String(i+1) + ')');
+			var row = $('div#' + id + ' table tbody tr:nth-child(' + String(i) + ')');
+			console.log(row.children('td.fieldName').html());
 
 			if (!row.children('td.orderBy').hasClass('noOrder')){
 				var tempPosition = 1;
 			
 				for (var j=1; j < i; j++){
-					if (!$('div#' + id + ' table tbody tr:nth-child(' + String(j+1) + ')').children('td.orderBy').hasClass('noOrder')) {
+					if (!$('div#' + id + ' table tbody tr:nth-child(' + String(j) + ')').children('td.orderBy').hasClass('noOrder')) {
 						tempPosition = tempPosition + 1;
 					}
 				}
 
 				row.children('td.position').html(String(tempPosition));
+				// console.log(row.children('td.fieldName'))
+
+				if (row.children('td.orderBy').html() === 'Descending'){
+					var orderAbbreviation = 'desc'
+				} else if(row.children('td.orderBy').html() === 'Ascending'){
+					var orderAbbreviation = 'asc'
+				}
+				console.log(orderAbbreviation)
+				var orderItem = row.children('td.fieldName').html() + ' ' + orderAbbreviation
+				objectNode.order.push(orderItem)
+				// console.log(i)
+				// console.log(row.children('td.position').html())
 			}
+
+			objectNode
+
 		}
 	}
 
@@ -349,7 +370,7 @@ var main =function(){
 
 
 	//Toggle the selected class.
-	$('body').on('click', 'div.nodeForm table tbody tr td.fieldName', function(){
+	$('body').on('click', '.sortTable tbody tr td.fieldName', function(){
 		$(this).toggleClass('selected');
 	});
 
@@ -433,9 +454,11 @@ var main =function(){
 
 
 	//Iterate of the orderBy option for the available fields.
-	$('body').on('click', 'td.orderBy', function(){
+	$('body').on('click', '.sortTable tbody tr td.orderBy', function(){
 
-		var ID = $(this).parents('div.sortForm').attr('id');
+		var formID = $(this).parents('div.sortForm').attr('id');
+		var objectID = 'o'+formID.substring(1,formID.length);
+		var objectNode = idToNodeObjectMap[objectID]
 
 		if($(this).hasClass('noOrder')){
 			$(this).removeClass('noOrder');
@@ -454,7 +477,7 @@ var main =function(){
 			$(this).siblings('.position').html('-');
 		}
 
-		sortPosition(ID);
+		sortPosition(formID);
 	});
 
 
@@ -533,7 +556,10 @@ var main =function(){
 		attributes = nodeFormAttributes[nameNode];
 
 		for (var i=0; i<attributes.length; i++){
-			if (attributes[i]=='fields'){
+			if (attributes[i]==='fields' || attributes[i]==='order'){
+				console.log(attributes[i])
+				console.log(node[attributes[i]])
+				console.log(node[attributes[i]].join())
 				myMap[attributes[i]]=node[attributes[i]].join()
 			} else{
 				myMap[attributes[i]] = node[attributes[i]]
@@ -654,14 +680,18 @@ var main =function(){
 	$('body').on('click', 'div.sourceForm div ul.sourceFormDatabaseMenu, div.sourceForm div ul.sourceFormNFLTableMenu, div.sourceForm div table.sourceFormNFLFieldsMenu', function(){
 		
 		var tempID = $(this).parents('div.sourceForm').attr('id');
+		var objectID = 'o' + tempID.substring(1, tempID.length);
+		var nodeObject = idToNodeObjectMap[objectID];
 		var tempDatabase = $('div#' + tempID + ' div ul li.sourceFormActiveDatabaseItem').attr('name');
  		var tempTable = $('div#' + tempID + ' div ul li.sourceFormActiveTableItem').attr('name');
 
- 		if(tempDatabase != 'selectOne' && tempTable != 'selectOne' && existsInTree(tempID, treeTop) ){
+ 		if(tempDatabase != 'selectOne' && tempTable != 'selectOne' && nodeObject){
 
-			var node = $.grep(allNodes, function(e){ return e.id == tempID})[0]
-			changeFieldsDownstream(node, findFields(tempID));
-			changeFormFieldsDownstream(node);
+			// var node = $.grep(allNodes, function(e){ return e.id == tempID})[0]
+			changeFieldsDownstream(nodeObject.firstChild, nodeObject.fields);
+		
+			// console.log(nodeObject.nextSibling.id)
+			changeFormFieldsDownstream(nodeObject);
 		}
 	});
 
@@ -730,6 +760,9 @@ var main =function(){
 
 	//Function used when trying to connect nodes on the canvas. (Clicking and releasing using the middle mouse button).
 	//Added the || (or) to work with Mac <- This doesn't work
+
+	//Change source node type to source node. Should have source, process, and terminal types. Many names for each. Although source type 
+	//should always have soure name
 	$('body').on({
 		mousedown: function(e) {
 			if(e.which == 2){
@@ -745,11 +778,11 @@ var main =function(){
 				var downNode = idToNodeObjectMap[downID];
 				var upNode = idToNodeObjectMap[upID];
 
-				var downNodeType = downNode.name
-				var upNodeType = upNode.name
+				var downNodeType = downNode.type
+				var upNodeName = upNode.name
 				// upNodeType = $(this).attr('class').split(' ')[1].substring(0,$(this).attr('class').split(' ')[1].length-4);
 				
-				if(downID!=upID && downNodeType!='table' && upNodeType!='source' && !isUpstream(downID, upNode)){	
+				if(downID!=upID && downNodeType!='terminal' && upNodeName!='source' && !isUpstream(downID, upNode)){	
 				// if(downID!=upID && downNodeType!='table' && upNodeType!='source' && !isUpstream(downID, $.grep(allNodeObjects, function(e){ return e.id == upID}))){
 
 					// var downNode = idToNodeObjectMap[downID];
@@ -933,8 +966,7 @@ var main =function(){
 				nodeObject.fields.push(fieldName);
 			}
 		}
-
-		changeFieldsDownstream(nodeObject, nodeObject.fields);
+		changeFieldsDownstream(nodeObject.firstChild, nodeObject.fields);
 	});
 
 
@@ -962,8 +994,7 @@ var main =function(){
 			}
 		}
 
-		//Change fields downstream
-		changeFieldsDownstream(nodeObject, nodeObject.fields);
+		changeFieldsDownstream(nodeObject.firstChild, nodeObject.fields);
 
 	});
 
@@ -985,7 +1016,8 @@ var main =function(){
 			}
 		}
 
-		changeFieldsDownstream(nodeObject, nodeObject.fields);
+		changeFieldsDownstream(nodeObject.firstChild, nodeObject.fields);
+
 	});
 }
 
@@ -1227,19 +1259,25 @@ var isUpstream = function(id, node){
 
 
 //If a node changes the available fields upstream, update the available fields in the nodes downstream
-var changeFieldsDownstream = function(node, fields){
+var changeFieldsDownstream = function(childNode, fields){
 
-	// console.log(fields)
-	if(node.firstChild){
-		changeFieldsDownstream(node.firstChild, fields);
+	if (childNode){
+		console.log(childNode.id)
+		console.log(fields)
+		// console.log(fields)
+		if(childNode.firstChild){
+			changeFieldsDownstream(childNode.firstChild, fields);
+		}
+
+		if(childNode.nextSibling){
+			changeFieldsDownstream(childNode.nextSibling, fields);
+		}
+
+		childNode.fields = fields;
+		return;
+	} else {
+		return;
 	}
-
-	if(node.nextSibling){
-		changeFieldsDownstream(node.nextSibling, fields);
-	}
-
-	node.fields = fields;
-	return;
 }
 
 

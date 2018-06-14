@@ -42,6 +42,7 @@ def table(request):
 				print(order)
 				if order:
 					print('in if')
+					print(order)
 					cursor.execute("CREATE TABLE temp" + str(countMod) + " SELECT * FROM temp" + str((count-1) % 2) + " order by " + order)
 				else:
 					print('in else')
