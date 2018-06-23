@@ -530,17 +530,17 @@ img.sourceNode{
 	width:50px;
 }
 
-button.sourceOK{
+button.ok{
 	position: absolute;
 	bottom:20px;
 	right:12px;
 }
 
-button.sortOK{
+/*button.sortOK{
 	position: relative;
 	top:40px;
 	left:30px;
-}
+}*/
 
 /*div.imgNodeContainer*/
 
@@ -607,7 +607,7 @@ tr.sortFormLabels td{
 	text-align: center;
 }
 
-table.sortTable{
+table.sortTable, table.filterTable{
 	position: relative;
 	top:25px;
 	margin:auto;
@@ -638,7 +638,7 @@ table.sortTable:hover{
 	cursor: default;
 }
 
-table.sortTable thead tr.sortFormLabels th.fieldName{
+table.sortTable thead tr.sortFormLabels th.fieldName, table.filterTable thead tr.filterFormLabels th.fieldName{
 	height:30px;
 	width:63.6364px;
 	border: solid gray .5px;
@@ -646,21 +646,21 @@ table.sortTable thead tr.sortFormLabels th.fieldName{
 	/*border-left:none;*/
 }
 
-table.sortTable thead tr.sortFormLabels th.orderBy{
+table.sortTable thead tr.sortFormLabels th.orderBy, table.filterTable thead tr.filterFormLabels th.include{
 	height:30px;
 	width:80px;
 	border: solid gray .5px;
 	text-align: center;
 }
 
-table.sortTable thead tr.sortFormLabels th.position{
+table.sortTable thead tr.sortFormLabels th.position, table.filterTable thead tr.filterFormLabels th.newName{
 	height:30px;
 	width:60px;
 	border: solid gray .5px;
 	text-align: center;	
 }
 
-table.sortTable tbody tr.sortFormField td.fieldName{
+table.sortTable tbody tr.sortFormField td.fieldName, table.filterTable tbody tr.filterFormField td.fieldName{
 	height:30px;
 	width:63.6364px;
 	border: solid gray .5px;
@@ -668,14 +668,14 @@ table.sortTable tbody tr.sortFormField td.fieldName{
 	/*border-left:none;*/
 }
 
-table.sortTable tbody tr.sortFormField td.orderBy{
+table.sortTable tbody tr.sortFormField td.orderBy, table.filterTable tbody tr.filterFormField td.include{
 	height:30px;
 	width:80px;
 	border: solid gray .5px;
 	text-align: center;
 }
 
-table.sortTable tbody tr.sortFormField td.position{
+table.sortTable tbody tr.sortFormField td.position, table.filterTable tbody tr.filterFormField td.newName{
 	height:30px;
 	width:60px;
 	border: solid gray .5px;
@@ -750,9 +750,9 @@ table.sortTable tbody tr:first-child td.position{
 	border-top: none;
 }
 
-div.sortForm button{
+/*div.sortForm button{
 	top: 28px;
-}
+}*/
 
 div.imgMenuNodeContainer{
 	display:inline-block;
@@ -821,16 +821,20 @@ ul.nodeNavigationBar{
 	left: 15px;
 }
 
-div.sortForm button{
+/*div.sortForm button{
 	top:35px;
-}
+}*/
 
-div.sortForm button.sortOK{
-	left:100px;
-	top:55px;
-}
+/*div.nodeForm button.ok{
+	position: absolute;
+	height: 30px;
+	height: 15px;
+	width: 40px;
+	right:12px;
+	bottom:200px;
+}*/
 
-div.sortTableBorder{
+div.sortTableBorder, div.filterTableBorder{
 	position:absolute;
 	border-bottom: solid .5px gray;
 	width: 203.636px;

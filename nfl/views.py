@@ -62,6 +62,12 @@ def table(request):
 					cursor.execute("CREATE TABLE temp" + str(countMod) + " SELECT " + fields + " FROM " + table + " WHERE not( 0=1 " + selectors + ")")
 				print('source finished')
 				return render(request, 'nfl/table.html', {})
+			if name == 'filter':
+				fields = request.POST.get('fields')
+				print('filter finished')
+				cursor.execute("CREATE TABLE temp" + str(countMod) + " SELECT " + fields + " FROM temp" + str((count-1) % 2))
+				cursor.execute("DROP TABLE temp" + str((count-1) % 2))
+				return render(request, 'nfl/table.html', {})
 		elif type == 'terminal':
 			if name == 'table':
 				cursor.execute("SELECT * FROM temp" + str((count-1) % 2))
