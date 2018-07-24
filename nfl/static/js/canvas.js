@@ -16,18 +16,19 @@ var main =function(){
 						, sortNode: "<div class='imgCanvasNodeContainer sortNode' id='-2'><img src='/static/gif/sortNode.gif' class='canvasNode sortNode'/><p>Sort</p></div>"
 						, filterNode: "<div class='imgCanvasNodeContainer filterNode' id='-2'><img src='/static/gif/filterNode.gif' class='canvasNode filterNode'/><p>Filter</p></div>"
 					    , tableNode: "<div class='imgCanvasNodeContainer tableNode' id='-2'><img src='/static/gif/tableNode.gif' class='canvasNode tableNode'/><p>Table</p></div>"};
-	var nodeFormHTML = {sourceNode: "<div class='newNodeForm sourceForm nodeForm hide' id='-2' name='Source'><h5 class='nodeNameLabel'>Name:</h5><textarea class='nodeName'>Source</textarea><div class='dropdown'><h5 class='sourceFormDatabaseLabel'>Database:</h5><button class='btn btn-primary dropdown-toggle sourceFormDatabaseButton' type='button' data-toggle='dropdown'>Select one <span class='caret'></span></button><ul class='dropdown-menu scrollable-menu sourceFormDatabaseMenu'><li class='sourceFormActiveDatabaseItem' name='selectOne'><a href='#'>Select one</a></li><li name='NFL'><a href='#'>NFL</a></li></ul></div><div class='dropdown'><h5 class='sourceFormTableLabel'>Table:</h5><button class='btn btn-primary dropdown-toggle sourceFormTableButton' type='button' data-toggle='dropdown'>Select one <span class='caret'></span></button><ul class='dropdown-menu scrollable-menu sourceFormNFLTableMenu sourceFormTableMenu' role='menu' style='visibility: hidden'><li class='sourceFormActiveTableItem' name='selectOne'><a href='#'>Select one</a></li><li name='BLOCK'><a href='#'>BLOCK</a></li><li name='CHART'><a href='#'>CHART</a></li><li name='CONV'><a href='#'>CONV</a></li><li name='DEFENSE'><a href='#'>DEFENSE</a></li><li name='DRIVE'><a href='#'>DRIVE</a></li><li name='FGXP'><a href='#'>FGXP</a></li><li name='FUMBLE'><a href='#'>FUMBLE</a></li><li name='GAME'><a href='#'>GAME</a></li><li name='INTERCEPT'><a href='#'>INTERCEPT</a></li><li name='KICKER'><a href='#'>KICKER</a></li><li name='KOFF'><a href='#'>KOFF</a></li><li name='OFFENSE'><a href='#'>OFFENSE</a></li><li name='OLINE'><a href='#'>OLINE</a></li><li name='PASS'><a href='#'>PASS</a></li><li name='PBP'><a href='#'>PBP</a></li><li name='PENALTY'><a href='#'>PENALTY</a></li><li name='PLAY'><a href='#'>PLAY</a></li><li name='PLAYER'><a href='#'>PLAYER</a></li><li name='PUNT'><a href='#'>PUNT</a></li><li name='REDZONE'><a href='#'>REDZONE</a></li><li name='RUSH'><a href='#'>RUSH</a></li><li name='SACK'><a href='#'>SACK</a></li><li name='SAFTEY'><a href='#'>SAFTEY</a></li><li name='TACKLE'><a href='#'>TACKLE</a></li><li name='TD'><a href='#'>TD</a></li><li name='TEAM'><a href='#'>TEAM</a></li></ul></div><div class='dropdown'><h5 class='sourceFormFieldsLabel'>Fields:</h5><button class='btn btn-primary dropdown-toggle sourceFormFieldsButton' type='button' data-toggle='dropdown'>Fields <span class='caret'></span></button><table name='NFLSelectOne' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu activeFieldList'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLBLOCK' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLCHART' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLCONV' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLDEFENSE' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLDRIVE' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLFGXP' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLFUMBLE' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLGAME' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLINTERCPT' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLKICKER' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLKOFF' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLOFFENSE' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLOLINE' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLPASS' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLPBP' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLPENALTY' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLPLAY' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLPLAYER' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLPUNT' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLREDZONE' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLRUSH' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLSACK' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLSAFTEY' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLTACKLE' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLTD' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLTEAM' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'><tr name='includeAll'><td colspan='2'>INCLUDE ALL</td></tr><tr name='excludeAll'><td colspan='2'>EXCLUDE ALL</td></tr><tr name='space' colspan='2'></tr><tr name='tid' class='NFLFields'><td class='NFLColumn'>tid</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='gid' class='NFLFields'><td class='NFLColumn'>gid</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='tname' class='NFLFields'><td class='NFLColumn'>tname</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='pts' class='NFLFields'><td class='NFLColumn'>pts</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='q1p' class='NFLFields'><td class='NFLColumn'>q1p</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='q2p' class='NFLFields'><td class='NFLColumn'>q2p</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='q3p' class='NFLFields'><td class='NFLColumn'>q3p</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='q4p' class='NFLFields'><td class='NFLColumn'>q4p</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='rfd' class='NFLFields'><td class='NFLColumn'>rfd</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='pfd' class='NFLFields'><td class='NFLColumn'>pfd</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='ifd' class='NFLFields'><td class='NFLColumn'>ifd</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='ry' class='NFLFields'><td class='NFLColumn'>ry</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='ra' class='NFLFields'><td class='NFLColumn'>ra</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='py' class='NFLFields'><td class='NFLColumn'>py</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='pa' class='NFLFields'><td class='NFLColumn'>pa</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='pc' class='NFLFields'><td class='NFLColumn'>pc</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='sk' class='NFLFields'><td class='NFLColumn'>sk</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='ints' class='NFLFields'><td class='NFLColumn'>ints</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='fum' class='NFLFields'><td class='NFLColumn'>fum</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='pu' class='NFLFields'><td class='NFLColumn'>pu</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='gpy' class='NFLFields'><td class='NFLColumn'>gpy</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='pr' class='NFLFields'><td class='NFLColumn'>pr</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='pry' class='NFLFields'><td class='NFLColumn'>pry</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='kr' class='NFLFields'><td class='NFLColumn'>kr</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='kry' class='NFLFields'><td class='NFLColumn'>kry</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='ir' class='NFLFields'><td class='NFLColumn'>ir</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='iry' class='NFLFields'><td class='NFLColumn'>iry</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='pen' class='NFLFields'><td class='NFLColumn'>pen</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='top' class='NFLFields'><td class='NFLColumn'>top</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='td' class='NFLFields'><td class='NFLColumn'>td</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='tdr' class='NFLFields'><td class='NFLColumn'>tdr</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='tdp' class='NFLFields'><td class='NFLColumn'>tdp</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='tdt' class='NFLFields'><td class='NFLColumn'>tdt</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='fgm' class='NFLFields'><td class='NFLColumn'>fgm</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='fgat' class='NFLFields'><td class='NFLColumn'>fgat</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='fgy' class='NFLFields'><td class='NFLColumn'>fgy</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='rza' class='NFLFields'><td class='NFLColumn'>rza</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='rzc' class='NFLFields'><td class='NFLColumn'>rzc</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='bry' class='NFLFields'><td class='NFLColumn'>bry</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='bpy' class='NFLFields'><td class='NFLColumn'>bpy</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='srp' class='NFLFields'><td class='NFLColumn'>srp</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='s1rp' class='NFLFields'><td class='NFLColumn'>s1rp</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='s2rp' class='NFLFields'><td class='NFLColumn'>s2rp</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='s3rp' class='NFLFields'><td class='NFLColumn'>s3rp</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='spp' class='NFLFields'><td class='NFLColumn'>spp</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='s1pp' class='NFLFields'><td class='NFLColumn'>s1pp</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='s2pp' class='NFLFields'><td class='NFLColumn'>s2pp</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='s3pp' class='NFLFields'><td class='NFLColumn'>s3pp</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='lea' class='NFLFields'><td class='NFLColumn'>lea</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='ley' class='NFLFields'><td class='NFLColumn'>ley</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='lta' class='NFLFields'><td class='NFLColumn'>lta</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='lty' class='NFLFields'><td class='NFLColumn'>lty</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='lga' class='NFLFields'><td class='NFLColumn'>lga</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='lgy' class='NFLFields'><td class='NFLColumn'>lgy</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='mda' class='NFLFields'><td class='NFLColumn'>mda</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='mdy' class='NFLFields'><td class='NFLColumn'>mdy</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='rga' class='NFLFields'><td class='NFLColumn'>rga</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='rgy' class='NFLFields'><td class='NFLColumn'>rgy</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='rta' class='NFLFields'><td class='NFLColumn'>rta</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='rty' class='NFLFields'><td class='NFLColumn'>rty</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='rea' class='NFLFields'><td class='NFLColumn'>rea</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='rey' class='NFLFields'><td class='NFLColumn'>rey</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='r1a' class='NFLFields'><td class='NFLColumn'>r1a</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='r1y' class='NFLFields'><td class='NFLColumn'>r1y</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='r2a' class='NFLFields'><td class='NFLColumn'>r2a</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='r2y' class='NFLFields'><td class='NFLColumn'>r2y</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='r3a' class='NFLFields'><td class='NFLColumn'>r3a</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='r3y' class='NFLFields'><td class='NFLColumn'>r3y</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='qba' class='NFLFields'><td class='NFLColumn'>qba</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='qby' class='NFLFields'><td class='NFLColumn'>qby</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='sla' class='NFLFields'><td class='NFLColumn'>sla</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='sly' class='NFLFields'><td class='NFLColumn'>sly</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='sma' class='NFLFields'><td class='NFLColumn'>sma</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='smy' class='NFLFields'><td class='NFLColumn'>smy</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='sra' class='NFLFields'><td class='NFLColumn'>sra</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='sry' class='NFLFields'><td class='NFLColumn'>sry</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='dla' class='NFLFields'><td class='NFLColumn'>dla</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='dly' class='NFLFields'><td class='NFLColumn'>dly</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='dma' class='NFLFields'><td class='NFLColumn'>dma</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='dmy' class='NFLFields'><td class='NFLColumn'>dmy</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='dra' class='NFLFields'><td class='NFLColumn'>dra</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='dry' class='NFLFields'><td class='NFLColumn'>dry</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='wr1a' class='NFLFields'><td class='NFLColumn'>wr1a</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='wr1y' class='NFLFields'><td class='NFLColumn'>wr1y</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='wr3a' class='NFLFields'><td class='NFLColumn'>wr3a</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='wr3y' class='NFLFields'><td class='NFLColumn'>wr3y</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='tea' class='NFLFields'><td class='NFLColumn'>tea</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='tey' class='NFLFields'><td class='NFLColumn'>tey</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='rba' class='NFLFields'><td class='NFLColumn'>rba</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='rby' class='NFLFields'><td class='NFLColumn'>rby</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='sga' class='NFLFields'><td class='NFLColumn'>sga</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='sgy' class='NFLFields'><td class='NFLColumn'>sgy</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='p1a' class='NFLFields'><td class='NFLColumn'>p1a</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='p1y' class='NFLFields'><td class='NFLColumn'>p1y</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='p2a' class='NFLFields'><td class='NFLColumn'>p2a</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='p2y' class='NFLFields'><td class='NFLColumn'>p2y</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='p3a' class='NFLFields'><td class='NFLColumn'>p3a</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='p3y' class='NFLFields'><td class='NFLColumn'>p3y</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='spc' class='NFLFields'><td class='NFLColumn'>spc</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='mpc' class='NFLFields'><td class='NFLColumn'>mpc</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='lpc' class='NFLFields'><td class='NFLColumn'>lpc</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='q1ra' class='NFLFields'><td class='NFLColumn'>q1ra</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='q1ry' class='NFLFields'><td class='NFLColumn'>q1ry</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='q1pa' class='NFLFields'><td class='NFLColumn'>q1pa</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='q1py' class='NFLFields'><td class='NFLColumn'>q1py</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='lcra' class='NFLFields'><td class='NFLColumn'>lcra</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='lcry' class='NFLFields'><td class='NFLColumn'>lcry</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='lcpa' class='NFLFields'><td class='NFLColumn'>lcpa</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='lcpy' class='NFLFields'><td class='NFLColumn'>lcpy</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='rzra' class='NFLFields'><td class='NFLColumn'>rzra</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='rzry' class='NFLFields'><td class='NFLColumn'>rzry</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='rzpa' class='NFLFields'><td class='NFLColumn'>rzpa</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='rzpy' class='NFLFields'><td class='NFLColumn'>rzpy</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='sky' class='NFLFields'><td class='NFLColumn'>sky</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='lbs' class='NFLFields'><td class='NFLColumn'>lbs</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='dbs' class='NFLFields'><td class='NFLColumn'>dbs</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='sfpy' class='NFLFields'><td class='NFLColumn'>sfpy</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='drv' class='NFLFields'><td class='NFLColumn'>drv</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='npy' class='NFLFields'><td class='NFLColumn'>npy</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='tb' class='NFLFields'><td class='NFLColumn'>tb</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='i20' class='NFLFields'><td class='NFLColumn'>i20</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='rtd' class='NFLFields'><td class='NFLColumn'>rtd</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='lnr' class='NFLFields'><td class='NFLColumn'>lnr</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='lnp' class='NFLFields'><td class='NFLColumn'>lnp</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='lbr' class='NFLFields'><td class='NFLColumn'>lbr</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='lbp' class='NFLFields'><td class='NFLColumn'>lbp</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='dbr' class='NFLFields'><td class='NFLColumn'>dbr</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='dbp' class='NFLFields'><td class='NFLColumn'>dbp</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='nha' class='NFLFields'><td class='NFLColumn'>nha</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='s3a' class='NFLFields'><td class='NFLColumn'>s3a</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='s3c' class='NFLFields'><td class='NFLColumn'>s3c</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='l3a' class='NFLFields'><td class='NFLColumn'>l3a</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='l3c' class='NFLFields'><td class='NFLColumn'>l3c</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='stf' class='NFLFields'><td class='NFLColumn'>stf</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='dp' class='NFLFields'><td class='NFLColumn'>dp</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='fsp' class='NFLFields'><td class='NFLColumn'>fsp</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='ohp' class='NFLFields'><td class='NFLColumn'>ohp</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='pbep' class='NFLFields'><td class='NFLColumn'>pbep</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='dlp' class='NFLFields'><td class='NFLColumn'>dlp</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='dsp' class='NFLFields'><td class='NFLColumn'>dsp</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='dum' class='NFLFields'><td class='NFLColumn'>dum</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='pfn' class='NFLFields'><td class='NFLColumn'>pfn</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='snpo' class='NFLFields'><td class='NFLColumn'>snpo</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr><tr name='snpd' class='NFLFields'><td class='NFLColumn'>snpd</td><td class='included'>INCLUDED</td><td class='excluded noshow'>EXCLUDED</td></tr></table></ul></div><div class='sourceFormSelectionArea'><img class='grayinclude noshow' src='/static/jpg/grayselect.jpg' style='margin-left:10px;width:15px;height:15px'></img><img class='blackinclude' src='/static/jpg/blackselect.jpg' style='margin-left:10px;width:15px;height:15px'> Include</img><img class='grayexclude' src='/static/jpg/grayselect.jpg' style='margin-left:20px;width:15px;height:15px'></img><img class='blackexclude noshow' src='/static/jpg/blackselect.jpg' style='margin-left:20px;width:15px;height:15px'> Exclude</img><form class='filterform' id='filterform' method='GET'><br><p class='selectionHeader'>Selection criteria:</p><br><textarea type='text' class='fieldnames' name='fieldnames' id='fieldnames'></textarea><br><textarea class='options' name='options' style='display: none'>database,table,columns,selectors,include</textarea></form></div><button class='btn btn-primary ok sourceOK' type='button'>Ok</button></div>"
+	var nodeFormHTML = {sourceNode: "<div class='newNodeForm sourceForm nodeForm hide' id='-2' name='Source'><h5 class='nodeNameLabel'>Name:</h5><textarea class='nodeName'>Source</textarea><div class='dropdown'><h5 class='sourceFormDatabaseLabel'>Database:</h5><button class='btn btn-primary dropdown-toggle sourceFormDatabaseButton' type='button' data-toggle='dropdown'>Select one <span class='caret'></span></button><ul class='dropdown-menu scrollable-menu sourceFormDatabaseMenu'><li class='sourceFormActiveDatabaseItem' name='selectOne'><a href='#'>Select one</a></li><li name='NFL'><a href='#'>NFL</a></li></ul></div><div class='dropdown'><h5 class='sourceFormTableLabel'>Table:</h5><button class='btn btn-primary dropdown-toggle sourceFormTableButton' type='button' data-toggle='dropdown'>Select one <span class='caret'></span></button><ul class='dropdown-menu scrollable-menu sourceFormNFLTableMenu sourceFormTableMenu' role='menu' style='visibility: hidden'><li class='sourceFormActiveTableItem' name='selectOne'><a href='#'>Select one</a></li><li name='BLOCK'><a href='#'>BLOCK</a></li><li name='CHART'><a href='#'>CHART</a></li><li name='CONV'><a href='#'>CONV</a></li><li name='DEFENSE'><a href='#'>DEFENSE</a></li><li name='DRIVE'><a href='#'>DRIVE</a></li><li name='FGXP'><a href='#'>FGXP</a></li><li name='FUMBLE'><a href='#'>FUMBLE</a></li><li name='GAME'><a href='#'>GAME</a></li><li name='INTERCEPT'><a href='#'>INTERCEPT</a></li><li name='KICKER'><a href='#'>KICKER</a></li><li name='KOFF'><a href='#'>KOFF</a></li><li name='OFFENSE'><a href='#'>OFFENSE</a></li><li name='OLINE'><a href='#'>OLINE</a></li><li name='PASS'><a href='#'>PASS</a></li><li name='PBP'><a href='#'>PBP</a></li><li name='PENALTY'><a href='#'>PENALTY</a></li><li name='PLAY'><a href='#'>PLAY</a></li><li name='PLAYER'><a href='#'>PLAYER</a></li><li name='PUNT'><a href='#'>PUNT</a></li><li name='REDZONE'><a href='#'>REDZONE</a></li><li name='RUSH'><a href='#'>RUSH</a></li><li name='SACK'><a href='#'>SACK</a></li><li name='SAFTEY'><a href='#'>SAFTEY</a></li><li name='TACKLE'><a href='#'>TACKLE</a></li><li name='TD'><a href='#'>TD</a></li><li name='TEAM'><a href='#'>TEAM</a></li></ul></div><div class='dropdown'><h5 class='sourceFormFieldsLabel'>Fields:</h5><button class='btn btn-primary dropdown-toggle sourceFormFieldsButton' type='button' data-toggle='dropdown'>Fields <span class='caret'></span></button><table name='NFLSelectOne' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu activeFieldList'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLBLOCK' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLCHART' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLCONV' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLDEFENSE' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLDRIVE' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLFGXP' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLFUMBLE' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLGAME' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLINTERCPT' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLKICKER' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLKOFF' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLOFFENSE' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLOLINE' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLPASS' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLPBP' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLPENALTY' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLPLAY' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLPLAYER' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLPUNT' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLREDZONE' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLRUSH' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLSACK' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLSAFTEY' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLTACKLE' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLTD' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'></table><table name='NFLTEAM' class='dropdown-menu scrollable-menu sourceFormNFLFieldsMenu'  role='menu' data-toggle='dropdown' style='visibility:hidden'><tr name='includeAll'><td colspan='2'>INCLUDE ALL</td></tr><tr name='excludeAll'><td colspan='2'>EXCLUDE ALL</td></tr><tr name='space' colspan='2'></tr><tr name='tid' class='NFLFields'><td class='NFLColumn'>tid</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='gid' class='NFLFields'><td class='NFLColumn'>gid</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='tname' class='NFLFields'><td class='NFLColumn'>tname</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='pts' class='NFLFields'><td class='NFLColumn'>pts</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='q1p' class='NFLFields'><td class='NFLColumn'>q1p</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='q2p' class='NFLFields'><td class='NFLColumn'>q2p</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='q3p' class='NFLFields'><td class='NFLColumn'>q3p</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='q4p' class='NFLFields'><td class='NFLColumn'>q4p</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='rfd' class='NFLFields'><td class='NFLColumn'>rfd</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='pfd' class='NFLFields'><td class='NFLColumn'>pfd</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='ifd' class='NFLFields'><td class='NFLColumn'>ifd</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='ry' class='NFLFields'><td class='NFLColumn'>ry</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='ra' class='NFLFields'><td class='NFLColumn'>ra</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='py' class='NFLFields'><td class='NFLColumn'>py</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='pa' class='NFLFields'><td class='NFLColumn'>pa</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='pc' class='NFLFields'><td class='NFLColumn'>pc</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='sk' class='NFLFields'><td class='NFLColumn'>sk</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='ints' class='NFLFields'><td class='NFLColumn'>ints</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='fum' class='NFLFields'><td class='NFLColumn'>fum</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='pu' class='NFLFields'><td class='NFLColumn'>pu</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='gpy' class='NFLFields'><td class='NFLColumn'>gpy</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='pr' class='NFLFields'><td class='NFLColumn'>pr</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='pry' class='NFLFields'><td class='NFLColumn'>pry</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='kr' class='NFLFields'><td class='NFLColumn'>kr</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='kry' class='NFLFields'><td class='NFLColumn'>kry</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='ir' class='NFLFields'><td class='NFLColumn'>ir</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='iry' class='NFLFields'><td class='NFLColumn'>iry</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='pen' class='NFLFields'><td class='NFLColumn'>pen</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='top' class='NFLFields'><td class='NFLColumn'>top</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='td' class='NFLFields'><td class='NFLColumn'>td</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='tdr' class='NFLFields'><td class='NFLColumn'>tdr</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='tdp' class='NFLFields'><td class='NFLColumn'>tdp</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='tdt' class='NFLFields'><td class='NFLColumn'>tdt</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='fgm' class='NFLFields'><td class='NFLColumn'>fgm</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='fgat' class='NFLFields'><td class='NFLColumn'>fgat</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='fgy' class='NFLFields'><td class='NFLColumn'>fgy</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='rza' class='NFLFields'><td class='NFLColumn'>rza</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='rzc' class='NFLFields'><td class='NFLColumn'>rzc</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='bry' class='NFLFields'><td class='NFLColumn'>bry</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='bpy' class='NFLFields'><td class='NFLColumn'>bpy</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='srp' class='NFLFields'><td class='NFLColumn'>srp</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='s1rp' class='NFLFields'><td class='NFLColumn'>s1rp</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='s2rp' class='NFLFields'><td class='NFLColumn'>s2rp</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='s3rp' class='NFLFields'><td class='NFLColumn'>s3rp</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='spp' class='NFLFields'><td class='NFLColumn'>spp</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='s1pp' class='NFLFields'><td class='NFLColumn'>s1pp</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='s2pp' class='NFLFields'><td class='NFLColumn'>s2pp</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='s3pp' class='NFLFields'><td class='NFLColumn'>s3pp</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='lea' class='NFLFields'><td class='NFLColumn'>lea</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='ley' class='NFLFields'><td class='NFLColumn'>ley</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='lta' class='NFLFields'><td class='NFLColumn'>lta</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='lty' class='NFLFields'><td class='NFLColumn'>lty</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='lga' class='NFLFields'><td class='NFLColumn'>lga</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='lgy' class='NFLFields'><td class='NFLColumn'>lgy</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='mda' class='NFLFields'><td class='NFLColumn'>mda</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='mdy' class='NFLFields'><td class='NFLColumn'>mdy</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='rga' class='NFLFields'><td class='NFLColumn'>rga</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='rgy' class='NFLFields'><td class='NFLColumn'>rgy</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='rta' class='NFLFields'><td class='NFLColumn'>rta</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='rty' class='NFLFields'><td class='NFLColumn'>rty</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='rea' class='NFLFields'><td class='NFLColumn'>rea</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='rey' class='NFLFields'><td class='NFLColumn'>rey</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='r1a' class='NFLFields'><td class='NFLColumn'>r1a</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='r1y' class='NFLFields'><td class='NFLColumn'>r1y</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='r2a' class='NFLFields'><td class='NFLColumn'>r2a</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='r2y' class='NFLFields'><td class='NFLColumn'>r2y</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='r3a' class='NFLFields'><td class='NFLColumn'>r3a</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='r3y' class='NFLFields'><td class='NFLColumn'>r3y</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='qba' class='NFLFields'><td class='NFLColumn'>qba</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='qby' class='NFLFields'><td class='NFLColumn'>qby</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='sla' class='NFLFields'><td class='NFLColumn'>sla</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='sly' class='NFLFields'><td class='NFLColumn'>sly</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='sma' class='NFLFields'><td class='NFLColumn'>sma</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='smy' class='NFLFields'><td class='NFLColumn'>smy</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='sra' class='NFLFields'><td class='NFLColumn'>sra</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='sry' class='NFLFields'><td class='NFLColumn'>sry</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='dla' class='NFLFields'><td class='NFLColumn'>dla</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='dly' class='NFLFields'><td class='NFLColumn'>dly</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='dma' class='NFLFields'><td class='NFLColumn'>dma</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='dmy' class='NFLFields'><td class='NFLColumn'>dmy</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='dra' class='NFLFields'><td class='NFLColumn'>dra</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='dry' class='NFLFields'><td class='NFLColumn'>dry</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='wr1a' class='NFLFields'><td class='NFLColumn'>wr1a</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='wr1y' class='NFLFields'><td class='NFLColumn'>wr1y</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='wr3a' class='NFLFields'><td class='NFLColumn'>wr3a</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='wr3y' class='NFLFields'><td class='NFLColumn'>wr3y</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='tea' class='NFLFields'><td class='NFLColumn'>tea</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='tey' class='NFLFields'><td class='NFLColumn'>tey</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='rba' class='NFLFields'><td class='NFLColumn'>rba</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='rby' class='NFLFields'><td class='NFLColumn'>rby</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='sga' class='NFLFields'><td class='NFLColumn'>sga</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='sgy' class='NFLFields'><td class='NFLColumn'>sgy</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='p1a' class='NFLFields'><td class='NFLColumn'>p1a</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='p1y' class='NFLFields'><td class='NFLColumn'>p1y</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='p2a' class='NFLFields'><td class='NFLColumn'>p2a</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='p2y' class='NFLFields'><td class='NFLColumn'>p2y</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='p3a' class='NFLFields'><td class='NFLColumn'>p3a</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='p3y' class='NFLFields'><td class='NFLColumn'>p3y</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='spc' class='NFLFields'><td class='NFLColumn'>spc</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='mpc' class='NFLFields'><td class='NFLColumn'>mpc</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='lpc' class='NFLFields'><td class='NFLColumn'>lpc</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='q1ra' class='NFLFields'><td class='NFLColumn'>q1ra</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='q1ry' class='NFLFields'><td class='NFLColumn'>q1ry</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='q1pa' class='NFLFields'><td class='NFLColumn'>q1pa</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='q1py' class='NFLFields'><td class='NFLColumn'>q1py</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='lcra' class='NFLFields'><td class='NFLColumn'>lcra</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='lcry' class='NFLFields'><td class='NFLColumn'>lcry</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='lcpa' class='NFLFields'><td class='NFLColumn'>lcpa</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='lcpy' class='NFLFields'><td class='NFLColumn'>lcpy</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='rzra' class='NFLFields'><td class='NFLColumn'>rzra</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='rzry' class='NFLFields'><td class='NFLColumn'>rzry</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='rzpa' class='NFLFields'><td class='NFLColumn'>rzpa</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='rzpy' class='NFLFields'><td class='NFLColumn'>rzpy</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='sky' class='NFLFields'><td class='NFLColumn'>sky</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='lbs' class='NFLFields'><td class='NFLColumn'>lbs</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='dbs' class='NFLFields'><td class='NFLColumn'>dbs</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='sfpy' class='NFLFields'><td class='NFLColumn'>sfpy</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='drv' class='NFLFields'><td class='NFLColumn'>drv</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='npy' class='NFLFields'><td class='NFLColumn'>npy</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='tb' class='NFLFields'><td class='NFLColumn'>tb</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='i20' class='NFLFields'><td class='NFLColumn'>i20</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='rtd' class='NFLFields'><td class='NFLColumn'>rtd</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='lnr' class='NFLFields'><td class='NFLColumn'>lnr</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='lnp' class='NFLFields'><td class='NFLColumn'>lnp</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='lbr' class='NFLFields'><td class='NFLColumn'>lbr</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='lbp' class='NFLFields'><td class='NFLColumn'>lbp</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='dbr' class='NFLFields'><td class='NFLColumn'>dbr</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='dbp' class='NFLFields'><td class='NFLColumn'>dbp</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='nha' class='NFLFields'><td class='NFLColumn'>nha</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='s3a' class='NFLFields'><td class='NFLColumn'>s3a</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='s3c' class='NFLFields'><td class='NFLColumn'>s3c</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='l3a' class='NFLFields'><td class='NFLColumn'>l3a</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='l3c' class='NFLFields'><td class='NFLColumn'>l3c</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='stf' class='NFLFields'><td class='NFLColumn'>stf</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='dp' class='NFLFields'><td class='NFLColumn'>dp</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='fsp' class='NFLFields'><td class='NFLColumn'>fsp</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='ohp' class='NFLFields'><td class='NFLColumn'>ohp</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='pbep' class='NFLFields'><td class='NFLColumn'>pbep</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='dlp' class='NFLFields'><td class='NFLColumn'>dlp</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='dsp' class='NFLFields'><td class='NFLColumn'>dsp</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='dum' class='NFLFields'><td class='NFLColumn'>dum</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='pfn' class='NFLFields'><td class='NFLColumn'>pfn</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='snpo' class='NFLFields'><td class='NFLColumn'>snpo</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr><tr name='snpd' class='NFLFields'><td class='NFLColumn'>snpd</td><td class='included sourceFilter'>INCLUDED</td><td class='excluded noshow sourceFilter'>EXCLUDED</td></tr></table></ul></div><div class='sourceFormSelectionArea'><img class='grayinclude noshow' src='/static/jpg/grayselect.jpg' style='margin-left:10px;width:15px;height:15px'></img><img class='blackinclude' src='/static/jpg/blackselect.jpg' style='margin-left:10px;width:15px;height:15px'> Include</img><img class='grayexclude' src='/static/jpg/grayselect.jpg' style='margin-left:20px;width:15px;height:15px'></img><img class='blackexclude noshow' src='/static/jpg/blackselect.jpg' style='margin-left:20px;width:15px;height:15px'> Exclude</img><form class='filterform' id='filterform' method='GET'><br><p class='selectionHeader'>Selection criteria:</p><br><textarea type='text' class='fieldnames' name='fieldnames' id='fieldnames'></textarea><br><textarea class='options' name='options' style='display: none'>database,table,columns,selectors,include</textarea></form></div><button class='btn btn-primary ok sourceOK' type='button'>Ok</button></div>"
 						, sortNode: "<div class='newNodeForm node nodeForm sortForm hide' id='-2' name='Sort'><h5 class='nodeNameLabel'>Name:</h5><textarea class='nodeName'>Sort</textarea><table class='sortTable'><thead><tr class='sortFormLabels'><th class='fieldName noSelect'>Column Name</th><th class='orderBy noSelect'>Order By</th><th class='position noSelect'>Position</th></tr><tbody></tbody></table><button class = 'sortTopArrow'><img height='40px' width='25px' src='/static/gif/topArrow.gif'></img></button><button class = 'sortUpArrow'><img height='40px' width='25px' src='/static/gif/upArrow.gif'></img></button><button class = 'sortDownArrow'><img height='40px' width='25px' src='/static/gif/downArrow.gif'}'></img></button><button class = 'sortBottomArrow'><img height='40px' width='25px' src='/static/gif/bottomArrow.gif'}'></img></button><button class='btn btn-primary ok sortOK' type='button'>Ok</button></div>"
 						, filterNode: "<div class='newNodeForm node nodeForm filterForm hide' id='-2' name='Filter'><h5 class='nodeNameLabel'>Name:</h5><textarea class='nodeName'>Filter</textarea><table class='filterTable'><thead><tr class='filterFormLabels'><th class='fieldName noSelect'>Column Name</th><th class='include noSelect'>Include</th><th class='newName noSelect'>New Name</th></tr><tbody></tbody></table><button class='btn btn-primary ok sortOK' type='button'>OK</button></div>"
 						, tableNode: "<div class='newNodeForm node nodeForm tableForm hide' id='-2' name='Table'><h5 class='nodeNameLabel'>Name:</h5><textarea class='nodeName'>Table</textarea><button class='run'>Run</button><button class='btn btn-primary ok sortOK' type='button'>Ok</button></div>"};
-	var nodeFormAttributes = {sourceNode: ['name', 'type', 'table', 'fields', 'selectors', 'include']
-								, sortNode: ['name', 'type', 'order']
-								, filterNode: ['name', 'type', 'fields', 'newNames']
-								, tableNode: ['name', 'type']}
+	var nodeFormAttributes = {sourceNode: ['name', 'type', 'id', 'parents', 'table', 'fields', 'selectors', 'include']
+								, sortNode: ['name', 'type', 'id', 'parents', 'order']
+								, filterNode: ['name', 'type', 'id', 'parents', 'fields']
+								, tableNode: ['name', 'type', 'id', 'parents']}
 	// var sourceNode = "<img src='/static/gif/sourceNode.gif' class='nodeMenuSourceNode nodeMenuSourceNodeDroppable'/>"
 	
 
 	nodeIDNumbers=[];
+	newNodeObjects = new Object();
 	treeTop = new treeTop();
 	// allNodeObjects = [];
 	allNodeForms = [];
@@ -36,7 +37,25 @@ var main =function(){
 	var downID = '';
 	var upID = '';
 
+	$('body').on('click', 'button.tester', function(){
 
+		for(var i=0; i<nodeIDNumbers.length; i++){
+			var node = idToNodeObjectMap['o'+nodeIDNumbers[i]]
+			console.log(i)
+			console.log('id')
+			console.log(node.id)
+			console.log('parents')
+			console.log(node.parents[0].id)
+			console.log('firstChild')
+			console.log(node.firstChild)
+			console.log('lastChild')
+			console.log(node.lastChild)
+			console.log('previousSibling')
+			console.log(node.previousSibling)
+			console.log('nextSibling')
+			console.log(node.nextSibling)
+		}
+	});
 
 	$('div.imgMenuNodeContainer').draggable({
 		helper: 'clone',
@@ -67,8 +86,11 @@ var main =function(){
 			var name = nameNode.substring(0, nameNode.length-4);
 
 			var tempNodeObject = createNode(otempID, name);
+			console.log(tempNodeObject)
+			console.log(otempID)
 			// var tempNodeObject = new Node('top', otempID, null, type);
 			idToNodeObjectMap[otempID] = tempNodeObject;
+			console.log(idToNodeObjectMap[otempID])
 			treeTop.addChild(tempNodeObject);
 			//ReplaceallNodeObjects with the idToNodeObjectMap!!
 			// allNodeObjects.push(tempNodeObject);
@@ -159,23 +181,23 @@ var main =function(){
 	function treeTop(){
 		this.id =  'top';
 		this.fields = null;
-	    this.parent = null;
+	    this.parents = [null];
 	    this.type = null;
 	    this.firstChild = null;
 	    this.lastChild = null;
 	    this.previousSibling = null;
 	    this.nextSibling = null;
 	    this.addChild = function(child){
-	    	child.parent = this;
-	    	child.previousSibling = this.lastChild;
-	    	if (this.lastChild != null){
+    		child.parents = [this];
+    		child.previousSibling = this.lastChild;
+    		if (this.lastChild != null){
 	        	this.lastChild.nextSibling = child;
-	    	}	
-	    	this.lastChild = child;
-	    	if (this.firstChild == null){
-	    		this.firstChild = child;
-	    	}
-	    }
+    		}	
+    		this.lastChild = child;
+    		if (this.firstChild == null){
+    			this.firstChild = child;
+    		}
+    	}
 	    this.removeChild = function(child){
 	    	if(child.previousSibling){
 	    		child.previousSibling.nextSibling = child.nextSibling;
@@ -199,7 +221,7 @@ var main =function(){
 	function terminalNode(nodeID, name){
 		this.id =  nodeID;
 		// this.fields = [];
-	    this.parent = 'top';
+	    this.parents = [treeTop];
     	this.name = name;
     	this.type = 'terminal'
     	this.previousSibling = null;
@@ -209,20 +231,27 @@ var main =function(){
 	function processNode(nodeID, name){
 		this.id =  nodeID;
 		this.fields = [];
-		this.parent = 'top';
-		this.attributes = {name: 'source'}
+		this.parents = [treeTop];
+		// Why TF is this here, below this line.??
+		// this.attributes = {name: 'source'}
 		this.name = name;
-		this.type = 'process'
+		this.type = 'process';
     	this.firstChild = null;
     	this.lastChild = null;
     	this.previousSibling = null;
     	this.nextSibling = null;
     	this.addChild = function(child){
-    		child.parent = this;
-    		child.previousSibling = this.lastChild;
+    		if(child.name != 'merge' && child.name != 'append'){
+	    		child.parents = [this];
+	    	} else {
+	    		child.parents.push(this);
+	    	}
+	    	child.previousSibling = this.lastChild;
     		if (this.lastChild != null){
 	        	this.lastChild.nextSibling = child;
     		}	
+    		child.previousSibling=this.lastChild
+    		child.nextSibling=null;
     		this.lastChild = child;
     		if (this.firstChild == null){
     			this.firstChild = child;
@@ -252,35 +281,56 @@ var main =function(){
 //Source Node could pass selection critera. And Sort node could pass a order by object {field1: asc}, {field2: desc}.
 	var nodeFuncs = {table:
 		function(nodeID){
-			function tableNode() {}
-			tableNode.prototype = Object.create(new terminalNode(nodeID, 'table'));
-			return new tableNode(nodeID, 'table');
+			// function tableNode() {}
+			// tableNode.prototype = Object.create(new terminalNode(nodeID, 'table'));
+			// return new tableNode(nodeID, 'table');
+
+			return new terminalNode(nodeID, 'table');
 		}
 		, source:
 		function(nodeID){
-			function sourceNode() {}
-			sourceNode.prototype = Object.create(new processNode(nodeID, 'source'));
-			sourceNode.prototype.table = '';
-			sourceNode.prototype.selectors = '';
-			sourceNode.prototype.include = 1;
+			var tempNodeObject = new processNode(nodeID, 'source');
+			// console.log('created source node');
 
-			return new sourceNode(nodeID, 'source');
+			tempNodeObject.table = '';
+			tempNodeObject.selectors = '';
+			tempNodeObject.include = 1;
+			// temp.fields = ['a','b','c'];
+			// function sourceNode() {}
+			// sourceNode.prototype = Object.create(new processNode(nodeID, 'source'));
+			// sourceNode.prototype.table = '';
+			// sourceNode.prototype.selectors = '';
+			// sourceNode.prototype.include = 1;
+
+			// return new sourceNode(nodeID, 'source');
+			// newNodeObjects[1] = temp;
+			return tempNodeObject;
 		}
 		, sort:
 		function(nodeID){
-			function sortNode() {}
-			sortNode.prototype = Object.create(new processNode(nodeID, 'sort'));
-			sortNode.prototype.order = [];
+			var tempNodeObject = new processNode(nodeID, 'sort');
+			tempNodeObject.order = [];
+			// function sortNode() {}
+			// sortNode.prototype = Object.create(new processNode(nodeID, 'sort'));
+			// sortNode.prototype.order = [];
 
-			return new sortNode(nodeID, 'sort')
+			return tempNodeObject;
 		}
 		, filter:
 		function(nodeID){
-			function filterNode() {}
-			filterNode.prototype = Object.create(new processNode(nodeID, 'filter'));
-			filterNode.prototype.names = [];
+			// function filterNode() {}
+			// filterNode.prototype = Object.create(new processNode(nodeID, 'filter'));
+			// filterNode.prototype.names = [];
 
-			return new filterNode(nodeID, 'filter')
+			// var temp = new processNode(nodeID, 'filter')
+			// var temp = new processNode(nodeID, 'filter');
+			// temp.fields = []
+			// console.log('created filter node');
+			// temp.fields = ['a','b','c'];
+			// newNodeObjects[2] = temp;
+			// temp.fields = [];
+			// temp.parents = [treeTop];
+			return new processNode(nodeID, 'filter')
 		}
 	}
 
@@ -536,59 +586,91 @@ var main =function(){
 	});
 
 	// Run Terminal Node Object and create table tab
-	var runTerminalNode = function(node, count){
+	var runTerminalNode = function(node){//, count){
 
+		console.log('in this function now')
 		var myMap = {}
-		myMap['count'] = count
-		nameNode = node.name + "Node";
-		attributes = nodeFormAttributes[nameNode];
+		// myMap['count'] = count
+		var nameNode = node.name + "Node";
+		var attributes = nodeFormAttributes[nameNode];
 
 		for (var i=0; i<attributes.length; i++){
 			if (attributes[i]=='fields'){
 				myMap[attributes[i]]=node[attributes[i]].join()
-			} else{
+			}else if (attributes[i]==='parents'){
+				var temp = []
+				for(var j=0; j<node[attributes[i]].length; j++){
+					temp.push(node[attributes[i]][j].id)
+				}
+				console.log(temp.join())
+				console.log(temp)
+				myMap[attributes[i]]=temp.join()
+			}else {
 				myMap[attributes[i]] = node[attributes[i]]
 			}
 		}
 
 		$.ajax({
-    		url : "/table/",
-		    type : "post",
-		    async: false,
-		    data: myMap
+    		url : "/table/"
+		    ,type : "post"
+		    ,data: myMap
+		    ,async: false
 		    ,success: function(response) {
 		    	var wind = window.open('');
    				wind.document.write(response);
-        }
+        	}
 		 });
+
+		return;
 	}
 
 
 	// Run Process Node Object to create table in database
-	var runProcessNode = function(node, count){
+	var runProcessNode = function(node){//, count){
 
 		var myMap = {}
-		myMap['count'] = count
-		nameNode = node.name + "Node";
-		attributes = nodeFormAttributes[nameNode];
+		// myMap['count'] = count
+		var nameNode = node.name + "Node";
+		var attributes = nodeFormAttributes[nameNode];
 
 		for (var i=0; i<attributes.length; i++){
+			console.log(i)
 			if (attributes[i]==='fields' || attributes[i]==='order'){
 				console.log(attributes[i])
 				console.log(node[attributes[i]])
 				console.log(node[attributes[i]].join())
 				myMap[attributes[i]]=node[attributes[i]].join()
-			} else{
+			}else if (attributes[i]==='parents'){
+				var temp = []
+				for(var j=0; j<node[attributes[i]].length; j++){
+					temp.push(node[attributes[i]][j].id)
+				}
+				console.log(temp.join())
+				console.log(temp)
+				myMap[attributes[i]]=temp.join()
+			}else {
 				myMap[attributes[i]] = node[attributes[i]]
 			}
 		}
 
+		console.log(myMap)
+
+		console.log('got out of for loop')
+
+		// $.post("/table/")
+
+		console.log('hi')
+
 		$.ajax({
-    		url : "/table/",
-		    type : "post",
-		    async: false,
-		    data: myMap
+    		url: "/table/"
+		    ,type: "post"
+		    ,data: myMap
+		    ,async: false
 		 });
+
+		console.log('got back from ajax call');
+
+		return;
 	}
 
 
@@ -604,8 +686,18 @@ var main =function(){
 		return;
 	}
 
+	var runNodeB = function(node){
+		if (node.type == 'process'){
+			runProcessNode(node);
+		} 
+		else if(node.type == 'terminal'){
+			runTerminalNode(node);
+		}
+		return;
+	}
 
 	// Crete an array of node obejcts where the first object is the top of the node tree and last object is the terminal node
+	// Will have to address the parent thing in here!!
 	var createStreamArray = function(array, node){
 		if(node.parent.id != 'top'){
 			array=createStreamArray(array, node.parent);
@@ -626,6 +718,27 @@ var main =function(){
 		return;
 	}
 
+	//Below is the new function to change the process of running a stream into a tree structure to account for merge nodes and such
+	var runStreamTree = function(node){
+
+		
+
+		// streamArray = createStreamArray([], node);
+		for(var i=0; i<node.parents.length; i++){
+			if(node.parents[i].id != 'top'){
+				runStreamTree(node.parents[i])
+			}
+			console.log(i)
+		}
+
+		runNodeB(node)
+
+		// for (var i=0; i<streamArray.length; i++){
+		// 	runNode(streamArray[i], i);
+		// }
+		return;
+	}
+
 
 	// When you click on the run button, get information of terminal node and then call the runStream function
 	$('body').on('click', 'button.run', function(){
@@ -633,25 +746,29 @@ var main =function(){
 		var formID = $(this).parents('div.nodeForm').attr('id');
 		var tempID = formID.substring(1, formID.length);
 		var nodeObject = idToNodeObjectMap['o'+tempID];
-		runStream(nodeObject)
+		runStreamTree(nodeObject)
 	});
 
 
 
 	//After a node on the canvas is dragged, change the arrows
-	$('body').on('dragstop', 'div.imgNodeContainer', function(){
+	$('body').on('dragstop', 'div.imgCanvasNodeContainer', function(){
 
-		var tempID = 'f' + $(this).children('img').attr('id').substring(1, $(this).children('img').attr('id').length);
-		var tempNode = $.grep(allNodes, function(e){ return e.id ==tempID})[0];
+		console.log('hi')
+		var tempID = 'o' + $(this).attr('id').substring(1, $(this).attr('id').length);
+		var tempNode = idToNodeObjectMap[tempID]
+		// var tempNode = $.grep(allNodes, function(e){ return e.id ==tempID})[0];
 
-		if (tempNode.parent && tempNode.parent.id!='top'){
-			moveArrow(tempNode.parent.id, tempID);
+		if (tempNode.parents[0].id!='top'){
+			for(var i=0; i<tempNode.parents.length; i++){
+				moveArrow(tempNode.parents[i].id, tempID);
+			}
 		}
 
 		var childNode = tempNode.firstChild;
 
 		while(childNode){
-			var a = moveArrow(tempID, childNode.id);
+			moveArrow(tempID, childNode.id);
 			childNode = childNode.nextSibling;
 		}
 	});
@@ -794,12 +911,14 @@ var main =function(){
 
 				var downNode = idToNodeObjectMap[downID];
 				var upNode = idToNodeObjectMap[upID];
+				// console.log(upNode)
+				// console.log(upNode.name)
 
 				var downNodeType = downNode.type
 				var upNodeName = upNode.name
 				// upNodeType = $(this).attr('class').split(' ')[1].substring(0,$(this).attr('class').split(' ')[1].length-4);
 				
-				if(downID!=upID && downNodeType!='terminal' && upNodeName!='source' && !isUpstream(downID, upNode)){	
+				if(downID!=upID && downNodeType!='terminal' && upNodeName!='source' && !isUpstream(upID, downNode)){	
 				// if(downID!=upID && downNodeType!='table' && upNodeType!='source' && !isUpstream(downID, $.grep(allNodeObjects, function(e){ return e.id == upID}))){
 
 					// var downNode = idToNodeObjectMap[downID];
@@ -808,17 +927,46 @@ var main =function(){
 					// var upNode = $.grep(allNodeObjects, function(e){ return e.id == upID})[0];
 
 
-					if (upNode.parent.id != 'top'){
-						console.log('made it here for some reason?');
+					if (upNode.parents[0].id != 'top'){
+						// console.log('made it here for some reason?');
 						// upNode.parent.removeChild(upNode);
-						$('svg').remove('#a' + upNode.parent.id.substring(1,upNode.parent.id.length) + upNode.id.substring(1,upNode.id.length));
+						for(var i=0; i<upNode.parents.length; i++){
+							$('svg').remove('#a' + upNode.parents[i].id.substring(1,upNode.parents[i].id.length) + upNode.id.substring(1,upNode.id.length));
+						}
 					}
 					
-					console.log(upNode.parent.id)
-					upNode.parent.removeChild(upNode);
+					// console.log(upNode.parent.id)
+					for(var i=0; i<upNode.parents.length; i++){
+						upNode.parents[i].removeChild(upNode);
+					}
+					// upNode.parent.removeChild(upNode);
 					downNode.addChild(upNode);
-					console.log(downNode.firstChild.name)
-					console.log(upNode.parent.id)
+					// console.log(downNode.firstChild.name)
+					// console.log(upNode.parent.id)
+					// console.log(upNode.firstChild)
+					// console.log(upNode.lastChild)
+					// console.log(upNode.previousSibling)
+					// console.log(upNode.nextSibling)
+					// console.log(upNode.parents[0])
+
+					// console.log(Array.from(downNode.fields))
+					// var newThinga = Array.from(downNode.fields);
+					for(var i=0; i<nodeIDNumbers.length; i++){
+						var node = idToNodeObjectMap['o'+nodeIDNumbers[i]]
+						console.log(i)
+						console.log('id')
+						console.log(node.id)
+						console.log('parents')
+						console.log(node.parents[0].id)
+						console.log('firstChild')
+						console.log(node.firstChild)
+						console.log('lastChild')
+						console.log(node.lastChild)
+						console.log('previousSibling')
+						console.log(node.previousSibling)
+						console.log('nextSibling')
+						console.log(node.nextSibling)
+					}	
 					changeFieldsDownstream(upNode, downNode.fields);
 					changeFormFieldsDownstream(upNode);
 					createArrow(downID, upID);
@@ -855,8 +1003,80 @@ var main =function(){
 
 	//If you click on the form' OK button, hide the source form.
 	$('body').on('click', "div button.ok", function(){
+
+
+		// var temp = new processNode('123', 'filter');
+		// var temp2 = new processNode('124', 'source');
+
+		// temp.fields.push('gid');
+		// temp2.fields.push('tid');
+
+		// console.log(temp.fields);
+		// console.log(temp2.fields);
+
+		// temp.fields.splice(0,1);
+		// console.log(temp.fields);
+		// console.log(temp2.fields);
+
+
+
 		var element = $(this).parent('div.nodeForm');
 		closeDivForm(element.attr('id'));
+
+		// var tempID = $(this).parent('div.nodeForm').attr('id')
+		// var nodeID = 'o' + tempID.substring(1,tempID.length)
+		// var objectNodea = idToNodeObjectMap[nodeID];
+
+
+		// // console.log(objectNode.hasOwnProperty('fields'));
+
+		// for (var i=0; i<nodeIDNumbers.length; i++){
+		// 	console.log(idToNodeObjectMap['o'+nodeIDNumbers[i]]);
+		// }
+
+		// objectNodea.fields.splice(1,1);
+
+
+		// for (var i=0; i<nodeIDNumbers.length; i++){
+		// 	console.log(idToNodeObjectMap['o'+nodeIDNumbers[i]].name);
+		// 	console.log(idToNodeObjectMap['o'+nodeIDNumbers[i]].fields);
+		// }
+
+
+
+
+		// for (var i = 1; i<=2; i++){
+		// 	console.log(newNodeObjects[i].name);
+		// 	console.log(newNodeObjects[i].fields);
+		// }
+
+		// // console.log(objectNode.fields)
+		// objectNode.fields.splice(1,1);
+
+		// for (var i =1; i<=2; i++){
+		// 	console.log(newNodeObjects[i].name);
+		// 	console.log(newNodeObjects[i].fields);
+		// }
+
+		// objectNode = newNodeObjects[1];
+
+		// for (var i = 1; i<=2; i++){
+		// 	console.log(newNodeObjects[i].name);
+		// 	console.log(newNodeObjects[i].fields);
+		// }
+
+		// // console.log(objectNode.fields)
+		// objectNode.fields.push('this is here now');
+
+		// for (var i =1; i<=2; i++){
+		// 	console.log(newNodeObjects[i].name);
+		// 	console.log(newNodeObjects[i].fields);
+		// }
+		// console.log(objectNode.firstChild.id)
+		// console.log(objectNode.lastChild.id)
+		// console.log(objectNode.id)
+		// console.log(objectNode.fields)
+
 	});
 
 
@@ -966,51 +1186,174 @@ var main =function(){
 
 
 	//If you click on a field list item, change it from INCLUDE to EXCLUDE or EXCLUDE to INCLUDE
-	$('body').on('click', 'div.sourceForm div table tbody tr.NFLFields', function(){
+	$('body').on('click', 'div.sourceForm div table tbody tr td.sourceFilter', function(){
 		var formID = $(this).parents('div.sourceForm').attr('id');
 		var tempID = formID.substring(1, formID.length);
 		var nodeObject = idToNodeObjectMap['o'+tempID]
-		var fieldName = $(this).attr('name');
+		// console.log(nodeObject);
+		var fieldName = $(this).parent('tr.NFLFields').attr('name');
 		var index = nodeObject.fields.indexOf(fieldName);
+		// console.log(nodeObject);
+		// console.log($(this).hasClass('included'))
+		// console.log($(this).hasClass('excluded'))
+		// console.log($(this).hasClass('noshow'))
 		// tempNodeObject.fields.push('hi')
 
-		if($('.excluded', this).hasClass("noshow")){
-			$('.excluded', this).removeClass("noshow");
-			$('.included', this).addClass("noshow");
+
+		// !!FIX THIS
+		// if($(this).hasClass("included")){
+		// 	$('.excluded', this).removeClass("noshow");
+		// 	$('.included', this).addClass("noshow");
+		// 	if (index > -1){
+		// 		nodeObject.fields.splice(index, 1);
+		// 	}
+		// } else if($('.included', this).hasClass("noshow")){
+		// 	$('.included', this).removeClass("noshow");
+		// 	$('.excluded', this).addClass("noshow");
+		// 	if (index == -1){
+		// 		nodeObject.fields.push(fieldName);
+		// 	}
+		// }
+		if($(this).hasClass('included')){
+			$(this).siblings('.excluded').removeClass('noshow');
+			$(this).addClass('noshow');
 			if (index > -1){
 				nodeObject.fields.splice(index, 1);
 			}
-		} else if($('.included', this).hasClass("noshow")){
-			$('.included', this).removeClass("noshow");
-			$('.excluded', this).addClass("noshow");
+		} else if($(this).hasClass('excluded')){
+			$(this).siblings('.included').removeClass('noshow');
+			$(this).addClass('noshow');
 			if (index == -1){
+				// console.log('in HERE')
 				nodeObject.fields.push(fieldName);
 			}
 		}
+
+		// console.log(nodeObject.firstChild);
+
+		// if($('.excluded', this).hasClass("noshow")){
+		// 	$('.excluded', this).removeClass("noshow");
+		// 	$('.included', this).addClass("noshow");
+		// 	if (index > -1){
+		// 		nodeObject.fields.splice(index, 1);
+		// 	}
+		// } else if($('.included', this).hasClass("noshow")){
+		// 	$('.included', this).removeClass("noshow");
+		// 	$('.excluded', this).addClass("noshow");
+		// 	if (index == -1){
+		// 		nodeObject.fields.push(fieldName);
+		// 	}
+		// }
 		changeFieldsDownstream(nodeObject.firstChild, nodeObject.fields);
 		changeFormFieldsDownstream(nodeObject);
+
+		// console.log(nodeObject.firstChild);
 	});
 
 
-	//If you click on the include portion of a field in the filter form, change it from INCLUDED to EXCLUDED
+
+
+	//New version of the function below since it's acting crazy
 	$('body').on('click', 'table.filterTable tbody tr td.include', function(){
-		console.log($(this).hasClass('excluded'))
 		var formID = $(this).parents('div.filterForm').attr('id');
 		var tempID = formID.substring(1, formID.length);
 		var nodeObject = idToNodeObjectMap['o'+tempID]
 		var fieldName = $(this).attr('name');
 		var index = nodeObject.fields.indexOf(fieldName);
 
-		console.log(nodeObject)
-		console.log(fieldName)
+		if($(this).hasClass('included')){
+			$(this).removeClass('included')
+			$(this).addClass('excluded')
+			$(this).html('Excluded')
+			if (index > -1){
+				nodeObject.fields.splice(index, 1);
+			}
+		}else if($(this).hasClass('excluded')){
+			$(this).removeClass('excluded')
+			$(this).addClass('included')
+			$(this).html('Included')
+			if (index == -1){
+				nodeObject.fields.push(fieldName);
+			}
+		}
+		var tempArray = nodeObject.fields;
+		changeFieldsDownstream(nodeObject.firstChild, nodeObject.fields);
+		if (nodeObject.firstChild){
+			// console.log('we in here')
+			changeFormFieldsDownstream(nodeObject.firstChild);
+		}
+
+		console.log(nodeObject.fields);
+		console.log(nodeObject.parents[0].fields);
+	});
+
+
+
+	//If you click on the include portion of a field in the filter form, change it from INCLUDED to EXCLUDED
+	// Remove the ee from the first line on .filterTableee
+	$('body').on('click', 'table.filterTableee tbody tr td.include', function(){
+		// console.log($(this).hasClass('excluded'))
+		// var formID = $(this).parents('div.filterForm').attr('id');
+		// var tempID = formID.substring(1, formID.length);
+		// // var whatever = idToNodeObjectMap['o'+tempID];
+		// var nodeObject = idToNodeObjectMap['o'+tempID];
+		// var fieldName = $(this).attr('name');
+		// var index = nodeObject.fields.indexOf(fieldName);
+
+		// console.log(nodeObject)
+		// console.log(fieldName)
+		// console.log(index)
+
+		var formID = $(this).parents('div.filterForm').attr('id');
+		var tempID = formID.substring(1, formID.length);
+		var nodeObject = idToNodeObjectMap['o'+tempID]
+		var fieldName = $(this).attr('name');
+		console.log(nodeObject.fields);
+		for (var i=0; i<nodeObject.fields.length; i++){
+			console.log(nodeObject.fields[i])
+		}
+		var index = nodeObject.fields.indexOf(fieldName);
 		console.log(index)
+		console.log(nodeObject.fields);
+		console.log(nodeObject.fields.length)
+		for (var i=0; i<nodeObject.fields.length; i++){
+			console.log(nodeObject.fields[i])
+		}
+
+
+
+
+
 
 
 		if($(this).hasClass('included')){
 			$(this).removeClass('included')
 			$(this).addClass('excluded')
 			$(this).html('Excluded')
-			nodeObject.fields.splice(index, 1);
+			// nodeObject.fields.push(fieldName);
+			
+			for(var i=0; i<nodeIDNumbers.length; i++){
+				var newThing = idToNodeObjectMap['o'+nodeIDNumbers[i]]
+				console.log(newThing.id)
+				console.log(newThing.fields)
+			}
+
+			console.log(nodeObject.fields);
+			console.log(nodeObject.fields);
+			var array = ['tid', 'gid', 'tname', 'pts'];
+			console.log(array)
+			// nodeObject.fields.push(fieldName);
+			console.log(nodeObject.fields.splice(index, 1));
+			// nodeObject.fields = nodeObject.fields.splice(index, 1);
+			// nodeObject.fields = nodeObject.fields.concat(['hello']);
+			// nodeObject.fields = 'here we are';
+			// nodeObject.name = 'hi';
+
+			for(var i=0; i<nodeIDNumbers.length; i++){
+				var newThing = idToNodeObjectMap['o'+nodeIDNumbers[i]]
+				console.log(newThing.id)
+				console.log(newThing.fields)
+			}
 		} else if($(this).hasClass('excluded')){
 			$(this).removeClass('excluded')
 			$(this).addClass('included')
@@ -1018,8 +1361,11 @@ var main =function(){
 			nodeObject.fields.push(fieldName);
 		}
 
-		changeFieldsDownstream(nodeObject.firstChild, nodeObject.fields);
+		console.log(nodeObject.id)
+
+		// changeFieldsDownstream(nodeObject.firstChild, nodeObject.fields);
 		if (nodeObject.firstChild){
+			console.log('we in here')
 			changeFormFieldsDownstream(nodeObject.firstChild);
 		}
 	});
@@ -1128,7 +1474,7 @@ var createArrow = function(firstNodeID, secondNodeID){
 		// $('div.canvas').append(Math.atan(Math.abs(firstLeft-secondLeft)/Math.abs(firstLeft-secondLeft)));
 
 		if(Math.PI/2-Math.atan(Math.abs(firstLeft-secondLeft)/Math.abs(firstTop-secondTop)) <= Math.PI/4){
-			$('div.canvas').append('1');
+			// $('div.canvas').append('1');
 			var c = Math.sqrt(Math.pow(Math.abs(firstLeft - secondLeft),2)+Math.pow(Math.abs(firstTop - secondTop),2));
 			var startX = 30/c*Math.abs(firstLeft - secondLeft); //25 for radius and 5 away from node img
 			var startY = 30/c*Math.abs(firstTop - secondTop);
@@ -1139,7 +1485,7 @@ var createArrow = function(firstNodeID, secondNodeID){
 			$('svg#' + tempID).css('top', String(pPos.top-223+25) + 'px');
 			$('svg#' + tempID +' path.line').attr('d', 'M' + String(startX) + ',' + String(startY) + 'L' + String(endX) + ',' + String(endY));
 		} else if (Math.PI/2-Math.atan(Math.abs(firstLeft-secondLeft)/Math.abs(firstTop-secondTop)) <= 1.2924966674){
-			$('div.canvas').append('2');
+			// $('div.canvas').append('2');
 			var startX =  (c*25/Math.abs(firstLeft-secondLeft))*Math.abs(firstLeft-secondLeft)/c;
 			var startY =  (c*25/Math.abs(firstLeft-secondLeft))*Math.abs(firstTop-secondTop)/c;
 			var endX = (c-41.2583302492)/c*Math.abs(firstLeft - secondLeft); // 30 + the height of a 13px equilateral triangle
@@ -1148,7 +1494,7 @@ var createArrow = function(firstNodeID, secondNodeID){
 			$('svg#' + tempID).css('top', String(pPos.top-223+25) + 'px');
 			$('svg#' + tempID +' path.line').attr('d', 'M' + String(startX) + ',' + String(startY) + 'L' + String(endX) + ',' + String(endY));
 		} else {
-			$('div.canvas').append('3');
+			// $('div.canvas').append('3');
 		} 
 		// $('svg#' + tempID).css('left', String(pPos.left-35-9) + 'px'); //+25-9-17
 		// $('svg#' + tempID).css('top', String(pPos.top-223+25) + 'px'); //+25-9-237.997
@@ -1174,10 +1520,12 @@ var createArrow = function(firstNodeID, secondNodeID){
 //Adjust the arrows between nodes on the canvas if one is moved.
 var moveArrow = function(pID, tID){
 
+	console.log(pID)
+	console.log(tID)
 	var tempID = 'a' + pID.substring(1, pID.length) + tID.substring(1, tID.length);
-	var p = $('img#n' + pID.substring(1, pID.length));
+	var p = $('div#n' + pID.substring(1, pID.length) + ' img.canvasNode');
 	var pPos = p.offset();
-	var t = $('img#n' + tID.substring(1, tID.length));
+	var t = $('div#n' + tID.substring(1, tID.length) + ' img.canvasNode');
 	var tPos = t.offset();
 	var height = Math.abs(tPos.top-pPos.top)+9*2;
 	var width = Math.abs(tPos.left-pPos.left)+9*2;
@@ -1303,24 +1651,44 @@ var existsInTree = function(id, node){
 //Return a boolean if a given 'id' is upstream from a given 'node'.
 var isUpstream = function(id, node){
 	var answer = false;
-	while(node.parent){
-		if(node.id == id){
-			answer = true;
-			break;
+
+	for(var i=0; i<node.parents.length; i++){
+		if(node.parents[i].id != 'top'){
+			answer = isUpstream(id, node.parents[i])
 		}
-		node = node.parent;
 	}
+
+	if(node.id == id){
+		answer = true;
+	}
+
 	return answer;
+
 }
+
+
+
+// 	while(node.parents){
+// 		if(node.id == id){
+// 			answer = true;
+// 			break;
+// 		}
+// 		node = node.parent;
+// 	}
+// 	return answer;
+// }
 
 
 
 //If a node changes the available fields upstream, update the available fields in the nodes downstream
 var changeFieldsDownstream = function(childNode, fields){
 
+	var temp = Array.from(fields);
 	if (childNode){
 		// console.log(childNode.id)
 		console.log(childNode.name)
+		console.log(childNode.id)
+		console.log(childNode.parents[0].id)
 		// console.log(fields)
 		// console.log(fields)
 		if(childNode.firstChild){
@@ -1331,7 +1699,7 @@ var changeFieldsDownstream = function(childNode, fields){
 			changeFieldsDownstream(childNode.nextSibling, fields);
 		}
 
-		childNode.fields = fields;
+		childNode.fields = temp;
 		return;
 	} else {
 		return;
